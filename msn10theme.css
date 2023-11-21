@@ -1,4 +1,13 @@
-.typeWindows-2-g3UY {
+/**
+ * @name DiscordLiveMessenger
+ * @author numoder
+ * @version 1.0.0
+ * @description A little throwback to better times.
+ * @source https://github.com/AnthonyM04/msn-dscrd
+*/
+
+/* -=-=- WINDOWS TITLEBAR -=-=- */
+.typeWindows__5fa63 {
     background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/topbarmsn9.png);
 background-size: cover;
 }
@@ -6,17 +15,17 @@ background-size: cover;
     background-color: transparent;
  
 }
-.wordmarkWindows-2dq6rw {
+.wordmarkWindows__05c46 {
     color: #2f445f00;
 }
-.winButtonClose-3Q8ZH5 {
+.winButtonClose__73489 {
     content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/close2.png);
 height:17px;
 width:17px;
 margin-top:5px;
 margin-right:5px;
 }
-.winButtonMinMax-3RsPUg.winButton-3UMjdg.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11 {
+.winButtonMinMax__72f36.winButton__88672.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11 {
 height:17px;
 width:17px;
 margin-top:5px;
@@ -27,18 +36,20 @@ height: 27px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.wrapper-1Rf91z {
+
+/* -=-=- Server sidebar -=-=- */
+.wrapper_a7e7a8 {
     width: 39px;
     background-color: #63609b;
 }
-.tree-3tCaw8 {
+.tree__7a511 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 100%;
     width: 39px;
 }
-.scroller-2TZvBN {
+.scroller__3d071 {
     background-color: #63609b;
 background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
 }
@@ -50,10 +61,10 @@ foreignObject {
     color: #fff;
     background-color: #7289da00;
 }
-.childWrapper-1j_1ub {
+.childWrapper__01b9c {
      background-color: #fff0;
 }
-.tutorialContainer-1v44GL {
+.tutorialContainer__890ea{
     position: relative;
 }
 .platform-win .scroller-2TZvBN {
@@ -665,75 +676,3 @@ background: transparent;
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(2) .iconWrapper-2awDjA svg{
     background:red;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(2){
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
-     background-size:contain;
-      height:32px;
-      width:32px;
-      margin-right:5px;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) .iconWrapper-2awDjA svg{ 
-    background:blue;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) {
-    content:url('http://www.netscape-communications.com/wp-content/uploads/2021/07/contactstopbar.png)');
-        background-size:contain;
-      height:24px;
-      width:24px;
-      margin-right:5px;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(5) .iconWrapper-2awDjA svg{
-    background:grey;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(5) {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
-        background-size:contain;
-      height:24px;
-      width:24px;
-      margin-right:8px;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(6) .iconWrapper-2awDjA svg{
-    background:green;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(6) {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/mailbox2top.png);
-        background-size:contain;
-      height:24px;
-      width:24px;
-      margin-right:8px;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:last-child .iconWrapper-2awDjA svg{
-    background:violet;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:last-child {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/help.png);
-    background-size:contain;
-      height:24px;
-      width:24px;
-}
- 
-/* button right message bar*/
-.buttons-uaqb-5 :nth-child(2) svg{
-background:blue;
-visibility:hidden;
-display:none;
-}
-.buttons-uaqb-5 :nth-child(1) svg{
-background:blue;
-background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
-background-size:cover;
-display:none;
-}
-.sprite-2lxwfc  {
-background:green;
-visibility:hidden;
-}
-.emojiButton-3FRTuj {
-background:red;
-background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/emote.png);
-background-size:24px 24px;
-background-position:fixed;
-background-repeat:no-repeat;
-margin-top:8px;
-}
