@@ -3,7 +3,7 @@
  * @author numoder
  * @version 1.0.0
  * @description A little throwback to better times.
- * @source https://github.com/AnthonyM04/msn-dscrd
+ * @source https://github.com/AnthonyM04/dsn-theme
 */
 
 /* -=-=- WINDOWS TITLEBAR -=-=- */
@@ -13,23 +13,36 @@ background-size: cover;
 }
 .bg-1QIAus {
     background-color: transparent;
- 
 }
+/* Discord wordmark */
 .wordmarkWindows__05c46 {
     color: #2f445f00;
 }
+/* Button sizes */
+.winButtonClose__73489, .winButtonMinMax__72f36, .winButton__88672{
+    height:17px;
+    width:17px;
+    margin-top:5px;
+    margin-right:5px;
+}
+/* Each button size */
+.winButtonMinMax__72f36.winButton__88672.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11 {
+    height:17px;
+    width:17px;
+    margin-top:5px;
+    margin-right:5px;
+}
+/* Exit button */
 .winButtonClose__73489 {
     content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/close2.png);
-height:17px;
-width:17px;
-margin-top:5px;
-margin-right:5px;
 }
-.winButtonMinMax__72f36.winButton__88672.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11 {
-height:17px;
-width:17px;
-margin-top:5px;
-margin-right:5px;
+/* Maximize button */
+.winButtonMinMax__72f36.winButton__88672{
+    content: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/max2.png);
+}
+/* Minimize button */
+.winButtonMinMax__72f36.winButton__88672:nth-of-type(1)::after {
+    content: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/min2.png) !important;
 }
 .withFrame-2dL45i {
 height: 27px;
@@ -39,7 +52,7 @@ height: 27px;
 
 /* -=-=- Server sidebar -=-=- */
 .wrapper_a7e7a8 {
-    width: 39px;
+    /* width: 39px; */
     background-color: #63609b;
 }
 .tree__7a511 {
@@ -47,7 +60,7 @@ height: 27px;
     display: -ms-flexbox;
     display: flex;
     height: 100%;
-    width: 39px;
+    /* width: 39px; */
 }
 .scroller__3d071 {
     background-color: #63609b;
@@ -75,13 +88,16 @@ foreignObject {
     width: 0px;
     height: 0px;
 }
-.tutorialContainer-1v44GL {
+.childWrapper__01b9c {
     position: relative;
     background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contacttop.png);
-margin-top:12px;
+    margin-top:12px;
     margin-left:2px;
     background-repeat:no-repeat;
     margin-bottom:-8px;
+}
+.childWrapper__01b9c svg {
+    color: transparent;
 }
  
 .listItem-2P_4kh {
@@ -676,3 +692,75 @@ background: transparent;
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(2) .iconWrapper-2awDjA svg{
     background:red;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(2){
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
+     background-size:contain;
+      height:32px;
+      width:32px;
+      margin-right:5px;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) .iconWrapper-2awDjA svg{ 
+    background:blue;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) {
+    content:url('http://www.netscape-communications.com/wp-content/uploads/2021/07/contactstopbar.png)');
+        background-size:contain;
+      height:24px;
+      width:24px;
+      margin-right:5px;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(5) .iconWrapper-2awDjA svg{
+    background:grey;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(5) {
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
+        background-size:contain;
+      height:24px;
+      width:24px;
+      margin-right:8px;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(6) .iconWrapper-2awDjA svg{
+    background:green;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(6) {
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/mailbox2top.png);
+        background-size:contain;
+      height:24px;
+      width:24px;
+      margin-right:8px;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:last-child .iconWrapper-2awDjA svg{
+    background:violet;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA:last-child {
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/help.png);
+    background-size:contain;
+      height:24px;
+      width:24px;
+}
+ 
+/* button right message bar*/
+.buttons-uaqb-5 :nth-child(2) svg{
+background:blue;
+visibility:hidden;
+display:none;
+}
+.buttons-uaqb-5 :nth-child(1) svg{
+background:blue;
+background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
+background-size:cover;
+display:none;
+}
+.sprite-2lxwfc  {
+background:green;
+visibility:hidden;
+}
+.emojiButton-3FRTuj {
+background:red;
+background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/emote.png);
+background-size:24px 24px;
+background-position:fixed;
+background-repeat:no-repeat;
+margin-top:8px;
+}
