@@ -1,7 +1,7 @@
 /**
  * @name DiscordLiveMessenger
  * @author numoder
- * @version 0.0.2
+ * @version 0.0.3
  * @description A little throwback to better times.
  * @source https://github.com/AnthonyM04/msn-dscrd
 */
@@ -11,7 +11,7 @@
     background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/topbarmsn9.png);
 background-size: cover;
 }
-.bg-1QIAus {
+.bg__12180 {
     background-color: transparent;
 }
 /* Discord wordmark */
@@ -36,14 +36,27 @@ background-size: cover;
 .winButtonClose__73489 {
     content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/close2.png);
 }
+.winButtonClose__73489:active {
+    filter: contrast(0.5);
+}
 /* Maximize button */
-.winButtonMinMax__72f36.winButton__88672{
+.winButtonMinMax__72f36 {
     content: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/max2.png);
 }
 /* Minimize button */
-.winButtonMinMax__72f36.winButton__88672:nth-of-type(1)::after {
-    content: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/min2.png) !important;
+.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4) {
+    content: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/min2.png);
 }
+/* button on hover */
+.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4):hover, .winButtonMinMax__72f36:hover, .winButtonClose__73489:hover {
+    filter: contrast(1.1);
+}
+/* button when clicked */
+.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4):active, .winButtonMinMax__72f36:active, .winButtonClose__73489:active {
+    filter: contrast(1.1);
+}
+
+
 .withFrame-2dL45i {
 height: 27px;
     margin-top: 0px;
@@ -74,8 +87,8 @@ foreignObject {
     color: #fff;
     background-color: #7289da00;
 }
-.childWrapper__01b9c {
-     background-color: #fff0;
+.wrapper_d281dd .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c {
+     background-color: #ff00;
 }
 .tutorialContainer__890ea{
     position: relative;
@@ -83,19 +96,14 @@ foreignObject {
 .platform-win .scroller-2TZvBN {
     padding-top: 0px;
 }
-.homeIcon-tEMBK1 {
-    display: block;
-    width: 0px;
-    height: 0px;
-}
 .childWrapper__01b9c {
     position: relative;
     background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contacttop.png);
-    margin-top:12px;
-    margin-left:2px;
+    background-size: 45px;
     background-repeat:no-repeat;
-    margin-bottom:-8px;
+    background-position: center; 
 }
+/* makes discord svg invisible */
 .childWrapper__01b9c svg {
     color: transparent;
 }
