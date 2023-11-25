@@ -1,10 +1,12 @@
 /**
  * @name DiscordLiveMessenger
  * @author numoder
- * @version 0.0.3
+ * @version 0.0.4
  * @description A little throwback to better times.
  * @source https://github.com/AnthonyM04/msn-dscrd
 */
+
+/* warning: this is a fucking mess. please dont be too harsh uwu*/
 
 /* -=-=- WINDOWS TITLEBAR -=-=- */
 .typeWindows__5fa63 {
@@ -44,7 +46,7 @@ background-size: cover;
     content: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/max2.png);
 }
 /* Minimize button */
-.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4) {
+.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4), .winButtonMinMax__72f36.winButton__88672:nth-child(4) {
     content: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/min2.png);
 }
 /* button on hover */
@@ -53,10 +55,8 @@ background-size: cover;
 }
 /* button when clicked */
 .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4):active, .winButtonMinMax__72f36:active, .winButtonClose__73489:active {
-    filter: contrast(1.1);
+    filter:contrast(0.7);
 }
-
-
 .withFrame-2dL45i {
 height: 27px;
     margin-top: 0px;
@@ -79,6 +79,9 @@ height: 27px;
     background-color: #63609b;
 background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
 }
+.item_f9d377 {
+    background-color: rgba(127, 127, 226, 0.699);
+}
 foreignObject {
     mask: none;
     opacity: 1;
@@ -88,27 +91,44 @@ foreignObject {
     background-color: #7289da00;
 }
 .wrapper_d281dd .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c {
-     background-color: #ff00;
+    background-color: #ff00;
 }
 .tutorialContainer__890ea{
     position: relative;
 }
-.platform-win .scroller-2TZvBN {
+.platform-win .scroller__3d071 {
     padding-top: 0px;
 }
+/* discord icon */
 .childWrapper__01b9c {
-    position: relative;
-    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contacttop.png);
-    background-size: 45px;
+    background: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/home.png);
+    background-size: 44.4px;
     background-repeat:no-repeat;
     background-position: center; 
+}
+/* active */
+.childWrapper__01b9c:active {
+    filter: contrast(1.5);
 }
 /* makes discord svg invisible */
 .childWrapper__01b9c svg {
     color: transparent;
 }
- 
-.listItem-2P_4kh {
+/* server bg come back to this ~~~!!! !!!~~~ */
+/* .listItem_fa7b36{
+    background: url(https://ucarecdn.com/824dbb19-f90b-4d6a-8e99-bf8b08a0675a/serverbg.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: 60px;
+    background-repeat:no-repeat;
+    background-position: center; 
+} */
+
+.wrapper_a7e7a8 {
+    margin-bottom: -15px;
+}
+/* ??? */
+div.mainContent_a0b319::before {
     position: relative;
     margin: 0px 0px 0px 0px;
     display: -webkit-box;
@@ -140,7 +160,7 @@ foreignObject {
     left: -3px;
     top: -3px;
 }
-.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh {
+.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop_ada847 {
     padding: 8px;
     height: 36px;
     width: 36px;
@@ -162,6 +182,7 @@ foreignObject {
     margin: -17px 0px 1px 34px;
     z-index: 2;
 }
+
 .numberBadge-37OJ3S.base-3IDx3L {
     background: linear-gradient(45deg, #ff0202, #f3ec00fa);
 }
@@ -194,7 +215,7 @@ background-repeat: repeat-x;
 .scroller-WSmht3 { /*barre MP */
     background-color: #63609b;
 }
-.privateChannels-oVe7HL {
+.modeLocked_fcc71aL {
     background-color: #63609b;
 }
 .content-1gYQeQ {
@@ -245,7 +266,7 @@ background: linear-gradient(to top, #5767b3,#fbfbff)!important;
     margin-right: 2px;
  
 }/*name in voicechanel */
-.icon-N9JZb6, .username-vAneIW { 
+.icon__1d60c, .username__73ce9 { 
     color: black!important;
 }
 .name-28HaxV {
@@ -267,7 +288,7 @@ background: linear-gradient(to top, #5767b3,#fbfbff)!important;
     background-position-x: right;
     font-weight: 600;
 }
-.unread-36eUEm {
+.unread__11823 {
     position: absolute;
     height: 8px;
     width: 8px;
@@ -280,10 +301,18 @@ background: linear-gradient(to top, #5767b3,#fbfbff)!important;
 .icon-2W8DHg {
     display: none;
 }
-.avatarContainer-3FF_Km.avatar-3FKimL.avatarSmall-3qwAkA {
-    content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contactoldmicro2.png);
-background-image: none !important;
+/* profile pics */
+div.avatarStack__6604a.img.avatar__991e2 {
+    background-image: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/home.png);
+    border-radius: 0%;
 }
+
+/* server gradient thingy? */
+.theme-dark .children__32014:after {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
 .avatarSmall-3qwAkA {
     width: 24px;
     height: 24px;
@@ -315,7 +344,7 @@ background-image: none !important;
     border-radius: 0px 0 0;
 }
  
-.container-ZMc96U.themed-Hp1KC_ {
+.container__11d72.themed_b152d4  {
 background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/middlebar.png);
 background-repeat: repeat-x;
  background-size:contain;   
@@ -338,8 +367,7 @@ background-repeat: repeat-x;
 .theme-light .children-3xh0VB:after {
     background: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,100%,0)),to(var(--background-primary)));
     background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,var(--background-primary));
-display:none;
- 
+    display:none; 
 }
 .chatContent-3KubbW {
     border-top: 1px solid #8080807a;
@@ -410,7 +438,6 @@ background: white;
     margin-top: 0px;
 }
 .members-3WRCEx, .members-3WRCEx>div {
- 
  
 }
 .layout-1qmrhw {
@@ -489,20 +516,21 @@ background: white;
     background-size: contain;
     background-repeat:no-repeat;
 }
-.offline-22aM7E {
+.offline_c1fd80 {
     opacity: 1;
 }
-.offline-22aM7E .avatar-6qzftW  {
+/* offline avatar */
+.offline_c1fd80 .avatar__6337f  {
     width: 26px;
     height: 26px;
     margin-right: 8px;
-    content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contactoldoffline3.png);
+    content: url(https://ucarecdn.com/db990d79-47cd-4b35-b18a-a8992f7ad6df/offline.png);
 background: transparent;
- 
+
 }
  
-/* menu bas profil */
-.panels-3wFtMD {
+/* menu base profile */
+.panels__58331 {
     background-color: #ebedef00;
     background:linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
 }
@@ -711,8 +739,21 @@ background: transparent;
 .toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) .iconWrapper-2awDjA svg{ 
     background:blue;
 }
+/* Vencord game activity  */
+#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > section > div.container_ca50b9 > div.flex_f5fbb7.horizontal__992f6.justifyStart__42744.alignStretch_e239ef.noWrap__5c413 > button:nth-child(1) > div {
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
+    background-size:contain;
+    height:24px;
+    width:24px;
+    margin-right:8px;
+}
+#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > section > div.container_ca50b9 > div.flex_f5fbb7.horizontal__992f6.justifyStart__42744.alignStretch_e239ef.noWrap__5c413 > button:nth-child(1):active {
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contactstopbar.png);
+
+}
+
 .toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) {
-    content:url('http://www.netscape-communications.com/wp-content/uploads/2021/07/contactstopbar.png)');
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contactstopbar.png);
         background-size:contain;
       height:24px;
       width:24px;
@@ -721,7 +762,7 @@ background: transparent;
 .toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(5) .iconWrapper-2awDjA svg{
     background:grey;
 }
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(5) {
+.contents_fb6220.attachButtonInner__3ce2b {
     content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
         background-size:contain;
       height:24px;
