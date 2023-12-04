@@ -1,13 +1,12 @@
 /**
  * @name DiscordLiveMessenger
  * @author numoder
- * @version 0.0.6
+ * @version 0.0.7
  * @description A little throwback to better times.
  * @source https://github.com/AnthonyM04/msn-dscrd
 */
 
 /* @import url('https://unpkg.com/xp.css'); */
-@import 'https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/msn-icons.css';
 
 @font-face{
     font-family:"Pixelated MS Sans Serif";
@@ -112,10 +111,10 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
 .item_f9d377 {
     background-color: rgba(127, 127, 226, 0.699);
 }
-foreignObject {
+/* foreignObject {
     mask: none;
     opacity: 1;
-}
+} */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
     color: #fff;
     background-color: #7289da00;
@@ -130,6 +129,11 @@ foreignObject {
     padding-top: 0px;
 }
 /* discord icon */
+
+div.listItemWrapper__1f93b.selected_ad2d13 > div > svg > foreignObject > div > div::before {
+    
+}
+
 div.listItemWrapper__1f93b.selected_ad2d13 > div > svg > foreignObject > div > div {
     background: url(https://ucarecdn.com/67ac0119-504d-4bc8-9483-9ac51f586682/);
     background-size: 44.4px;
@@ -137,11 +141,6 @@ div.listItemWrapper__1f93b.selected_ad2d13 > div > svg > foreignObject > div > d
     background-position: center; 
 }
 
-.childWrapper__01b9c:hover {
-    /* transform:; */
-    background: url(https://ucarecdn.com/67ac0119-504d-4bc8-9483-9ac51f586682/);
-
-}
 div.childWrapper_01b9c.acronym_cd4809 {
     background: url(https://ucarecdn.com/4ca35888-a67f-40df-93b2-1aa2a6ec5b33);
 }
@@ -277,10 +276,10 @@ background-repeat: repeat-x;
 .wrapper-NhbLHG {
     height: 26px;
 }
-a.link_95dc0::before {
+a.link__95dc0::before {
+    /* background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8); */
     z-index: 1;
     padding-right: 8px;
-    background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
     border-right: 1px solid #80808073;
     border-radius: 0px 0 0 0;
 }
@@ -288,13 +287,14 @@ a.link_95dc0::before {
 background: linear-gradient(to top, #5767b3,#fbfbff)!important;
  
 }
-.container-q97qHp { /* Categories */
+.container_de798d { /* Categories */
     text-transform: uppercase;
     font-size: 14px;
-    color: #000000
+    color: #000000;
 } /*category in server*/
-.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
+.containerDefault__23a29, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
     position: relative;
+    
     padding-top: 3px;
     background: linear-gradient(13deg, #ffffff30, #fbfbfbbf, #fbfbfb);
     background-repeat: no-repeat;
@@ -342,7 +342,7 @@ background: linear-gradient(to top, #5767b3,#fbfbff)!important;
 }
 /* profile pics */
 div.avatarStack__6604a.img.avatar__991e2 {
-    background-image: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/home.png);
+    background-image: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/home.png) !important;
     border-radius: 0%;
 }
 
@@ -408,21 +408,21 @@ background-repeat: repeat-x;
     background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,var(--background-primary));
     display:none; 
 }
-.chatContent-3KubbW {
+.chatContent__5dca8 {
     border-top: 1px solid #8080807a;
 }
-.topic-11NuQZ {
+.topic__16ae3 {
     color: #000;
     font-style: italic;
 }
 .isUnread-3Lojb- {
     border-color: #ffa500;
 }
-.unreadPill-3nEWYM {
+.unreadPill__715fc {
     color: #fff;
     background-color: #ffa500;
 }
-.unreadPillCapStroke-1nE1Q8 {
+.unreadPillCapStroke__12c0b {
     color: #ffa500;
     fill: #ffa500;
 }
@@ -484,13 +484,15 @@ background: white;
     height: 28px;
     padding: 0 0px;
 }
-.container-1oeRFJ {
+/* members */
+.container__4f20e {
     margin-right: 8px;
     border-right: 1px solid #00000029;
     background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/rightbar.png);
     background-size: 196px;
 }
-.membersGroup-2eiWxl {
+/* member groups */
+.membersGroup__85843 {
     padding: 6px 7px 0px 6px;
     height: 27px;
     color: #0042a5;
@@ -502,10 +504,10 @@ background: white;
     border-right: 1px solid #00000038;
     margin-right: 8px;
 }
-.member-2gU6Ar {
+.member_aa4760 {
     margin-left: 2px;
 }
-.name-3Vmqxm {
+.name__16feb {
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
@@ -517,9 +519,9 @@ background: white;
     color: black;
  
 }
-.member-2gU6Ar foreignObject {
+.member_aa4760 foreignObject {
     mask: none;
-    opacity: 0;
+    /* opacity: 0; */
 }
 .activity-2EQDZv {
     font-size: 12px;
@@ -713,7 +715,8 @@ background: transparent;
     padding-top: 0px;
     margin-top: 13px;
 }
-.placeholder-1_mJY1 {
+.searchBar_e0c60b {
     background: white;
     box-shadow: inset 1px 1px 1px #0000004d;
 }
+ 
