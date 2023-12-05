@@ -1,12 +1,12 @@
 /**
  * @name DiscordLiveMessenger
  * @author numoder
- * @version 0.0.8
+ * @version 0.0.9
  * @description A little throwback to better times.
- * @source https://github.com/AnthonyM04/msn-dscrd
+ * @source https://github.com/numoder/dlm7-theme
 */
 
-/* @import url('https://unpkg.com/xp.css'); */
+@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/msn-icons.css');
 
 @font-face{
     font-family:"Pixelated MS Sans Serif";
