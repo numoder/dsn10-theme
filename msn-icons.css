@@ -10,8 +10,8 @@
     --pdf-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891774261571745/pdf.png?ex=657b6ed8&is=6568f9d8&hm=845b30add50bd1f661b0a8c0c8321d5a635be1afeaf2c77a5898c1f52d1480a0&);
 
     /* vc btns */
-    --camera-btn-off: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180917367551836241/webcam2.png?ex=657f2a00&is=656cb500&hm=b49bf8314e7a7c1a0f10e065e391fdc041c1082db921030f46b3e85faed39278&);
-    --camera-btn-on: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180917367748956160/webcam.png?ex=657f2a00&is=656cb500&hm=6fc925b95c55020add5204c4c6be86d2f0f6a71f2e8982a7da945622c1b21cee&);
+    --camera-btn-off: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181462070579957780/webcam2.png?ex=6581254c&is=656eb04c&hm=334b8d8430bc427a31257a4afbfb74bfbd847c46f35cbaef5e4a4f4d464f920a&);
+    --camera-btn-on: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181462070747746404/webcam.png?ex=6581254c&is=656eb04c&hm=b487fdd8f656cbfacd29a4c1190220d91c8c67a583d039bf45948c84a91fadb9&);
     --screenshare-btn-off: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180929786118418494/sharescreen.png?ex=657f3591&is=656cc091&hm=251e8076821735259a2c8e422044dd8f31cb0ce0bd913ecabdf68b26866e3d8c&);
     --screenshare-btn-on: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180929785887719494/sharescreen2.png?ex=657f3591&is=656cc091&hm=05ead36e443de14a6968741490bc2584ada5ecfa37a805f4e24e1a8fb635a3cb&);
     --activity-btn: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181024837116887120/activities.png?ex=657f8e17&is=656d1917&hm=ba639f029d5325f68bcb7e493c57688e9df39bfbb1999555d82a2cf740bc12c0&);
@@ -91,12 +91,12 @@
 
 /* camera off */
 .button__66e8c[aria-label="Turn On Camera"] div {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180917367551836241/webcam2.png?ex=657f2a00&is=656cb500&hm=b49bf8314e7a7c1a0f10e065e391fdc041c1082db921030f46b3e85faed39278&);
+    content: var(--camera-btn-off);
 }
 
 /* camera on */
 .button__66e8c[aria-label="Turn Off Camera"] div {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180917367748956160/webcam.png?ex=657f2a00&is=656cb500&hm=6fc925b95c55020add5204c4c6be86d2f0f6a71f2e8982a7da945622c1b21cee&);    
+    content: var(--camera-btn-on)
 }
 
 
