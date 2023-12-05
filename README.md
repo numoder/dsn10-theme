@@ -9,16 +9,13 @@ Inspired by Windows' MSN Messengers' 7th update. Originally from kamuisuki's [**
 
 Relatively soon:
 - Finish adding all icons
-
 - Change look of settings
-
 - Customize user profiles
 
 A little longer from now:
 
 - Change popup windows
-
-- Light mode support
+- Dark mode support
 
 and finally, customization.
 ## Current Progress
