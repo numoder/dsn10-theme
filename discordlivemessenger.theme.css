@@ -1,10 +1,13 @@
 /**
  * @name DiscordLiveMessenger
  * @author numoder
- * @version 0.0.9
+ * @version 0.0.10
  * @description A little throwback to better times.
  * @source https://github.com/numoder/dlm7-theme
 */
 
 @import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-general.css');
 @import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-icons.css');
+@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-server.css');
+@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-friends.css');
+@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-settings.css');
