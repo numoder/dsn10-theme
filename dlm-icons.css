@@ -43,9 +43,9 @@
 }
 /* vencord game activity disabled*/
 .button__4f306[aria-label="Enable Game Activity"], .sidebar_ded4b5 .button__4f306[aria-label="Enable Game Activity"][aria-checked="true"] {
-    content: url(https://media.discordapp.net/attachments/1180332254615052288/1180333797548511312/Game-Disabled.png?ex=657d0a82&is=656a9582&hm=3bd4cc9776caf9e195d1e36226215528b42c7b35ee7636cd41e6458b7f482efd&);
+    content: url(https://numoder.github.io/dlm7-theme/assets/Game-Disabled.png);
 }
-
+ 
 /* unmuted */
 .button_4f306[aria-label="Mute"][aria-checked="false"], .sidebar_ded4b5 .button__4f306[aria-label="Mute"] {
     content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180346138193313868/Microphone.png?ex=657d1601&is=656aa101&hm=6581bcad30f6feefe01855b17916f8209dad27fb71963d33bd8927518abcfc26&);
