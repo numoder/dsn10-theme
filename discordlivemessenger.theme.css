@@ -6,8 +6,8 @@
  * @source https://github.com/numoder/dlm7-theme
 */
 
-@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-general.css');
-@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-icons.css');
-@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-server.css');
-@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-friends.css');
-@import url('https://raw.githubusercontent.com/numoder/dlm7-theme/main/dlm-settings.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-general.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-icons.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-server.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-friends.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-settings.css');
