@@ -27,7 +27,7 @@ Then finally:
 - Dark mode support
 - User customization
 
-Then it'll finally be ready for BDThemes!
+Then it'll finally be ready for BetterDiscord Themes!
 
 ## Current Progress
 
