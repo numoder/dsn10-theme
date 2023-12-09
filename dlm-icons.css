@@ -310,9 +310,15 @@ margin-top:8px;
     content: url(https://numoder.github.io/dlm7-theme/assets/emojis/wink.gif);
 }
 
+.button__8d734[aria-label="Send Message"] disabled{
+    content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/send.png);
+    filter: grayscale(1);
+    padding: 5px;
+}
 .button__8d734[aria-label="Send Message"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/send.png);
-    height: 30px;
+    filter: grayscale(0);
+    padding: 5px;
 }
 
 /* channel header icons */
