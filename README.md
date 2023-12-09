@@ -5,9 +5,14 @@
 Inspired by Windows' MSN Messengers' 7th major version, originally from kamuisuki's [**Discord MSN EXPLORER 10**](https://www.deviantart.com/kamuisuki/art/Discord-MSN-Explorer-10-theme-873282935) theme.
 
 ## Sources
- [Original WinClassic thread](winclassic.net/thread/753/discord-classic-msn-theme)
+
+None of this could've been done without the people who made the works below. I owe you people the world and I'm glad there are people who still enjoy the Windows XP visual style.
+
+ [Original WinClassic thread](https://winclassic.net/thread/753/discord-classic-msn-theme)
  
- [XP.CSS]([winclassic.net/thread/753/discord-classic-msn-theme](https://botoxparty.github.io/XP.css/))
+ [XP.CSS](https://botoxparty.github.io/XP.css/)
+
+ [High Res Windows XP icons](https://github.com/marchmountain/-Windows-XP-High-Resolution-Icon-Pack)
  
 ## Roadmap
 

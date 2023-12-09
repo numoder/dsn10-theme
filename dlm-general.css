@@ -1,3 +1,4 @@
+
 @font-face{
     font-family:"Pixelated MS Sans Serif";
     src:url(https://ucarecdn.com/a40684b6-a473-40ed-95dc-e3fc082c7ae9/) format("woff");
@@ -109,9 +110,34 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
     color: #fff;
     background-color: #7289da00;
 }
-.wrapper_d281dd .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c {
-    background-color: #ff00;
+.theme-light .acronym_cd4809, .theme-light.custom-theme-background .acronym_cd4809 {
+    background: linear-gradient(#dbdfe6, #c4c7d4 50%, #b7bac3 50%, #dbdde2);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* border-radius: 50% */
+    transition: 0s;
 }
+
+.acronym_cd4809 {
+    font-weight: 500;
+    line-height: 1.2em;
+    white-space: nowrap;
+}
+
+.childWrapper__01b9c {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color.15s ease-out,color.15s ease-out;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+.wrapper_d281dd:hover .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c {
+    color: var(--white-500);
+    background-color: var(--brand-experiment);
+}
+
 .tutorialContainer__890ea{
     position: relative;
 }
@@ -122,7 +148,7 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
 
 /* static discord image */
 .wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c {
-    background: url(https://ucarecdn.com/b3fc291c-b7d5-4590-8295-c21f523b6dfb/-/preview/500x500/-/quality/smart/-/format/auto/);
+    background: url(https://numoder.github.io/dlm7-theme/assets/servers/butterflystatic.png);
     background-size: 44.4px;
     background-repeat:no-repeat;
     background-position: center; 
@@ -136,6 +162,13 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
     transition: 0.5s;
 }
 
+.iconItem__8e3b8[aria-label="Edit Channel"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Settings.png);
+    width: 15px;
+}
+.iconItem__8e3b8[aria-label="Create Invite"]{
+    content:url(https://numoder.github.io/dlm7-theme/assets/general/Add%20Friend.png);
+}
 
 /* animated icon when friends list is active */
 .listItemWrapper__1f93b.selected_ad2d13 div {
@@ -258,25 +291,14 @@ div.addFriend__80542 {
     margin-left: 0px;
     border-radius: 6px;
 }
-.containerDefault-YUSmu3, .containerDragAfter-3aBiOW, .containerDragBefore-1s5Qg6, .containerUserOver-SDa1HW {
-    background: radial-gradient(#fff, white);
-    box-shadow: inset 1Px 1px 2px grey;
-    margin:2px;
-    border-radius: 3px;
-}
+
 .wrapper-1S43wv {
     color: white;
 }
 .wrapper-NhbLHG {
     height: 26px;
 }
-a.link__95dc0::after {
-    background: linear-gradient(to right,#ffffff, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
-    z-index: 1;
-    padding-right: 8px;
-    border-right: 1px solid #80808073;
-    border-radius: 0px 0 0 0;
-}
+
 .scroller-3X7KbA{
 background: linear-gradient(to top, #5767b3,#fbfbff)!important;
  
@@ -295,9 +317,11 @@ li.containerDefault__23a29{
     background-position: center;
     border-radius: 4px;
     box-shadow: inset 1px 1px 1px #6d6d6d;
-    margin-left: 1px;
+    margin-left: 7px;
     margin-right: 2px;
+    margin-top: 7.5px;
 }
+
 
 /*name in voicechanel */
 .theme-light .icon__1d60c, .username__73ce9 { 
@@ -309,10 +333,22 @@ li.containerDefault__23a29{
 .modeSelected__487d6  .link__95dc0{
         color: inherit;
 }
-.modeSelected__487d6 .link__95dc0, .modeSelected__487d6:hover .link__95dc0 {
-    background: linear-gradient(to right,#b5b5b5, #ffffff00);
-    box-shadow: inset 1Px 1px 2px grey;
+.theme-light .modeSelected__487d6 .link__95dc0, .modeSelected__487d6 .link__95dc0{
+    background: linear-gradient( 180deg, #adb8e7, #d6dfff);
+    box-shadow: inset 1px 1px 2px darkgray;
     color: white;
+}
+
+.theme-light .link__95dc0:hover, .modeSelected__487d6 .link__95dc0:hover {
+    color: white;
+    background: linear-gradient(0deg, rgba(184,213,236,0.6) 0%, rgb(217, 225, 247) 98%); 
+}
+
+li.containerDefault__3187b.wrapper__7bcde > div{
+    background: linear-gradient( 180deg, #adb8e7, #d6dfff);
+    color: white;
+    box-shadow: inset 1Px 1px 2px grey;
+    border-radius: 3px;
 }
 .modeUnread-3Cxepe .name-28HaxV{    
     color: #020202;
@@ -332,6 +368,27 @@ li.containerDefault__23a29{
     margin-top: 0px;
     display: none;
 }
+
+.voiceUser__0470a{
+    background:rgb(255, 246, 235);
+    /* background: linear-gradient(0deg, rgba(219,229,238,1) 3%, rgba(143,166,200,1) 49%, rgba(123,157,212,1) 50%, rgba(213,222,246,1) 100%); */
+    border-radius: 7.5px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.iconSpacing__59128[aria-label="Muted"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Microphone2.png);
+    width: 20px;
+    filter: grayscale(0.6);
+}
+.iconSpacing__59128[aria-label="Deafened"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Volume2.png);
+    width: 20px;
+    filter: grayscale(0.6);
+}
+
 .icon-2W8DHg {
     display: none;
 }
@@ -473,20 +530,18 @@ background: white;
     width: 196px !important;
     margin-top: 0px;
 }
-.members-3WRCEx, .members-3WRCEx>div {
- 
-}
+
 .layout-1qmrhw {
     border-radius: 4px;
     height: 28px;
     padding: 0 0px;
 }
-/* members */
+/* member list */
 .container__4f20e {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
     margin-right: 8px;
     border-right: 1px solid #00000029;
-    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/rightbar.png);
-    background-size: 196px;
+    background: linear-gradient(90deg, rgba(224,234,243,1) 0%, rgba(229,236,246,1) 25%, rgba(223,228,247,1) 50%, rgba(207,219,245,1) 75%, rgba(198,210,232,1) 100%); 
 }
 /* member groups */
 .membersGroup__85843 {
@@ -516,8 +571,8 @@ background: white;
  
 }
 img.avatar__08316.clickable_d866f1 {
-    mask: none;
-    opacity: 0;
+    border-radius: 0%;
+    /* opacity: 0; */
 }
 .activity-2EQDZv {
     font-size: 12px;
@@ -583,7 +638,6 @@ img.avatar__08316.clickable_d866f1 {
 }
 
 /* profile picture */
-/* .panels-3wFtMD .wrapper-1VLyxH .mask-1FEkla  */
 div.avatar_f8541f{
     pointer-events: none;
     position: relative;
@@ -597,6 +651,14 @@ div.avatar_f8541f{
     background: linear-gradient(-45deg, #001933, #0063cc, #44a4ff);
     box-shadow: 0px 1px 3px black;
 }
+
+img.avatar__08316{
+    display: block;
+    border: 2px solid black;
+    background: linear-gradient(-45deg, #001933, #0063cc, #44a4ff);
+    box-shadow: 0px 1px 3px black;    
+}
+
 .title-338goq {
     color: #ffffff;
     font-weight: 200;
@@ -731,9 +793,9 @@ div.name__8d1ec {
     /* margin-top: 13px; */
 }
 a.link__95dc0 {
+    background: white;
     box-shadow: inset 1px 1px 1px #0000004d;
     margin-right: 2px;
-    background: white;
 }
  
 a.link__95dc0:hover {
@@ -749,20 +811,17 @@ a.link__95dc0:hover {
     box-shadow: inset 1px 1px 1px #0000004d;
 }
 
+.theme-light .shiki-table{
+    filter:saturate(2);
+    background: black;
+    font-family: "Perfect DOS VGA 437 Win";
+    color: black;
+    border-radius: 0px;
+    box-shadow: inset 1px 1px 1px #0000004d;
+}
+
 .mentioned__58017 {
     background: linear-gradient(90deg, rgba(255,216,111,0.30) 0%, rgba(255,212,0,0.45) 9%, rgba(255,233,49,0.40) 39%, rgba(255,216,111,0) 88%);
-}
-
-.actionIcon_d679b5 {
-    content: url('https://cdn.discordapp.com/attachments/1179525721715130410/1181432011555082290/1096.png?ex=6581094d&is=656e944d&hm=0e681f100799d565e13569d67745893122bc8bb92908428ab316d9a123f32d09&');
-}
-
-/* friends */
-aside.container__0a6a9, ol.scrollerInner__059a5[aria-label="Messages in "] {
-    background: url('https://cdn.discordapp.com/attachments/1179525721715130410/1181468498594119700/Friends.png?ex=65812b48&is=656eb648&hm=3b075eecb8741416affabe8e84b7bb30c29ef2054849c19118478d1ff2b12f2b&');
-    background-size: 22.5vw;
-    background-position: bottom right;
-    background-repeat: no-repeat;
 }
 
 /* server chat */
@@ -786,7 +845,7 @@ aside.container__0a6a9, ol.scrollerInner__059a5[aria-label="Messages in "] {
 /* voice chat image */
 .theme-dark .videoGrid__8b6fc{
     background: url(''); /* put night wallpaper here*/
-    background-color: white;
+    /* background-color: white; */
     background-position: bottom right;
     border-radius: 100  px;
 }

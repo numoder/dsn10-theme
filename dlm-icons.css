@@ -1,3 +1,4 @@
+
 :root {
     --settings-icon: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180333797770788944/Settings.png?ex=657d0a82&is=656a9582&hm=cb0223a21fd1fa34cbcb7f560a2ec9fd279044a2eeb5402ba3ff22d39983e9db);  
 
@@ -43,9 +44,9 @@
 }
 /* vencord game activity disabled*/
 .button__4f306[aria-label="Enable Game Activity"], .sidebar_ded4b5 .button__4f306[aria-label="Enable Game Activity"][aria-checked="true"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/Game-Disabled.png);
+    content: url(https://media.discordapp.net/attachments/1180332254615052288/1180333797548511312/Game-Disabled.png?ex=657d0a82&is=656a9582&hm=3bd4cc9776caf9e195d1e36226215528b42c7b35ee7636cd41e6458b7f482efd&);
 }
- 
+
 /* unmuted */
 .button_4f306[aria-label="Mute"][aria-checked="false"], .sidebar_ded4b5 .button__4f306[aria-label="Mute"] {
     content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180346138193313868/Microphone.png?ex=657d1601&is=656aa101&hm=6581bcad30f6feefe01855b17916f8209dad27fb71963d33bd8927518abcfc26&);
@@ -112,28 +113,33 @@
     content: var(--screenshare-btn-on);
 }
 
-/* change windows */
 #manage-streams-change-windows > div.iconContainer__829e7 {
     content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181018690611851264/change_window.png?ex=657f885e&is=656d135e&hm=6a68eeb8cf26005a8b5cdfe186085c46d689b062f3c12c17a5a250b84c46fa57&);
 }
-/* stop streaming */
 #manage-streams-stop-streaming > div.iconContainer__829e7 {
     content: var(--delete-btn);
 }
 
-/* -=- activities -=- */
 .button__66e8c[aria-label="Start an Activity"] div{
     content: var(--activity-btn);
 }
 
-/* -=- soundboard -=- */
 .button__66e8c[aria-label="Open Soundboard"] div {
     content: var(--soundboard-btn);
 }
 
+.button__66e8c[aria-label="Soundboard disabled when deafened"] div {
+    content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/muteall0.png);
+}
+
+
 /* -=- disconnect -=- */
 .button__4f306[aria-label="Disconnect"] {
     content: var(--disconnect-btn);
+}
+
+.rtcConnectionQualityFine__471b6{
+    content: url()
 }
 
 /* -=-=- uploads -=-=- */
@@ -211,66 +217,22 @@
 /* untouched */
 
 /*bouton bas avatar+son+mute */
-.container_ca50b9 .flex_f5fbb7 .contents_fb6220 svg {
-    background-color:blue;
+.theme-light .container_d667ff {
+    background:rgb(255, 246, 235);
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* background-color:blue; */
     background-size:contain;
-    display:none;
+    /* display:none; */
 }
 
-
-.container-YkUktl .flex-2S1XBF button:nth-child(2) .contents-3ca1mk svg {
-    background:red;
-    display:none;
-}
-.container-YkUktl .flex-2S1XBF button:nth-child(2)  {
-    background:red;
-    background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/muteall0.png);
-    background-size:contain;
-      height:19px;
-      width:19px;
-      margin-right:8px;
-}
 .container-YkUktl .flex-2S1XBF button:nth-child(3) .contents-3ca1mk svg {
     background:green;
    display:none;
 }
 
-
-.toolbar-3_r2xA .iconWrapper-2awDjA:first-child .iconWrapper-2awDjA svg{
-    background:orange;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:first-child {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/bell.png);
-    background-size:contain;
-    height:24px;
-    width:24px;
-    margin-right:5px;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(2) .iconWrapper-2awDjA svg{
-    background:red;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(2){
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
-     background-size:contain;
-      height:32px;
-      width:32px;
-      margin-right:5px;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) .iconWrapper-2awDjA svg{ 
-    background:blue;
-}
-/* Vencord game activity  */
-/* #app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > section > div.container_ca50b9 > div.flex_f5fbb7.horizontal__992f6.justifyStart__42744.alignStretch_e239ef.noWrap__5c413 > button:nth-child(1) > div {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
-    background-size:contain;
-    height:24px;
-    width:24px;
-    margin-right:8px;
-} */
-
-
 .toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(3) {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contactstopbar.png);
         background-size:contain;
       height:24px;
       width:24px;
@@ -281,31 +243,10 @@
 }
 #channel-attach-upload-file > div > div.optionLabel__254ef > svg {
     background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
-        background-size:contain;
-        color: transparent;
-
-}
-
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(6) .iconWrapper-2awDjA svg{
-    background:green;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-child(6) {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/mailbox2top.png);
-        background-size:contain;
-      height:24px;
-      width:24px;
-      margin-right:8px;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:last-child .iconWrapper-2awDjA svg{
-    background:violet;
-}
-.toolbar-3_r2xA .iconWrapper-2awDjA:last-child {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/help.png);
     background-size:contain;
-      height:24px;
-      width:24px;
+    color: transparent;
 }
- 
+
 /* button right message bar*/
 .buttons-uaqb-5 :nth-child(2) svg{
 background:blue;
@@ -313,16 +254,6 @@ visibility:hidden;
 display:none;
 }
 
-.icon__4cb88:nth-child(3) {
-background:blue;
-content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
-background-size:cover;
-display:none;
-}
-.sprite-2lxwfc  {
-background:green;
-visibility:hidden;
-}
 
 .emojiButton-3FRTuj {
 background:red;
@@ -335,15 +266,115 @@ margin-top:8px;
 
 
 /* bottom bar */
-.attachButton_eba568[aria-label="Upload a file or send invites"] {
-    content: url(https://cdn.discordapp.com/attachments/1181034545097740358/1181062608892219412/plus.png?ex=657fb145&is=656d3c45&hm=138cc4737e0290be051f30b2b356c357986a7f7ac06dfef5483e29c346814523&);
-}
-.attachButton_eba568[aria-label="Upload a file or send invites"]:hover{
+
+
+.attachButton_eba568:hover, .button_afdfd9:hover{
     transform: scale(1.1);
     transition: 0.2s;
+}
+/* plus */
+.attachButton_eba568[aria-label="Upload a file or send invites"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/plus.png);
 }
 
 .attachButton_eba568[aria-label="Upload a file or send invites"][aria-expanded=true] {
     filter: invert(2)hue-rotate(180deg);
     transition: 0.5s;
+}
+
+.button_afdfd9[aria-label="Send a gift"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/gift.png);
+    margin: 7px;
+}
+
+.button_afdfd9[aria-label="Encrypt Message"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/lock.png);
+    margin: 7px;
+}
+
+.button_afdfd9[aria-label="Open GIF picker"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/gif.png);
+    width: 35px;
+}
+
+.stickerButton__8af38{
+    content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/sticker.png);
+    width: 30px;
+}
+
+.emojiButton__8ff6a{
+    content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/emote.png);
+}
+
+.emojiButton__8ff6a:hover{
+    content: url(https://numoder.github.io/dlm7-theme/assets/emojis/wink.gif);
+}
+
+.button__8d734[aria-label="Send Message"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/send.png);
+    height: 30px;
+}
+
+/* channel header icons */
+.icon__88ea8[aria-label="Threads"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/threads.png);
+}
+
+.iconWrapper_af9215[aria-label="Notification Settings"] {
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/bell.png);
+    height:32px;
+    width:32px;
+    margin-right:5px;
+}
+
+.iconWrapper_af9215[aria-label="Inbox"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/inbox.png);
+    height:24px;
+    width:24px;
+    margin-right:8px;
+}
+
+.iconWrapper_af9215[aria-label="Help"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/help.png);
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+}
+
+.iconWrapper_af9215:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.iconWrapper_af9215[aria-label="Pinned Messages"]{
+    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
+    height:32px;
+    width:32px;
+    margin-right:5px;
+}
+
+.iconWrapper_af9215[aria-label="Update Ready!"]{
+    background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
+    height:32px;
+    width:32px;
+    margin-right:5px;
+}
+
+.iconWrapper_af9215[aria-label="Show Member List"], .iconWrapper_af9215[aria-label="Hide Member List"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/memberlist.png);
+    height:32px;
+    width:32px;
+    margin-right:5px;
+}
+
+.actionIcon_d679b5 {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/Add%20Friend.png);
+}
+
+/* friends */
+aside.container__0a6a9, ol.scrollerInner__059a5[aria-label="Messages in "] {
+    background: url(https://numoder.github.io/dlm7-theme/assets/friends/Friends.png);
+    background-size: 22.5vw;
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
