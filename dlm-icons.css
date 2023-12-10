@@ -317,10 +317,14 @@ margin-top:8px;
 }
 .button__8d734[aria-label="Send Message"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/send.png);
-    filter: grayscale(1);
     margin: 8px;
 }
 
+.button_afdfd9:disabled, .button_afdfd9[aria-disabled=true] {
+    cursor: not-allowed;
+    opacity: 0.75;
+}
+    
 /* channel header icons */
 .icon__88ea8[aria-label="Threads"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/threads.png);
