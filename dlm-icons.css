@@ -312,13 +312,13 @@ margin-top:8px;
 
 .button__8d734[aria-label="Send Message"] disabled{
     content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/send.png);
-    filter: grayscale(1);
-    padding: 5px;
+    filter: grayscale(0);
+    margin: 8px;
 }
 .button__8d734[aria-label="Send Message"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/typing%20form/send.png);
-    filter: grayscale(0);
-    padding: 5px;
+    filter: grayscale(1);
+    margin: 8px;
 }
 
 /* channel header icons */
