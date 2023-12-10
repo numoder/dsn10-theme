@@ -171,7 +171,7 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
 }
 
 /* animated icon when friends list is active */
-.listItemWrapper__1f93b.selected_ad2d13 div {
+.listItemWrapper__1f93b.selected_ad2d13:nth-child(1) div {
     content: url(https://ucarecdn.com/67ac0119-504d-4bc8-9483-9ac51f586682/);
     background-repeat:no-repeat;
     background-position: center; 
