@@ -148,6 +148,7 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
 
 /* static discord image */
 .wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c {
+    mask: none;
     background: url(https://numoder.github.io/dlm7-theme/assets/servers/butterflystatic.png);
     background-size: 44.4px;
     background-repeat:no-repeat;
