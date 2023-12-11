@@ -162,6 +162,13 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
     transition: 0.5s;
 }
 
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c {
+    background: url(https://numoder.github.io/dlm7-theme/assets/servers/butterflyanimated.png);
+    background-size: 44.4px;
+    background-repeat:no-repeat;
+    background-position: center; 
+}
+
 .iconItem__8e3b8[aria-label="Edit Channel"]{
     content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Settings.png);
     width: 15px;
