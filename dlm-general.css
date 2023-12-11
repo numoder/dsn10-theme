@@ -164,7 +164,8 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
 }
 
 /* animated icon when friends list is active */
-.listItemWrapper__1f93b.selected_ad2d13:nth-child(1) div {
+.wrapper_d281dd[aria-label="Direct Messages"] .selected_f5ec8e {
+    mask: none;
     background: url(https://numoder.github.io/dlm7-theme/assets/servers/butterflyanimated.gif);
 }
 
@@ -176,10 +177,7 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
     content:url(https://numoder.github.io/dlm7-theme/assets/general/Add%20Friend.png);
 }
 
-.wrapper_d281dd[aria-label="Direct Messages"] .selected_f5ec8e {
-    mask: none;
-    content: url(https://numoder.github.io/dlm7-theme/assets/servers/butterflyanimated.gif);
-}
+
 /* active */
 .childWrapper__01b9c:active {
     filter: contrast(1.5);
