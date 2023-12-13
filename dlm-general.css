@@ -331,7 +331,7 @@ background: linear-gradient(to top, #5767b3,#fbfbff)!important;
     color: #000000;
 }
 /*category in server*/
-li.containerDefault__23a29{
+li.containerDefault__23a29, li.containerDefault__3187b.wrapper__7bcde > div{
     position: relative;
     padding-top: 3px;
     background: linear-gradient(13deg, #ffffff30, #fbfbfbbf, #fbfbfb);
@@ -365,12 +365,6 @@ li.containerDefault__23a29{
     color: inherit;
 }
 
-li.containerDefault__3187b.wrapper__7bcde > div{
-    background: linear-gradient( 180deg, #adb8e7, #d6dfff);
-    color: white;
-    box-shadow: inset 1Px 1px 2px grey;
-    border-radius: 3px;
-}
 .modeUnread-3Cxepe .name-28HaxV{    
     color: #020202;
     background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
