@@ -875,3 +875,18 @@ div.videoGrid__8b6fc {
 .overlayContainer__83159{
 
 }
+
+li.channel_c21703.container__8759a[aria-posinset="2"] {
+    visibility: hidden;
+    height: 0px;
+}
+
+
+a.link__2e8e1[data-list-item-id="private-channels-uid_18___shop"] {
+    visibility:hidden;
+    height: 0px;
+}
+
+.privateChannelsHeaderContainer_ddcec6 {
+    padding-top: 12.5px;
+}
