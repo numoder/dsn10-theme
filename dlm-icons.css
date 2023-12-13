@@ -424,13 +424,18 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
     background-color: transparent;
 }
 
-.actionButton__23182:first-child {
+.actionButton__23182[aria-label="Accept"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/accept.png);
 }
 
-.actionButton__23182:nth-child(2) {
+.actionButton__23182[aria-label="Ignore"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/stop.png);
 }
+
+.actionButton__23182:hover {
+  box-shadow: 0 0 100px rgb(91, 91, 255); 
+}
+
 
 .actionButton__23182:hover {
   box-shadow: 0 0 100px rgb(91, 91, 255); 
