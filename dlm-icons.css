@@ -378,12 +378,12 @@ margin-top:8px;
 }
 
 .iconItem__8e3b8[aria-label="Open Chat"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/general/Open&20Chat.png);
-height: 16px;
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/Open%20Chat.png);
+    height: 16px;
 }
 .iconItem__8e3b8[aria-label="Create Invite"] {
-content: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
-height: 16px;
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
+    height: 16px;
 }
 
 /* friends */
@@ -393,3 +393,5 @@ height: 16px;
     background-position: bottom right;
     background-repeat: no-repeat;
 } */
+
+/* home - online */
