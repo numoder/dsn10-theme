@@ -23,6 +23,26 @@
     font-style:normal;
 }
 
+.activitySectionAssets_ea2444 .largeImageMask__4012f, .assetsLargeMaskStreamPreview__741af, .assetsLargeMaskUserPopout__82136, .assetsLargeMaskUserPopoutV2_a90d5f, .assetsLargeMaskVoiceChannel__82080, .assetWrapperMasked__20115, .inspectedIndicator_f00108, .loadingIndicator__6b1b4, .mask-2Me5HY rect, .partyMember__8c6e6, .voiceSectionGuildImage_ca8a0f, .voiceSectionNoGuildImageWrapper__2cbb8, foreignObject[mask*="url(#"] {
+    mask: none;
+    -webkit-mask: none;
+}
+foreignObject {
+    mask: url(#51a46dbd-9321-4c68-a258-ca20a54b6140);
+    x: 0;
+    y: 0;
+    width: 48;
+    height: 48;
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+foreignObject {
+    display: block;
+    overflow: hidden;
+}
+
 body, .appMount_fae9dd{
     background: #b1bed8;
 }
