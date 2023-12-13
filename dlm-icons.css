@@ -383,6 +383,10 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
     margin-right:5px;
 }
 
+li:nth-child(2) > div > a > div > div.avatar__7bd22{
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/memberlist.png);
+}
+
 .iconItem__8e3b8[aria-label="Open Chat"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/Open%20Chat.png);
     height: 16px;
