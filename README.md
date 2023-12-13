@@ -36,5 +36,5 @@ Then it'll finally be ready for BetterDiscord Themes!
 
 ## Current Progress
 
-![Homepage](https://media.discordapp.net/attachments/1181701173997228204/1182914674774253608/image.png?ex=65866e23&is=6573f923&hm=b1c0f1743f707b732e6a24e185c9f6bb058310064b2e9bd20bd0cb36dbf61f5b&=&format=webp&quality=lossless)
-![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1182914810300604456/image.png?ex=65866e44&is=6573f944&hm=e5fb48e5f7a2100de1bd5d04249350550e92d8d3804d6a9e42bac8fb5349e29e&)
+![Homepage](https://media.discordapp.net/attachments/1181701173997228204/1184528838550630540/image.png?ex=658c4d72&is=6579d872&hm=2c3428ddf963a6c3843bf5e3e8d73174b3b87ab6a59466550b54d2e9e48df460&=&format=webp&quality=lossless)
+![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1184529054624399490/image.png?ex=658c4da6&is=6579d8a6&hm=2523b1010c8195eda0d33a546e9ff5f29f2ec621f8f6e1ef653efb8d8f6619fa&)
