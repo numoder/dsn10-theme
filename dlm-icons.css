@@ -395,3 +395,28 @@ margin-top:8px;
 } */
 
 /* home - online */
+
+.actionButton__23182{
+    background-color: transparent;
+}
+
+.actionButton__23182[aria-label="Message"] svg {
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/Open%20Chat.png);
+    background-size: 20px;
+    margin-left: 1.5px;
+}
+
+.actionButton__23182[aria-label="More"] svg {
+    background: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/815.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    margin-left: 1.5px;
+}
+.actionButton_23182.highlight__5b64b{
+    background-color: transparent;
+}
+
+svg.icon__7215c{
+    color: transparent;
+}
+
