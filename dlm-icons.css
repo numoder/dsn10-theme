@@ -326,29 +326,29 @@ margin-top:8px;
 }
     
 /* channel header icons */
+div.iconWrapper_af9215[aria-label="Add Friends to DM"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
+    margin-top: 3px;
+}
+
+div.iconWrapper_af9215[aria-label="Start Video Call"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/webcam.png);
+}
+
 .icon__88ea8[aria-label="Threads"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/threads.png);
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/pin.png);
 }
 
 .iconWrapper_af9215[aria-label="Notification Settings"] {
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/bell.png);
-    height:32px;
-    width:32px;
-    margin-right:5px;
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/bell.png);
 }
 
 .iconWrapper_af9215[aria-label="Inbox"]{
     content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/inbox.png);
-    height:24px;
-    width:24px;
-    margin-right:8px;
 }
 
 .iconWrapper_af9215[aria-label="Help"]{
     content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/help.png);
-    height: 32px;
-    width: 32px;
-    margin-right: 5px;
 }
 
 .iconWrapper_af9215:hover{
@@ -357,10 +357,12 @@ margin-top:8px;
 }
 
 .iconWrapper_af9215[aria-label="Pinned Messages"]{
-    content:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
-    height:32px;
-    width:32px;
-    margin-right:5px;
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/favorites.png);
+}
+
+.iconWrapper_af9215[aria-label="Hide Member List"], .iconWrapper_af9215[aria-label="Show Member List"] {
+        content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/help.png);
+
 }
 
 .iconWrapper_af9215[aria-label="Update Ready!"]{
