@@ -422,3 +422,12 @@ svg.icon__7215c{
     color: transparent;
 }
 
+.iconWrapper_af9215[aria-label="Join Voice Call"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/phone.png);
+}
+.iconWrapper_af9215[aria-label="Join Video Call"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/webcam.png);
+}
+.iconWrapper_af9215{
+    margin-right: 7px;
+}
