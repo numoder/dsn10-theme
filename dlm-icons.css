@@ -403,7 +403,7 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
 }
 
 .actionButton__23182[aria-label="Message"] svg {
-    background: url(https://numoder.github.io/dlm7-theme/assets/general/Open%20Chat.png);
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/chat.png);
     background-size: 20px;
     margin-left: 1.5px;
 }
@@ -418,11 +418,23 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
     background-color: transparent;
 }
 
+.attachButton_eba568[aria-label="Accept"] svg {
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/accept.png);
+    background-size: 20px;
+    margin-left: 1.5px;
+}
+
+.attachButton_eba568[aria-label="Ignore"] svg {
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/stop.png);
+    background-size: 20px;
+    margin-left: 1.5px;
+}
+
 svg.icon__7215c{
     color: transparent;
 }
 
-.iconWrapper_af9215[aria-label="Join Voice Call"]{
+.iconWrapper_af9215[aria-label="Join Voice Call"], .iconWrapper_af9215[aria-label="Join Voice Call"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/phone.png);
 }
 .iconWrapper_af9215[aria-label="Join Video Call"]{

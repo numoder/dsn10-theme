@@ -11,3 +11,10 @@
 @import url('https://numoder.github.io/dlm7-theme/dlm-server.css');
 @import url('https://numoder.github.io/dlm7-theme/dlm-friends.css');
 @import url('https://numoder.github.io/dlm7-theme/dlm-settings.css');
+
+
+/* Customization */
+:root{
+    --login-background: url();
+
+}
