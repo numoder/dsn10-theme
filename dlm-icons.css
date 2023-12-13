@@ -383,7 +383,7 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
     margin-right:5px;
 }
 
-li:nth-child(2) > div > a > div > div.avatar__7bd22{
+div.children__32014 > div.iconWrapper_af9215, li:nth-child(2) > div > a > div > div.avatar__7bd22{
     content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/memberlist.png);
 }
 
@@ -395,7 +395,6 @@ li:nth-child(2) > div > a > div > div.avatar__7bd22{
     content: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
     height: 16px;
 }
-
 /* friends */
 /* aside.container__0a6a9, ol.scrollerInner__059a5[aria-label="Messages in "] {
     background: url(https://numoder.github.io/dlm7-theme/assets/friends/Friends.png);
