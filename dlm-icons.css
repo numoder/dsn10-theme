@@ -431,3 +431,22 @@ svg.icon__7215c{
 .iconWrapper_af9215{
     margin-right: 7px;
 }
+div.container_b2ce9c{
+    background:url(https://numoder.github.io/dlm7-theme/assets/servers/786.png),  linear-gradient(0deg, rgba(213,225,245,1) 54%, rgba(203,215,237,1) 68%, rgba(254,254,254,1) 90%, rgba(254,254,254,1) 90%);
+    background-size: 245px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+.members__9f47b {
+    background-color: transparent;
+}
+
+div.scroller__00e7e {
+    background:url(https://numoder.github.io/dlm7-theme/assets/servers/786.png),  linear-gradient(0deg, rgba(213,225,245,1) 54%, rgba(254,254,254,1) 80%, rgba(254,254,254,1) 100%);
+    background-size: 360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
