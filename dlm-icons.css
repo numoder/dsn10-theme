@@ -365,6 +365,10 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
 
 }
 
+.iconWrapper_af9215[aria-label="New Group DM"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/chatplus.png);
+}
+
 .iconWrapper_af9215[aria-label="Update Ready!"]{
     background:url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
     height:32px;
@@ -408,6 +412,8 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
     margin-left: 1.5px;
 }
 
+
+
 .actionButton__23182[aria-label="More"] svg {
     background: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/815.png);
     background-size: 22px;
@@ -418,16 +424,16 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
     background-color: transparent;
 }
 
-.attachButton_eba568[aria-label="Accept"] svg {
-    background: url(https://numoder.github.io/dlm7-theme/assets/general/accept.png);
-    background-size: 20px;
-    margin-left: 1.5px;
+.actionButton__23182:first-child {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/accept.png);
 }
 
-.attachButton_eba568[aria-label="Ignore"] svg {
-    background: url(https://numoder.github.io/dlm7-theme/assets/general/stop.png);
-    background-size: 20px;
-    margin-left: 1.5px;
+.actionButton__23182:nth-child(2) {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/stop.png);
+}
+
+.actionButton__23182:hover {
+  box-shadow: 0 0 100px rgb(91, 91, 255); 
 }
 
 svg.icon__7215c{
