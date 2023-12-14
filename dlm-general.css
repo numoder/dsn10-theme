@@ -34,9 +34,6 @@ foreignObject {
     width: 48;
     height: 48;
 }
-:not(svg) {
-    transform-origin: 0px 0px;
-}
 
 foreignObject {
     display: block;
@@ -841,8 +838,7 @@ a.link__95dc0:hover {
     background: white;
     box-shadow: inset 1px 1px 1px #0000004d;
 }
-
-.theme-light .markup_a7e664 .inline, code.inline{
+ .markup_a7e664 .inline, code.inline{
     background: lightgray;
     font-family: "Perfect DOS VGA 437 Win";
     color: black;
@@ -915,8 +911,7 @@ li.channel_c21703.container__8759a[aria-posinset="2"] {
     height: 0px;
 }
 
-
-a.link__2e8e1[data-list-item-id="private-channels-uid_18___shop"] {
+a.link__2e8e1[data-list-item-id="private-channels-uid_18___shop"], a.link__2e8e1[data-list-item-id="private-channels-uid_1123___shop"] {
     visibility:hidden;
     height: 0px;
 }

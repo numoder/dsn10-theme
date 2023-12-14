@@ -331,6 +331,11 @@ div.iconWrapper_af9215[aria-label="Add Friends to DM"] {
     margin-top: 3px;
 }
 
+div.iconWrapper_af9215[aria-label="Start Voice Call"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/phone.png);
+}
+
+
 div.iconWrapper_af9215[aria-label="Start Video Call"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/webcam.png);
 }
