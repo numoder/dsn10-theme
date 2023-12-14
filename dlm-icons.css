@@ -396,7 +396,7 @@ div.children__32014 > div.iconWrapper_af9215, li:nth-child(2) > div > a > div > 
     content: url(https://numoder.github.io/dlm7-theme/assets/general/Open%20Chat.png);
     height: 16px;
 }
-.iconItem__8e3b8[aria-label="Create Invite"] {
+.iconItem__8e3b8[aria-label="Create Invite"], .iconItem__8e3b8[aria-label="Invite to Server"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
     height: 16px;
 }
@@ -481,4 +481,31 @@ div.scroller__00e7e {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom;
+}
+
+[src="/assets/9492f371ccf5db4f0156.mp4"] {
+    content: url(file:///D:/Documents/Github/dlm7-theme/assets/general/loading.gif);
+}
+
+[src="/assets/9492f371ccf5db4f0156.mp4"], video.ready__61f2f {
+    content: url(file:///D:/Documents/Github/dlm7-theme/assets/general/loading.gif);
+    height: 200px;
+    width: 200px;
+}
+.withFrame-haYltI {
+height: 27px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.button_d553e5[aria-label="Add Reaction"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/emojis/happy.gif);
+}
+
+div.button_d553e5[aria-label="Reply"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/reply.png);
+}
+
+div.button_d553e5[aria-label="More"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/more.png);
 }
