@@ -23,13 +23,20 @@
     font-style:normal;
 }
 
+.theme-dark .videoGrid__8b6fc {
+    background: var(--voicecallBg);
+    background-size: cover;
+}
+
 .characterBackground__2820f {
     background: var(--loginBg, --login-background);
     background-position: center;
-  }
-  .characterBackground__2820f .artwork__8fc92 {
+}
+
+.characterBackground__2820f .artwork__8fc92 {
     display: none;
-  }  
+}  
+
 
 .activitySectionAssets_ea2444 .largeImageMask__4012f, .assetsLargeMaskStreamPreview__741af, .assetsLargeMaskUserPopout__82136, .assetsLargeMaskUserPopoutV2_a90d5f, .assetsLargeMaskVoiceChannel__82080, .assetWrapperMasked__20115, .inspectedIndicator_f00108, .loadingIndicator__6b1b4, .mask-2Me5HY rect, .partyMember__8c6e6, .voiceSectionGuildImage_ca8a0f, .voiceSectionNoGuildImageWrapper__2cbb8, foreignObject[mask*="url(#"] {
     mask: none;
@@ -962,4 +969,17 @@ div.wrapper__5848b{
 }
 .total_c01838:after{
     border-right-color: #8499ee ;
+}
+
+/* embedded */
+div.grid_c7c4e6{
+    background-color: #f3f3fd;
+    border: 1px solid #506b9a;
+    box-shadow: inset -10px -10px 14px -5px #8297c2, inset 12.5px 12.5px 14px -10px white;
+    border-radius: 0px 5px 5px 0px;
+    background-size: contain;
+}
+article.embedWrapper_c143d9{
+    border-color: hsla(0, calc(var(--saturation-factor, 1) * 100%), 50%, 1);
+    border-left: 10px solid ;
 }

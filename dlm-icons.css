@@ -112,7 +112,7 @@
 }
 
 .button__66e8c[aria-label="Soundboard disabled when deafened"] div {
-    content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/muteall0.png);
+    content: url(https://numoder.github.io/dlm7-theme/assets/joined%20call%20buttons/stop%20streaming.png);
 }
 
 
@@ -121,9 +121,6 @@
     content: var(--disconnect-btn);
 }
 
-.rtcConnectionQualityFine__471b6{
-    content: url()
-}
 
 /* -=-=- uploads -=-=- */
 .icon_c2f643 {
@@ -164,6 +161,15 @@
 .icon_c2f643.acrobat_fec748 {
     background-image: var(--pdf-file);
 }
+
+div.attachment_f3cf2c, div.messageAttachment_b97504 > div.wrapperAudio__555ce{
+    background-color: #f3f3fd;
+    border: 1px solid #506b9a;
+    box-shadow: inset -10px -10px 14px -5px #8297c2, inset 12.5px 12.5px 14px -10px white;
+    border-radius: 5px;
+    background-size: contain;
+}
+
 
 /* -=-  */
 
@@ -542,7 +548,23 @@ div.button_d553e5[aria-label="More"] {
   
 .sidebar_ded4b5 .panels__58331 .container_d667ff .rtcConnectionStatus__40882 .ping__47992 {
       background-image: url(https://numoder.github.io/dlm7-theme/assets/general/connection.png);
+      background-size: contain;
 }
   
-  
-  
+.sidebar_ded4b5 .panels__58331 .container_d667ff .rtcConnectionStatus__40882 .rtcConnectionStatusLabel__7029b .contents_fb6220 {
+    color: black;
+    font-size: 12px;
+}
+
+.ping__47992 svg{
+    content: none;
+}
+
+.sidebar_ded4b5 .panels__58331 .container_d667ff .rtcConnectionStatus__40882 .ping__47992 path {
+    display: none;
+}
+
+.sidebar_ded4b5 .panels__58331 .container_d667ff .rtcConnectionStatus__40882 .ping__47992 {
+      background-image: url(https://numoder.github.io/dlm7-theme/assets/general/connection.png);
+      background-size: contain;
+}
