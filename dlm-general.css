@@ -23,6 +23,14 @@
     font-style:normal;
 }
 
+.characterBackground__2820f {
+    background: var(--loginBg, --login-background);
+    background-position: center;
+  }
+  .characterBackground__2820f .artwork__8fc92 {
+    display: none;
+  }  
+
 .activitySectionAssets_ea2444 .largeImageMask__4012f, .assetsLargeMaskStreamPreview__741af, .assetsLargeMaskUserPopout__82136, .assetsLargeMaskUserPopoutV2_a90d5f, .assetsLargeMaskVoiceChannel__82080, .assetWrapperMasked__20115, .inspectedIndicator_f00108, .loadingIndicator__6b1b4, .mask-2Me5HY rect, .partyMember__8c6e6, .voiceSectionGuildImage_ca8a0f, .voiceSectionNoGuildImageWrapper__2cbb8, foreignObject[mask*="url(#"] {
     mask: none;
     -webkit-mask: none;
@@ -924,6 +932,10 @@ a.link__2e8e1[data-list-item-id="private-channels-uid_18___shop"], a.link__2e8e1
 
 .theme-dark .videoGrid__8b6fc{
     background: var(--voicecall-background);
+}
+
+.characterBackground__2820f.artwork__8fc92{
+    background: var(--login-background);
 }
 
 .callContainer_cbde45{
