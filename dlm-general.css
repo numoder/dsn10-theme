@@ -401,13 +401,12 @@ div.scroller__00e7e {
 }
 
 .voiceUser__0470a{
-    background:rgb(255, 246, 235);
-    /* background: linear-gradient(0deg, rgba(219,229,238,1) 3%, rgba(143,166,200,1) 49%, rgba(123,157,212,1) 50%, rgba(213,222,246,1) 100%); */
-    border-radius: 7.5px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    margin: 5px;
-    margin-right: 20px;
+    background-color: #f3f3fd;
+    border: 1px solid #506b9a;
+    box-shadow: inset -5px -5px 10px -5px #8297c2,  inset 5px 5px 10px -10px white;
+    border-radius: 5px;
 }
+
 
 .iconSpacing__59128[aria-label="Muted"]{
     content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Microphone2.png);
@@ -570,7 +569,7 @@ background: white;
 /* member list */
 .container__4f20e {
     background: linear-gradient(90deg, rgba(229,236,242,1) 0%, rgba(221,226,246,1) 49%, rgba(207,219,245,1) 80%, rgba(204,216,240,1) 100%);
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
     margin-right: 8px;
     border-right: 1px solid #00000029;
 }
@@ -749,7 +748,7 @@ div.searchBar_e0c60b {
 /* voice channels */
 div.iconContainer__3f9b0[aria-label="Voice icon"] {
     display: block;
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180333798500597851/Volume.png?ex=657d0a83&is=656a9583&hm=db55c958180045a9383f4607214e43c8757881e8434dee60e8798032b378b2ca&);
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume.png);
     width: auto;
     height: 25px;
 }
@@ -872,15 +871,6 @@ span[style="color: rgb(156, 220, 254);"] {
     background: linear-gradient(90deg, rgba(255,216,111,0.30) 0%, rgba(255,212,0,0.45) 9%, rgba(255,233,49,0.40) 39%, rgba(255,216,111,0) 88%);
 }
 
-/* server chat */
-.chat__52833s {
-    background: url('https://cdn.discordapp.com/attachments/1179525721715130410/1181468498384400475/Manage_Your_Server.png?ex=65812b48&is=656eb648&hm=9a1229ad0595eae13477a35a24c4698812625746e4da1c6ed23d162804ca7af6&');
-    background-size: 22.5vw;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-position: fixed;
-}
-
 /* voice chat image */
 .theme-light .videoGrid__8b6fc{
     background: url(''); /* put sky wallpaper here*/
@@ -922,4 +912,42 @@ a.link__2e8e1[data-list-item-id="private-channels-uid_18___shop"], a.link__2e8e1
 
 .channelTextArea__56a36{
     border-radius: 0px;
+}
+
+.platform-win .sidebar_ded4b5{
+    border-radius: 0px 0 0;
+}
+
+.controlSection_daa0d5 > div > div > div > section > div > div.children__32014 > div.iconWrapper_af9215{
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume.png);
+}
+
+.theme-dark .videoGrid__8b6fc{
+    background: var(--voicecall-background);
+}
+
+.callContainer_cbde45{
+    background-image: var(--voicecall-background);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* voicecall channel user number */
+div.wrapper__5848b{
+    background: linear-gradient(#dbdfe6, #c4c7d4 50%, #b7bac3 50%, #dbdde2);
+    border-radius: 3px;
+}
+
+.total_c01838{
+    background: linear-gradient(to right, #8499ee, #6878b8) ;
+    color: whitesmoke;
+}
+
+.users__65981{
+    background: whitesmoke;
+    color: #6878b8;
+}
+.total_c01838:after{
+    border-right-color: #8499ee ;
 }

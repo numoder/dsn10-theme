@@ -213,19 +213,40 @@
     content: var(--pdf-file);
 }
 
-
-/* untouched */
-
-/*bouton bas avatar+son+mute */
-.theme-light .container_d667ff {
-    background:rgb(255, 246, 235);
-    border-radius: 10px;
-    margin: 5px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    /* background-color:blue; */
-    background-size:contain;
-    /* display:none; */
+.list__02208{
+    padding-bottom: 12px;
 }
+
+.theme-light .container_d667ff{
+    background-color: #f3f3fd;
+    border: 1px solid #506b9a;
+    box-shadow: inset -10px -10px 14px -5px #8297c2,  inset 10px 10px 14px -10px white;
+    border-radius: 5px;
+    margin: 5px;
+    background-size:contain;
+}
+
+.button__66e8c.buttonColor_a6eb73{
+    background: transparent;
+    height: fit-content;
+    width: 45px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.button__66e8c.buttonColor_a6eb73:hover{
+    background-color: #f3f3fd;
+    border: 1px solid #506b9a;
+    box-shadow: inset -10px -10px 14px -5px #8297c2,  inset 10px 10px 14px -10px white;
+    background-size:contain;
+}
+
+.button__66e8c.buttonColor_a6eb73 svg:hover, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7 ,.button__66e8c[aria-expanded=true].buttonColor_a6eb73{
+    background-color: #e1ffcb;
+    box-shadow: inset -10px -10px 14px -5px #83ff87,  inset 10px 10px 14px -10px white;
+    border: 1px solid #506b9a;
+}
+
+
 
 .container-YkUktl .flex-2S1XBF button:nth-child(3) .contents-3ca1mk svg {
     background:green;
@@ -268,7 +289,7 @@ margin-top:8px;
 /* bottom bar */
 
 
-.attachButton_eba568:hover, .button_afdfd9:hover{
+.attachButton_eba568:hover, .flex_f5fbb7 > .button_afdfd9:hover{
     transform: scale(1.1);
     transition: 0.2s;
 }
@@ -308,6 +329,8 @@ margin-top:8px;
 
 .emojiButton__8ff6a:hover{
     content: url(https://numoder.github.io/dlm7-theme/assets/emojis/wink.gif);
+    height: 23px;
+    width: 23px;
 }
 
 .button__8d734[aria-label="Send Message"] disabled{
@@ -326,7 +349,7 @@ margin-top:8px;
 }
     
 /* channel header icons */
-div.iconWrapper_af9215[aria-label="Add Friends to DM"] {
+div.iconWrapper_af9215[aria-label="Add Friends to DM"], .button__6d358[aria-label="Invite"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
     margin-top: 3px;
 }
@@ -366,7 +389,7 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
 }
 
 .iconWrapper_af9215[aria-label="Hide Member List"], .iconWrapper_af9215[aria-label="Show Member List"] {
-        content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/help.png);
+        content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/memberlist.png);
 
 }
 
@@ -388,7 +411,7 @@ div.iconWrapper_af9215[aria-label="Start Video Call"] {
     margin-right:5px;
 }
 
-div.children__32014 > div.iconWrapper_af9215, li:nth-child(2) > div > a > div > div.avatar__7bd22{
+li:nth-child(2) > div > a > div > div.avatar__7bd22 {
     content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/memberlist.png);
 }
 
@@ -400,13 +423,6 @@ div.children__32014 > div.iconWrapper_af9215, li:nth-child(2) > div > a > div > 
     content: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
     height: 16px;
 }
-/* friends */
-/* aside.container__0a6a9, ol.scrollerInner__059a5[aria-label="Messages in "] {
-    background: url(https://numoder.github.io/dlm7-theme/assets/friends/Friends.png);
-    background-size: 22.5vw;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-} */
 
 /* home - online */
 
@@ -414,7 +430,7 @@ div.children__32014 > div.iconWrapper_af9215, li:nth-child(2) > div > a > div > 
     background-color: transparent;
 }
 
-.actionButton__23182[aria-label="Message"] svg {
+.actionButton__23182[aria-label="Message"] svg{
     background: url(https://numoder.github.io/dlm7-theme/assets/general/chat.png);
     background-size: 20px;
     margin-left: 1.5px;
@@ -483,15 +499,12 @@ div.scroller__00e7e {
     background-position: right bottom;
 }
 
-[src="/assets/9492f371ccf5db4f0156.mp4"] {
-    content: url(file:///D:/Documents/Github/dlm7-theme/assets/general/loading.gif);
-}
-
 [src="/assets/9492f371ccf5db4f0156.mp4"], video.ready__61f2f {
     content: url(file:///D:/Documents/Github/dlm7-theme/assets/general/loading.gif);
     height: 200px;
     width: 200px;
 }
+
 .withFrame-haYltI {
 height: 27px;
     margin-top: 0px;
@@ -509,3 +522,44 @@ div.button_d553e5[aria-label="Reply"] {
 div.button_d553e5[aria-label="More"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/more.png);
 }
+
+.avatarSpeaking_c95053{
+    border-radius: 0px;
+}
+
+.avatarSpeaking_c95053{
+    border-radius: 0px;
+}
+
+.button_afdfd9[aria-label="Invite"] svg {
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/Invite%20Friends.png);
+    color: transparent;
+    background-size: contain;
+}
+
+.actionButton__23182[aria-label="Message"] svg {
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/chat.png);
+    background-size: contain;
+}
+
+.button_afdfd9[aria-label="Show Chat"] svg{
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/chat.png);
+    background-size: contain;
+    color: transparent;
+}
+
+.button_afdfd9[aria-label="More"] svg{
+    background: url(https://numoder.github.io/dlm7-theme/assets/general/more.png);
+    background-size: contain;
+}
+
+.rtcConnectionStatus__40882 .ping__47992 path {
+    display: none;
+}
+  
+.sidebar_ded4b5 .panels__58331 .container_d667ff .rtcConnectionStatus__40882 .ping__47992 {
+      background-image: url(https://numoder.github.io/dlm7-theme/assets/general/connection.png);
+}
+  
+  
+  
