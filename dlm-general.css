@@ -1,4 +1,6 @@
-
+:root{
+    --voicecallBg: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png);
+}
 @font-face{
     font-family:"Pixelated MS Sans Serif";
     src:url(https://ucarecdn.com/a40684b6-a473-40ed-95dc-e3fc082c7ae9/) format("woff");
@@ -479,13 +481,18 @@ div.avatarStack__6604a.img.avatar__991e2 {
     line-height: 33px;
     border-radius: 0px 0 0;
 }
- 
+
 .container__11d72.themed_b152d4 , .header__104ca, .searchBar_e4ea2a  {
     background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/middlebar.png);
     border-right: #ffffff88 1px solid;
     background-repeat: repeat-x;
     background-size:contain;
 }
+
+.nowPlayingColumn_f5023f {
+    flex: 0;
+}
+
 .newMessagesBar-1hF-9G {
     border-radius: 0 0 0px 0px;
     background-color: #ffffe1;

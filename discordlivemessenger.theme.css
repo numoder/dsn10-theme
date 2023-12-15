@@ -13,12 +13,3 @@
 @import url('https://numoder.github.io/dlm7-theme/dlm-settings.css');
 
 
-/* Customization */
-:root{
-    --loginBg: url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) center/cover;
-    --voicecallBg: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png) center;
-}
-
-
-
-
