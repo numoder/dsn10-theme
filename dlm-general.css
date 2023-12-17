@@ -383,6 +383,17 @@ li.containerDefault__23a29, li.containerDefault__3187b.wrapper__7bcde > div{
     margin-right: 2px;
     margin-top: 7.5px;
 }
+/* server buttons */
+a.link__95dc0 {
+    background: white;
+    box-shadow: inset 1px 1px 1px #0000004d;
+    margin-right: 2px;
+}
+
+a.link__95dc0:hover {
+    background: white;
+    box-shadow: inset 1px 1px 1px #0000004d;
+}
 
 div.container_b2ce9c{
     background:url(https://numoder.github.io/dlm7-theme/assets/servers/786.png),  linear-gradient(0deg, rgba(213,225,245,1) 54%, rgba(203,215,237,1) 68%, rgba(254,254,254,1) 90%, rgba(254,254,254,1) 90%);
