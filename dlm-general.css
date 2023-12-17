@@ -713,7 +713,7 @@ img.avatar__08316.clickable_d866f1 {
 }
 
 /* server channel / bottom button background */
-.theme-light .container__590e2 {
+.theme-light .container__590e2, .theme-light .container_ca50b9 {
     background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
 }
 

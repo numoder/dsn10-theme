@@ -406,6 +406,7 @@ li:nth-child(2) > div > a > div > div.avatar__7bd22 {
 
 .iconItem__8e3b8[aria-label="Open Chat"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/chat.png);
+    height: 16px;
 }
 
 .iconItem__8e3b8[aria-label="Create Invite"], .iconItem__8e3b8[aria-label="Invite to Server"] {
@@ -414,7 +415,6 @@ li:nth-child(2) > div > a > div > div.avatar__7bd22 {
 }
 
 /* home - online */
-
 .actionButton__23182{
     background-color: transparent;
 }
@@ -564,17 +564,9 @@ div.button_d553e5[aria-label="More"] {
     display: none;
 }
 
-.sidebar_ded4b5 .panels__58331 .container_d667ff .rtcConnectionStatus__40882 .ping__47992 {
-      background-image: url(https://numoder.github.io/dlm7-theme/assets/general/connection.png);
-      background-size: contain;
-}
-
 .iconItem__8e3b8[aria-label="Edit Channel"]{
     content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Settings.png);
     width: 15px;
-}
-.iconItem__8e3b8[aria-label="Create Invite"]{
-    content:url(https://numoder.github.io/dlm7-theme/assets/general/Add%20Friend.png);
 }
 
 .icon__46425[aria-label="Clear search"], .icon__37cc1 .visible__50aa8[aria-label="Search"] {
