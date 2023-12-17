@@ -13,3 +13,15 @@
 @import url('https://numoder.github.io/dlm7-theme/dlm-settings.css');
 
 
+/* Customization */
+:root{
+    --loginBg: url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) center/cover;
+    --voicecallBg: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png) center;
+    --font-primary: "Tahoma";
+    --font-display: "Trebuchet MS";
+    --font-headline: "Pixelated MS Sans Serif";
+    --font-code: "Perfect DOS VGA 437 Win";
+    --mention-foreground: rgb(29, 102, 0);
+    --mention-background: rgba(0, 112, 0, 0.2);
+    --background-mentioned: linear-gradient(to right, rgb(182, 244, 146), rgba(51, 139, 147, 0));
+}

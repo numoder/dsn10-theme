@@ -1,6 +1,3 @@
-:root{
-    --voicecallBg: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png);
-}
 @font-face{
     font-family:"Pixelated MS Sans Serif";
     src:url(https://ucarecdn.com/a40684b6-a473-40ed-95dc-e3fc082c7ae9/) format("woff");
@@ -10,9 +7,10 @@
 }
 
 @font-face{
-    font-family:"Pixelated MS Sans Serif";
+    font-family:"Pixelated MS Sans Serif", bold;
     src:url(https://ucarecdn.com/e5f8c7e0-88a5-4a82-a795-a214497e36ff/) format("woff");
     src:url(https://ucarecdn.com/764ec4de-2b2b-4f09-bbe2-0bc7ea00672d/) format("woff2");
+    font-smooth: never;
     font-weight:700;
     font-style:normal;
 }
@@ -25,20 +23,27 @@
     font-style:normal;
 }
 
-.theme-dark .videoGrid__8b6fc {
-    background: var(--voicecallBg);
+@font-face{
+    font-family: "Trebuchet MS";
+    src: url(https://ucarecdn.com/57ff7c47-b87a-4837-b005-d18074a9df35/trebuc.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* voice chat image */
+.theme-dark .videoGrid__8b6fc{
+    background: var(--voicecallBg, url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) );
     background-size: cover;
 }
 
 .characterBackground__2820f {
-    background: var(--loginBg, --login-background);
+    background: var(--loginBg, url());
     background-position: center;
 }
 
 .characterBackground__2820f .artwork__8fc92 {
     display: none;
-}  
-
+}
 
 .activitySectionAssets_ea2444 .largeImageMask__4012f, .assetsLargeMaskStreamPreview__741af, .assetsLargeMaskUserPopout__82136, .assetsLargeMaskUserPopoutV2_a90d5f, .assetsLargeMaskVoiceChannel__82080, .assetWrapperMasked__20115, .inspectedIndicator_f00108, .loadingIndicator__6b1b4, .mask-2Me5HY rect, .partyMember__8c6e6, .voiceSectionGuildImage_ca8a0f, .voiceSectionNoGuildImageWrapper__2cbb8, foreignObject[mask*="url(#"] {
     mask: none;
@@ -68,6 +73,7 @@ background-size: cover;
 .bg__12180 {
     background-color: transparent;
 }
+
 /* Discord wordmark */
 .wordmarkWindows__05c46 {
     color: #2f445f00;
@@ -101,13 +107,13 @@ background-size: cover;
 .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4), .winButtonMinMax__72f36.winButton__88672:nth-child(4) {
     content: url(https://media.discordapp.net/attachments/1179525707861327974/1181431368975134821/866.png?ex=658108b4&is=656e93b4&hm=72e9538592bebbfb5b60fc61400c745d8ae1686ff4e06be686cdb7b39ad36dcc&=&format=webp&quality=lossless);
 }
-/* button on hover */
+/* windows button on hover */
 .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4):hover, .winButtonMinMax__72f36:hover, .winButtonClose__73489:hover {
     filter: contrast(1.1);
     transform: scale(1.15);
     transition: 1s;
 }
-/* button when clicked */
+/* windows button when clicked */
 .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351 > div:nth-child(4):active, .winButtonMinMax__72f36:active, .winButtonClose__73489:active {
     filter:invert(2)
 }
@@ -117,10 +123,14 @@ background-size: cover;
     margin-bottom: 0px;
 }
 
+.withFrame__485f4{
+    margin-top: 0px;
+}
+
 /* -=-=- Server sidebar -=-=- */
 .wrapper_a7e7a8 {
     /* width: 39px; */
-    background-color: #63609b;
+    background-color: #e7e6ff;
 }
 .tree__7a511 {
     display: -webkit-box;
@@ -128,6 +138,18 @@ background-size: cover;
     display: flex;
     height: 100%;
     /* width: 39px; */
+}
+
+/* server banner image */
+.bannerImg_c85b7f{
+    height: 155px;
+    margin-top: 25px;
+}
+/* new server notification */
+.item_f9d377 {
+    margin-right: 100px;
+    border-radius: 2px;
+    background-color: #fffd82;
 }
 .scroller__3d071 {
     background-color: #63609b;
@@ -201,14 +223,6 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
     content: url(https://ucarecdn.com/67ac0119-504d-4bc8-9483-9ac51f586682/);
     background-repeat:no-repeat;
     background-position: center; 
-}
-
-.iconItem__8e3b8[aria-label="Edit Channel"]{
-    content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Settings.png);
-    width: 15px;
-}
-.iconItem__8e3b8[aria-label="Create Invite"]{
-    content:url(https://numoder.github.io/dlm7-theme/assets/general/Add%20Friend.png);
 }
 
 
@@ -406,6 +420,7 @@ div.scroller__00e7e {
     background-position-x: right;
     font-weight: 600;
 }
+
 .unread__11823 {
     position: absolute;
     height: 8px;
@@ -426,12 +441,12 @@ div.scroller__00e7e {
 
 
 .iconSpacing__59128[aria-label="Muted"]{
-    content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Microphone2.png);
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Microphone2.png);
     width: 20px;
     filter: grayscale(0.6);
 }
 .iconSpacing__59128[aria-label="Deafened"]{
-    content: url(https://numoder.github.io/dlm7-theme/assets/bottom%20left%20icons/Volume2.png);
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Volume2.png);
     width: 20px;
     filter: grayscale(0.6);
 }
@@ -521,17 +536,7 @@ div.avatarStack__6604a.img.avatar__991e2 {
     color: #000;
     font-style: italic;
 }
-.isUnread-3Lojb- {
-    border-color: #ffa500;
-}
-.unreadPill__715fc {
-    color: #fff;
-    background-color: #ffa500;
-}
-.unreadPillCapStroke__12c0b {
-    color: #ffa500;
-    fill: #ffa500;
-}
+
 .compact__54ecc .header__39b23 {
     display: block;
 }
@@ -539,16 +544,23 @@ div.avatarStack__6604a.img.avatar__991e2 {
     display: flex;
     box-shadow: inset 0px 0px px black;
     border-radius: 0px;
-background: white;
+    background: white;
 }
+/* timestamp and pronouns */
 .theme-light .compact__54ecc .timestamp-p1Df1m, .cozy_f5c119 .timestamp_cdbd93 {
-    text-align: right;
-    font-size: 0.95rem;
-    color: #ff8100;
+    text-align:center;
+    font-size: 14px;
+    color: #6878b8;
+}
+/* @ on hover    */
+.interactive:hover {
+    color: var(--white-500);
+    background-color: var(--brand-experiment);
 }
 .timestamp-p1Df1m.latin12CompactTimeStamp-2G5XJd {
     width: 3.25rem;
 }
+
 .username_d30d99 {
     font-size: 12px;
     font-weight: 500!important;
@@ -678,10 +690,10 @@ img.avatar__08316.clickable_d866f1 {
 }
 
 /* server channel / bottom button background */
-#channels.customTheme_db4d28, .theme-light .container_ca50b9, section.panels__58331 {
-    background-color: #ebedef00;
+.theme-light .container__590e2 {
     background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
 }
+
 
 .wrapper-1VLyxH {
     position: relative;
@@ -742,7 +754,8 @@ img.avatar__08316{
     width: 19px;
     height: 19px;
 }
-div.searchBar_e0c60b {
+
+.searchBar_e4ea2a > .searchBarComponent__22760, .searchBar_ff8800, div.searchBar_e0c60b {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: -webkit-box;
@@ -751,8 +764,6 @@ div.searchBar_e0c60b {
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    height: 23px;
-    width: 144px;
     border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: inset 1px 1Px 2px black;
@@ -761,6 +772,10 @@ div.searchBar_e0c60b {
     padding: 0 2px;
     color: #000000;
     background-color: #eaeaea;
+}
+div.searchBar_e0c60b {
+    height: 23px;
+    width: 144px;
 }
 
 .iconContainer__3f9b0 {
@@ -849,27 +864,17 @@ div.name__8d1ec {
     padding-top: 0px;
     /* margin-top: 13px; */
 }
-a.link__95dc0 {
-    background: white;
-    box-shadow: inset 1px 1px 1px #0000004d;
-    margin-right: 2px;
-}
- 
-a.link__95dc0:hover {
-    background: white;
-    box-shadow: inset 1px 1px 1px #0000004d;
-}
- .markup_a7e664 .inline, code.inline{
+
+.markup_a7e664 .inline, code.inline{
     background: lightgray;
-    font-family: "Perfect DOS VGA 437 Win";
+    font-family: var(--font-code);
     color: black;
     border-radius: 0px;
     box-shadow: inset 1px 1px 1px #0000004d;
 }
 
-.theme-light .shiki-table{
+.theme-dark .shiki-table{
     background: black;
-    font-family: "Perfect DOS VGA 437 Win";
     color: black;
     border-radius: 0px;
     box-shadow: inset 1px 1px 1px #0000004d;
@@ -889,26 +894,8 @@ span[style="color: rgb(156, 220, 254);"] {
     color: rgb(0, 160, 255) !important;
 }
 
-.mentioned__58017 {
-    background: linear-gradient(90deg, rgba(255,216,111,0.30) 0%, rgba(255,212,0,0.45) 9%, rgba(255,233,49,0.40) 39%, rgba(255,216,111,0) 88%);
-}
 
-/* voice chat image */
-.theme-light .videoGrid__8b6fc{
-    background: url(''); /* put sky wallpaper here*/
-    /* background-size: 15vw; */
-    background-position: bottom right;
-    /* background-repeat: no-repeat; */
-    /* background-position: fixed; */
-}
 
-/* voice chat image */
-.theme-dark .videoGrid__8b6fc{
-    background: url(''); /* put night wallpaper here*/
-    /* background-color: white; */
-    background-position: bottom right;
-    border-radius: 100  px;
-}
 
 div.videoGrid__8b6fc {
 }
@@ -920,11 +907,6 @@ div.videoGrid__8b6fc {
 
 li.channel_c21703.container__8759a[aria-posinset="2"] {
     visibility: hidden;
-    height: 0px;
-}
-
-a.link__2e8e1[data-list-item-id="private-channels-uid_18___shop"], a.link__2e8e1[data-list-item-id="private-channels-uid_1123___shop"] {
-    visibility:hidden;
     height: 0px;
 }
 
@@ -989,4 +971,37 @@ div.grid_c7c4e6{
 article.embedWrapper_c143d9{
     border-color: hsla(0, calc(var(--saturation-factor, 1) * 100%), 50%, 1);
     border-left: 10px solid ;
+}
+
+/* font changes */
+
+.theme-light .username_d30d99{
+    font-family: var(--font-primary);
+}
+div.inner_ab95dc > div > div > div > button > div {
+    font-family: var(--font-headline);
+}
+/* mentioned */
+.mentioned__58017 {
+    background: var(--background-mentioned);
+}
+
+/* Menu font */
+.menu_dc52c6 {
+    font-family: var(--font-headline);
+    border-radius: 0px;
+}
+
+.theme-light .username_d30d99{
+    font-family: var(--font-primary);
+}
+div.inner_ab95dc > div > div > div > button > div {
+    font-family: var(--font-headline);
+}
+
+div.containerWithMargin__7d380{
+    background: white;
+    box-shadow: inset 1px 1px 1px #0000004d;
+    border-radius: var(--radius-xs);
+    margin-left: 10px;
 }
