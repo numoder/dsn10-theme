@@ -14,14 +14,39 @@
 
 
 /* Customization */
-:root{
-    --loginBg: url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) center/cover;
-    --voicecallBg: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png) center;
+:root {
+    /* general */
+    --text-primary: #000;
+    --accent-color: #316ac5;
+    --accent-color-selected: #317df7;
+    --background-modifier-selected: transparent;
+  
+      /* tooltip */
+    --tooltip-background: #ffffe1;
+    --tooltip-border: #000;
+    --menu-border: #aca899;
+
+    /* backgrounds */
+    --login-background: url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) center/cover;
+    --voicecall-background: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png) center;
+  
+    /* fonts */
     --font-primary: "Tahoma";
     --font-display: "Trebuchet MS";
     --font-headline: "Pixelated MS Sans Serif";
+    --font-headline: "W95FA";
     --font-code: "Perfect DOS VGA 437 Win";
+  
+    /* mentioned */
     --mention-foreground: rgb(29, 102, 0);
     --mention-background: rgba(0, 112, 0, 0.2);
     --background-mentioned: linear-gradient(to right, rgb(182, 244, 146), rgba(51, 139, 147, 0));
-}
+  
+    /* settings */
+    --light-settings-background: #ece9d8;
+    --light-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
+    --dark-settings-background: linear-gradient(0deg, rgba(96,119,218,1) 0%, rgba(108,122,198,1) 100%); ;
+    --dark-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
+    --background-modifier-hover: #d2dbfc;
+  }
+  
