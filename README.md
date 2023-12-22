@@ -36,5 +36,7 @@ Then it'll finally be ready for BetterDiscord Themes!
 
 ## Screenshots
 
-![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1185102047431905330/image.png?ex=658e634a&is=657bee4a&hm=799b5d78ded00aa6c7ec033c8019b67f8e35581f80c69a695050e7e577a53a8b&)
-![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1185102279913771060/image.png?ex=658e6381&is=657bee81&hm=fcf3afb103bab129f6949cbb4477ba8c5a58dbbb6c97a87f49ec78f6cefbd8c3&)
+![Login](https://media.discordapp.net/attachments/1179087942552133685/1187608071858565202/image.png?ex=65978135&is=65850c35&hm=504f1762cbc591387b4f2681815e6cc1f88128b70e30287e878574c9b1e5ba22&=&format=webp&quality=lossless&)
+![Homepage](https://cdn.discordapp.com/attachments/1179087942552133685/1187608071858565202/image.png?ex=65978135&is=65850c35&hm=504f1762cbc591387b4f2681815e6cc1f88128b70e30287e878574c9b1e5ba22&)
+![Settings](https://cdn.discordapp.com/attachments/1179087942552133685/1187608276838395944/image.png?ex=65978165&is=65850c65&hm=acbf06bfcb746f5d9b3c96e23f9b0a26d383f7170484665f1475bdc4d7991e5e&)
+![Server](https://cdn.discordapp.com/attachments/1179087942552133685/1187608419746725960/image.png?ex=65978187&is=65850c87&hm=11d4e95f710f5d8d70559683724b890e9338104506e4c84e958abc989e28e092&)
