@@ -1,29 +1,3 @@
-:root {
-    --settings-icon: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180333797770788944/Settings.png?ex=657d0a82&is=656a9582&hm=cb0223a21fd1fa34cbcb7f560a2ec9fd279044a2eeb5402ba3ff22d39983e9db);
-
-    --misc-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891775687643178/misc.png?ex=657b6ed8&is=6568f9d8&hm=204c10c1f32364d1815822ac4f9a58c03303d832e9cd6eabc96f82defb3f783c&);
-    --zip-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891775477919834/zip.png?ex=657b6ed8&is=6568f9d8&hm=97efd937a9a824d5fbd90f5e49f8c75bd2f9dd6a235685d908f0ca337593f9a1&);
-    --webcode-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891775251423292/code.png?ex=657b6ed8&is=6568f9d8&hm=2d6836635f5fc6ff38ca8337142be6ae38ad042659f79eccadfc4a3bd5783ce5&);
-    --code-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891775029137469/js.png?ex=657b6ed8&is=6568f9d8&hm=6b9aff9a839a27699f0ed5c3d3e580aa9408ec436f0062a00a969d9e4aea81a2&);
-    --text-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891774811025579/txt.png?ex=657b6ed8&is=6568f9d8&hm=45b617c30f9d06ee10c4e4d1002899ff928218d3a06b8cf342de0f8e5a881e6a&);
-    --audio-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891774555181066/audio.png?ex=657b6ed8&is=6568f9d8&hm=995a6348bc6b2ae384c82e60e238193274929c2b0674e2d7ff799d68924d2a52&);
-    --pdf-file: url(https://cdn.discordapp.com/attachments/1179525688240386058/1179891774261571745/pdf.png?ex=657b6ed8&is=6568f9d8&hm=845b30add50bd1f661b0a8c0c8321d5a635be1afeaf2c77a5898c1f52d1480a0&);
-
-    /* vc btns */
-    --camera-btn-off: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181462070579957780/webcam2.png?ex=6581254c&is=656eb04c&hm=334b8d8430bc427a31257a4afbfb74bfbd847c46f35cbaef5e4a4f4d464f920a&);
-    --camera-btn-on: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181462070747746404/webcam.png?ex=6581254c&is=656eb04c&hm=b487fdd8f656cbfacd29a4c1190220d91c8c67a583d039bf45948c84a91fadb9&);
-    --screenshare-btn-off: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180929786118418494/sharescreen.png?ex=657f3591&is=656cc091&hm=251e8076821735259a2c8e422044dd8f31cb0ce0bd913ecabdf68b26866e3d8c&);
-    --screenshare-btn-on: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180929785887719494/sharescreen2.png?ex=657f3591&is=656cc091&hm=05ead36e443de14a6968741490bc2584ada5ecfa37a805f4e24e1a8fb635a3cb&);
-    --activity-btn: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181024837116887120/activities.png?ex=657f8e17&is=656d1917&hm=ba639f029d5325f68bcb7e493c57688e9df39bfbb1999555d82a2cf740bc12c0&);
-    --soundboard-btn: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181024837381140510/soundboard.png?ex=657f8e17&is=656d1917&hm=c64ccd97bce35815e7fc5304b1cabafa0e367a154e21a667cd6a3f2a8974ab2d&);
-    --disconnect-btn: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181031817504116786/disconnect.png?ex=657f9497&is=656d1f97&hm=8f4fe26b6e44b70ae1308cb91f4cbd46e33c6ee5918e8ee8475fc30e4376c618&);
-
-    --delete-btn: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181018690855124992/stop_streaming.png?ex=657f885e&is=656d135e&hm=251517f40fa472b981a5fadf7aa314d3dfbcd840494674732b5ea74660b778d2&);
-
-    /* typing form */
-    --plus-btn: url(https://cdn.discordapp.com/attachments/1181034545097740358/1181062608892219412/plus.png?ex=657fb145&is=656d3c45&hm=138cc4737e0290be051f30b2b356c357986a7f7ac06dfef5483e29c346814523&);
-}
-
 /* bottom left icons */
 
 .button__4f306,
@@ -43,37 +17,37 @@
 
 .button__4f306[aria-label="Disable Game Activity"],
 .sidebar_ded4b5 .button__4f306[aria-label="Disable Game Activity"][aria-checked="false"] {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180333798009868358/Game-Enabled.png?ex=657d0a82&is=656a9582&hm=b1b90d3f8236c51d6e63219f2a7251f8391bfd2805d821ad24c208104f1ca0e2&);
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Game-Enabled.png);
 }
 
 /* vencord game activity disabled*/
 .button__4f306[aria-label="Enable Game Activity"],
 .sidebar_ded4b5 .button__4f306[aria-label="Enable Game Activity"][aria-checked="true"] {
-    content: url(https://media.discordapp.net/attachments/1180332254615052288/1180333797548511312/Game-Disabled.png?ex=657d0a82&is=656a9582&hm=3bd4cc9776caf9e195d1e36226215528b42c7b35ee7636cd41e6458b7f482efd&);
+    content:url(https://numoder.github.io/dlm7-theme/assets/user-area/Game-Disabled.png);
 }
 
 /* unmuted */
 .button_4f306[aria-label="Mute"][aria-checked="false"],
 .sidebar_ded4b5 .button__4f306[aria-label="Mute"] {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180346138193313868/Microphone.png?ex=657d1601&is=656aa101&hm=6581bcad30f6feefe01855b17916f8209dad27fb71963d33bd8927518abcfc26&);
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Microphone.png);
 }
 
 /* muted */
 .button_4f306[aria-label="Mute"][aria-checked="true"],
 .sidebar_ded4b5 .button__4f306[aria-label="Mute"][aria-checked="true"] {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180346138457538570/Microphone2.png?ex=657d1601&is=656aa101&hm=0b8f2cd51d8e8b714bc8dde5419255133a4bf170155d4fdd1af5b1aedaeeb3e2&);
+    content:url(https://numoder.github.io/dlm7-theme/assets/user-area/Microphone2.png);
 }
 
 /* undeafened */
 .button__4f306[aria-label="Deafen"][aria-checked="false"],
 .sidebar_ded4b5 .button__4f306[aria-label="Deafen"][aria-checked="false"] {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180333798500597851/Volume.png?ex=657d0a83&is=656a9583&hm=db55c958180045a9383f4607214e43c8757881e8434dee60e8798032b378b2ca&);
+    content:url(https://numoder.github.io/dlm7-theme/assets/user-area/Volume.png);
 }
 
 /* deafened */
 .button__4f306[aria-label="Deafen"][aria-checked="true"],
 .sidebar_ded4b5 .button__4f306[aria-label="Deafen"][aria-checked="true"] {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1180333798265737216/Volume2.png?ex=657d0a83&is=656a9583&hm=c47d6a7c9f33f7d5e0ba5d886c4982851a6c33af52884f925a0a03df39947896&);
+    content:url(https://numoder.github.io/dlm7-theme/assets/user-area/Volume2.png);
 }
 
 .button__4f306[aria-label="User Settings"],
@@ -85,12 +59,12 @@
 
 /* camera off */
 .button__66e8c[aria-label="Turn On Camera"] div {
-    content: var(--camera-btn-off);
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/webcam2.png);
 }
 
 /* camera on */
 .button__66e8c[aria-label="Turn Off Camera"] div {
-    content: var(--camera-btn-on)
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/webcam.png);
 }
 
 
@@ -98,16 +72,16 @@
 
 /* sharescreen off */
 .button__66e8c[aria-label="Share Your Screen"] div {
-    content: var(--screenshare-btn-off);
+    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/sharescreen.png);
 }
 
 /* sharescreen on */
 .button__66e8c[aria-label="Share Your Screen"].buttonActive__407a7 div {
-    content: var(--screenshare-btn-on);
+    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/sharescreen2.png);
 }
 
 #manage-streams-change-windows>div.iconContainer__829e7 {
-    content: url(https://cdn.discordapp.com/attachments/1180332254615052288/1181018690611851264/change_window.png?ex=657f885e&is=656d135e&hm=6a68eeb8cf26005a8b5cdfe186085c46d689b062f3c12c17a5a250b84c46fa57&);
+    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/window.png);
 }
 
 #manage-streams-stop-streaming>div.iconContainer__829e7 {
@@ -119,17 +93,16 @@
 }
 
 .button__66e8c[aria-label="Open Soundboard"] div {
-    content: var(--soundboard-btn);
+    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/soundboard.png);
 }
 
 .button__66e8c[aria-label="Soundboard disabled when deafened"] div {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/delete.png);
 }
 
-
 /* -=- disconnect -=- */
 .button__4f306[aria-label="Disconnect"] {
-    content: var(--disconnect-btn);
+    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/sharescreen.png);
 }
 
 
@@ -139,39 +112,46 @@
     margin: 10px;
 }
 
+/* image sizes */
+.icon__30aa7,
+.audioMetadata_e546a8:before {
+    height: 40px;
+    width: 40px;
+}
+
 /* misc */
-.icon_c2f643.unknown_f537da {
+.icon_c2f643.unknown_f537da, [src="/assets/5b74fc90eac76055a5ad.svg"] {
     background-image: var(--misc-file);
 }
 
 /* zip */
-.icon_c2f643.archive__2249d {
-    background-image: var(--zip-file);
+.icon_c2f643.archive__2249d, [src="/assets/5ff8ffaa3831478d2a28.svg"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/files/zip.png);
 }
 
 /*text file */
 .icon_c2f643.document__49623 {
-    background-image: var(--text-file);
+    content: url(https://numoder.github.io/dlm7-theme/assets/files/txt.png);
 }
 
 /* webcode */
 .icon_c2f643.webcode_d3a040 {
-    background-image: var(--webcode-file);
+    content: url(https://numoder.github.io/dlm7-theme/assets/files/webcode.png);
 }
 
 /* code */
 .icon_c2f643.code_d3dfc7 {
-    background-image: var(--code-file);
+    content: url(https://numoder.github.io/dlm7-theme/assets/files/code.png);
 }
 
 /* audio */
-.icon_c2f643.audio__4fc0c {
-    background-image: var(--audio-file);
+.icon_c2f643.audio__4fc0c, .audioMetadata_e546a8:before {
+    content: url(https://numoder.github.io/dlm7-theme/assets/files/audio.png);
 }
 
 /* pdf */
-.icon_c2f643.acrobat_fec748 {
-    background-image: var(--pdf-file);
+.icon_c2f643.acrobat_fec748, [src="/assets/18517b33da6ed36b855b.svg"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/files/pdf.png);
 }
 
 div.attachment_f3cf2c,
@@ -184,37 +164,8 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 }
 
 
-/* -=-  */
 
 /* -=- before uploading -=- */
-
-/* image sizes */
-.icon__30aa7,
-.audioMetadata_e546a8:before {
-    height: 40px;
-    width: 40px;
-}
-
-
-/* zip */
-[src="/assets/5ff8ffaa3831478d2a28.svg"] {
-    content: var(--zip-file);
-}
-
-/* misc */
-[src="/assets/5b74fc90eac76055a5ad.svg"] {
-    content: var(--misc-file);
-}
-
-/* sound upload image */
-.audioMetadata_e546a8:before {
-    background-image: var(--audio-file);
-}
-
-/* pdf */
-[src="/assets/18517b33da6ed36b855b.svg"] {
-    content: var(--pdf-file);
-}
 
 .list__02208 {
     padding-bottom: 12px;
@@ -253,8 +204,6 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
     border: 1px solid #506b9a;
 }
 
-
-
 .container-YkUktl .flex-2S1XBF button:nth-child(3) .contents-3ca1mk svg {
     background: green;
     display: none;
@@ -284,10 +233,9 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
     display: none;
 }
 
-
 .emojiButton-3FRTuj {
     background: red;
-    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/emote.png);
+    background: url(https://numoder.github.io/dlm7-theme/assets/emojis/happy.gif);
     background-size: 24px 24px;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -296,8 +244,6 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 
 
 /* bottom bar */
-
-
 .attachButton_eba568:hover,
 .flex_f5fbb7>.button_afdfd9:hover {
     transform: scale(1.1);
@@ -518,7 +464,7 @@ div.scroller__00e7e {
 
 [src="/assets/9492f371ccf5db4f0156.mp4"],
 video.ready__61f2f {
-    content: url(file:///D:/Documents/Github/dlm7-theme/assets/general/loading.gif);
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/loading.gif);
     height: 200px;
     width: 200px;
 }
@@ -535,10 +481,6 @@ div.button_d553e5[aria-label="Add Reaction"] {
 
 div.button_d553e5[aria-label="Reply"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/reply.png);
-}
-
-div.button_d553e5[aria-label="More"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/general/more.png);
 }
 
 .avatarSpeaking_c95053 {
@@ -566,11 +508,6 @@ div.button_d553e5[aria-label="More"] {
     color: transparent;
 }
 
-.button_afdfd9[aria-label="More"] svg {
-    background: url(https://numoder.github.io/dlm7-theme/assets/general/more.png);
-    background-size: contain;
-}
-
 .rtcConnectionStatus__40882 .ping__47992 path {
     font-family: var(--font-headline);
     display: none;
@@ -595,7 +532,7 @@ div.button_d553e5[aria-label="More"] {
 }
 
 .iconItem__8e3b8[aria-label="Edit Channel"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Settings.png);
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/settings.png);
     width: 15px;
 }
 

@@ -5,7 +5,7 @@
   }  
   
   div.centeringWrapper__319b0{
-    background-image: url(https://numoder.github.io/dlm7-theme/assets/friends/Friends.png);
+    background-image: url(https://numoder.github.io/dlm7-theme/assets/general/msn.png);
     background-size: 200px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -66,4 +66,11 @@
   [src="/assets/adf75861421c2a6a6269.png"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/servers/butterflystatic.png);
   }
-  
+
+  .accountCard_b2af27,  button.marginBottom8_f4aae3.lookFilled__19298.colorBrand_b2253e[type="submit"] {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(217,224,251,1) 100%);
+    border: 1px solid var(--accent-color);
+  }
+  .usernameSection_ccd090 > .username__35d9d > .text-md-semibold__4cb23 {
+    color: black !important; 
+  }
