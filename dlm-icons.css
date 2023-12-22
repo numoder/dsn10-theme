@@ -89,7 +89,7 @@
 }
 
 .button__66e8c[aria-label="Start an Activity"] div {
-    content: var(--activity-btn);
+    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/games.png);
 }
 
 .button__66e8c[aria-label="Open Soundboard"] div {
@@ -182,7 +182,6 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 
 .button__66e8c.buttonColor_a6eb73,
 .disabledButtonWrapper__69c70.button__66e8c {
-    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/sharescreen.png);
     background: transparent;    
     height: fit-content;
     width: 45px;
@@ -533,7 +532,7 @@ div.button_d553e5[aria-label="Reply"] {
 }
 
 .iconItem__8e3b8[aria-label="Edit Channel"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/general/settings.png);
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/Settings.png);
     width: 15px;
 }
 

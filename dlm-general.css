@@ -432,7 +432,6 @@ div.addFriend__80542 {
 
 .sidebar-1tnWFu {
     width: 170px;
-
 }
 
 .scroller-WSmht3 {
@@ -461,7 +460,6 @@ div.addFriend__80542 {
 
 .scroller-3X7KbA {
     background: linear-gradient(to top, #5767b3, #fbfbff) !important;
-
 }
 
 .container_de798d {
@@ -469,6 +467,17 @@ div.addFriend__80542 {
     text-transform: uppercase;
     font-size: 14px;
     color: #000000;
+}
+/* server channel background */
+.theme-light .scroller_f0f183, .theme-light .container_ca50b9 {
+    z-index: 1;
+    padding-right: 8px;
+    background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
+    border-right: 1px solid #80808073;
+    border-radius: 0px 0 0 0;
+}
+.theme-light .panels__58331{
+    background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
 }
 
 /*category in server*/
