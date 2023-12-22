@@ -52,7 +52,7 @@
 
 .button__4f306[aria-label="User Settings"],
 .sidebar_ded4b5 .button__4f306[aria-label="User Settings"] {
-    content: var(--settings-icon);
+    content:url(https://numoder.github.io/dlm7-theme/assets/general/Settings.png);
 }
 
 /* -=- camera -=- */
@@ -102,7 +102,7 @@
 
 /* -=- disconnect -=- */
 .button__4f306[aria-label="Disconnect"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/sharescreen.png);
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/delete.png);
 }
 
 
@@ -182,7 +182,8 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 
 .button__66e8c.buttonColor_a6eb73,
 .disabledButtonWrapper__69c70.button__66e8c {
-    background: transparent;
+    content: url(https://numoder.github.io/dlm7-theme/assets/voicecall/sharescreen.png);
+    background: transparent;    
     height: fit-content;
     width: 45px;
     border-radius: 50px;

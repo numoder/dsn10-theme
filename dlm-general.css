@@ -9,10 +9,10 @@
     --tooltip-background: #ffffe1;
     --tooltip-border: #000;
     --menu-border: #aca899;
-
-    /* backgrounds */
+  
     --login-background: url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) center/cover;
     --voicecall-background: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png) center;
+  
   
     /* fonts */
     --font-primary: "Tahoma";
@@ -867,7 +867,6 @@ img.avatar__08316.clickable_d866f1 {
     background-color: #63609b;
     background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
     margin-bottom: 0px;
-
 }
 
 .wrapper-1VLyxH {
