@@ -32,6 +32,8 @@
     --dark-settings-background: linear-gradient(0deg, rgba(96,119,218,1) 0%, rgba(108,122,198,1) 100%); ;
     --dark-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
     --background-modifier-hover: #d2dbfc;
+
+    --light-channel-background:linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
   }
   
 
@@ -862,10 +864,11 @@ img.avatar__08316.clickable_d866f1 {
 /* server channel / bottom button background */
 .theme-light .container__590e2,
 .theme-light .container_ca50b9 {
-    background: var(--channel-sidebar-background);
+    background-color: #63609b;
+    background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
     margin-bottom: 0px;
-}
 
+}
 
 .wrapper-1VLyxH {
     position: relative;
