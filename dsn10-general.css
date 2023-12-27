@@ -1,0 +1,1137 @@
+/* dlm.theme.css */
+/**
+ * @name DiscordLiveMessenger
+ * @author numoder
+ * @version 0.0.14
+ * @description A little throwback to better times.
+ * @source https://github.com/numoder/dlm7-theme
+*/
+
+/* 
+@import url('https://numoder.github.io/dlm7-theme/dlm-general.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-icons.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-server.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-friends.css');
+@import url('https://numoder.github.io/dlm7-theme/dlm-settings.css');
+*/
+
+:root {
+    /* general */
+    --text-primary: #000;
+    --accent-color: #0042a5;
+    --accent-color-selected: #317df7;
+    --background-modifier-selected: transparent;
+  
+      /* tooltip */
+    --tooltip-background: #ffffe1;
+    --tooltip-border: #000;
+    --menu-border: #aca899;
+  
+    --login-background: url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) center/cover;
+    --voicecall-background: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png) center;
+  
+    /* profile */
+    --profile-background: #8473c4;
+    --profile-font-color: rgb(255, 255, 255);
+  
+    --avatar-profile-border-color: black;
+  
+    /* fonts */
+    --font-primary: "Tahoma";
+    --font-display: "Trebuchet MS";
+    --font-headline: "Pixelated MS Sans Serif";
+    --font-headline: "W95FA";
+    --font-code: "Perfect DOS VGA 437 Win";
+  
+    /* mentioned */
+    --mention-foreground: rgb(29, 102, 0);
+    --mention-background: rgba(0, 112, 0, 0.2);
+    --background-mentioned: linear-gradient(to right, rgb(182, 244, 146), rgba(51, 139, 147, 0));
+  
+    /* settings */
+    --light-settings-background: #ece9d8;
+    --light-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
+    --dark-settings-background: linear-gradient(0deg, rgba(96,119,218,1) 0%, rgba(108,122,198,1) 100%); ;
+    --dark-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
+    --background-modifier-hover: #d2dbfc;
+    --light-channel-background:linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
+  
+    --selected-server-color: rgb(101, 73, 255);
+  
+    /* video player */
+    --video-player-border: 1px solid #acacac;
+  }
+  
+  @font-face {
+    font-family: "Pixelated MS Sans Serif";
+    src: url(https://ucarecdn.com/a40684b6-a473-40ed-95dc-e3fc082c7ae9/) format("woff");
+    src: url(https://ucarecdn.com/852c45fe-9f5c-4b69-88e5-9b79fc8a93f3/) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Pixelated MS Sans Serif", bold;
+    src: url(https://ucarecdn.com/e5f8c7e0-88a5-4a82-a795-a214497e36ff/) format("woff");
+    src: url(https://ucarecdn.com/764ec4de-2b2b-4f09-bbe2-0bc7ea00672d/) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Perfect DOS VGA 437 Win";
+    src: url(https://ucarecdn.com/64f63cfc-b692-42b5-9415-d99ad77c0aca/) format("woff");
+    src: url(https://ucarecdn.com/1520e58c-8d6b-4f22-8e11-ce19216a73d5/) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Trebuchet MS";
+    src: url(https://ucarecdn.com/57ff7c47-b87a-4837-b005-d18074a9df35/trebuc.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "W95FA";
+    src: url(https://ucarecdn.com/c147af51-bedb-4e94-bf88-c7264513fe7f/w95fa.woff) format("woff");
+    src: url(https://ucarecdn.com/db4e09fe-bfcd-4e4e-85be-46d41edcbdee/w95fa.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* voice chat image */
+  .theme-dark .videoGrid__8b6fc {
+    background: var(--voicecallBg, url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png));
+    background-size: cover;
+  }
+  
+  .characterBackground__2820f {
+    background: var(--loginBg, url());
+    background-position: center;
+  }
+  
+  .characterBackground__2820f .artwork__8fc92 {
+    display: none;
+  }
+  
+  .activitySectionAssets_ea2444 .largeImageMask__4012f,
+  .assetsLargeMaskStreamPreview__741af,
+  .assetsLargeMaskUserPopout__82136,
+  .assetsLargeMaskUserPopoutV2_a90d5f,
+  .assetsLargeMaskVoiceChannel__82080,
+  .assetWrapperMasked__20115,
+  .inspectedIndicator_f00108,
+  .loadingIndicator__6b1b4,
+  .mask-2Me5HY rect,
+  .partyMember__8c6e6,
+  .voiceSectionGuildImage_ca8a0f,
+  .voiceSectionNoGuildImageWrapper__2cbb8,
+  .iconActiveMedium_d5475f,
+  foreignObject[mask*="url(#"] {
+    mask: none;
+    -webkit-mask: none;
+    border-radius: 0px;
+  }
+  
+  foreignObject {
+    mask: url(#51a46dbd-9321-4c68-a258-ca20a54b6140);
+    x: 0;
+    y: 0;
+    width: 48;
+    height: 48;
+  }
+  
+  foreignObject {
+    display: block;
+    overflow: hidden;
+  }
+  
+  /* -=-=- WINDOWS TITLEBAR -=-=- */
+  .typeWindows__5fa63 {
+    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/topbarmsn9.png);
+    background-size: cover;
+    height: 22px;
+  }
+  
+  .bg__12180 {
+    background-color: transparent;
+  }
+  
+  /* Discord wordmark */
+  .wordmarkWindows__05c46 {
+    color: transparent;
+  }
+  
+  /* window button sizes */
+  .winButtonClose__73489,
+  .winButtonMinMax__72f36,
+  .winButton__88672 {
+    height: 17px;
+    width: 17px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  
+  
+  /* Exit button */
+  .winButtonClose__73489 {
+    content: url(https://cdn.discordapp.com/attachments/1179525707861327974/1181431368782204978/868.png?ex=658108b4&is=656e93b4&hm=c0a5090b645b28176b9fc5dad039af09f752a7704a5c313b1a0b30cafb80e822&);
+  }
+  
+  .winButtonClose__73489:active {
+    filter: contrast(0.5);
+  }
+  
+  /* Maximize button */
+  .winButtonMinMax__72f36 {
+    content: url(https://cdn.discordapp.com/attachments/1179525707861327974/1181431369197428747/867.png?ex=658108b4&is=656e93b4&hm=c80b5882aa0a5910ea2e300d8199a138bfd8afd6c36297b0039590b095687d3e&);
+  }
+  
+  /* Minimize button */
+  .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351>div:nth-child(4),
+  .winButtonMinMax__72f36.winButton__88672:nth-child(4) {
+    content: url(https://media.discordapp.net/attachments/1179525707861327974/1181431368975134821/866.png?ex=658108b4&is=656e93b4&hm=72e9538592bebbfb5b60fc61400c745d8ae1686ff4e06be686cdb7b39ad36dcc&=&format=webp&quality=lossless);
+  }
+  
+  /* windows button on hover */
+  .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351>div:nth-child(4):hover,
+  .winButtonMinMax__72f36:hover,
+  .winButtonClose__73489:hover {
+    filter: contrast(1.1);
+    transform: scale(1.15);
+  }
+  
+  
+  .withFrame__485f4 {
+    margin-top: 0px;
+  }
+  
+  .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+  .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: #fff;
+    background-color: #7289da00;
+  }
+  
+  /* server without picture */
+  .theme-light .acronym_cd4809,
+  .theme-light.custom-theme-background .acronym_cd4809 {
+    background: linear-gradient(#dbdfe6, #c4c7d4 50%, #b7bac3 50%, #dbdde2);
+    transition: 0s;
+  }
+  
+  
+  .wrapper_d281dd:hover .childWrapper__01b9c,
+  .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c {
+    color: var(--white-500);
+    background-color: var(--brand-experiment);
+  }
+  
+  
+  .wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c:hover {
+    filter: contrast(1.5);
+    transition: 1s;
+  }
+  
+  .wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c:active {
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  /* active */
+  .childWrapper__01b9c:active {
+    filter: contrast(1.5);
+  }
+  
+  /* server bg come back to this ~~~!!! !!!~~~ */
+  /* .listItem_fa7b36{
+    background: url(https://ucarecdn.com/824dbb19-f90b-4d6a-8e99-bf8b08a0675a/serverbg.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: 60px;
+    background-repeat:no-repeat;
+    background-position: center; 
+  } */
+  
+  /* SERVER LIST*/
+  
+  
+  
+  /* Server/channels */
+  
+  /* Server/member list */
+  
+  /* server channel background */
+  .theme-light .scroller_f0f183, .theme-light .container_ca50b9 {
+    z-index: 1;
+    padding-right: 8px;
+    border-right: 1px solid #80808073;
+    border-radius: 0px 0 0 0;
+  }
+  
+  /*category in server*/
+  li.containerDefault__23a29,
+  li.containerDefault__3187b.wrapper__7bcde>div {
+    position: relative;
+    padding-top: 3px;
+    background: linear-gradient(13deg, #ffffff30, #fbfbfbbf, #fbfbfb);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 1px #6d6d6d;
+    margin-left: 7px;
+    margin-right: 2px;
+    margin-top: 7.5px;
+  }
+  
+  /* server buttons */
+  a.link__95dc0 {
+    background: white;
+    box-shadow: inset 1px 1px 1px #0000004d;
+    margin-right: 2px;
+  }
+  
+  a.link__95dc0:hover {
+    background: white;
+    box-shadow: inset 1px 1px 1px #0000004d;
+  }
+  
+  div.container_b2ce9c {
+    background: url(https://numoder.github.io/dlm7-theme/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(203, 215, 237, 1) 68%, rgba(254, 254, 254, 1) 90%, rgba(254, 254, 254, 1) 90%);
+    background-size: 245px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+  }
+  
+  .members__9f47b {
+    background-color: transparent;
+  }
+  
+  div.scroller__00e7e {
+    background: url(https://numoder.github.io/dlm7-theme/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(254, 254, 254, 1) 80%, rgba(254, 254, 254, 1) 100%);
+    background-size: 360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+  }
+  
+  /*name in voicechanel */
+  .theme-light .icon__1d60c,
+  .username__73ce9 {
+    color: black !important;
+  }
+  
+  .name-28HaxV {
+    color: black;
+  }
+  
+  .modeSelected__487d6 .link__95dc0 {
+    color: inherit;
+  }
+  
+  .theme-light .link__95dc0:hover,
+  .modeSelected__487d6 .link__95dc0 {
+    background: linear-gradient(to right, #b5b5b5, #ffffff);
+    box-shadow: inset 1Px 1px 2px grey;
+  }
+  
+  .modeSelected__487d .name__8d1ec {
+    color: inherit;
+  }
+  
+  .modeUnread-3Cxepe .name-28HaxV {
+    color: #020202;
+    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    font-weight: 600;
+  }
+  
+  .unread__11823 {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 15px;
+    top: 22%;
+    left: 5px;
+    margin-top: 0px;
+    display: none;
+  }
+  
+  .voiceUser__0470a {
+    background-color: #f3f3fd;
+    border: 1px solid #506b9a;
+    box-shadow: inset -5px -5px 10px -5px #8297c2, inset 5px 5px 10px -10px white;
+    border-radius: 5px;
+  }
+  
+  
+  .iconSpacing__59128[aria-label="Muted"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Microphone2.png);
+    width: 20px;
+    filter: grayscale(0.6);
+  }
+  
+  .iconSpacing__59128[aria-label="Deafened"] {
+    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Volume2.png);
+    width: 20px;
+    filter: grayscale(0.6);
+  }
+  
+  .icon-2W8DHg {
+    display: none;
+  }
+  
+  /* profile pics */
+  div.avatarStack__6604a.img.avatar__991e2 {
+    background-image: url(https://raw.githubusercontent.com/AnthonyM04/msn-dscrd/main/assets/home.png) !important;
+    border-radius: 0%;
+  }
+  
+  /* server gradient thingy? */
+  .theme-dark .children__32014:after {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+  }
+  
+  .avatarSmall-3qwAkA {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .avatar-3FKimL {
+    border-radius: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+  }
+  
+  .listDefault-2F-w65 .avatarContainer-3FF_Km {
+    margin-right: 3px;
+    margin-left: 1px;
+  }
+  
+  .icon-N9JZb6,
+  .username-vAneIW {
+    color: white;
+  }
+  
+  /* MIDDLE */
+  .base-2jDfDU {
+    left: 0px;
+  }
+  
+  .colorDefault-1e8tQv {
+    background-color: #335abd;
+    color: #fff;
+  }
+  
+  .notice-2HEN-u {
+    font-size: 14px;
+    line-height: 33px;
+    border-radius: 0px 0 0;
+  }
+  
+  .container__11d72.themed_b152d4,
+  .header__104ca,
+  .searchBar_e4ea2a {
+    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/middlebar.png);
+    border-right: #ffffff88 1px solid;
+    background-repeat: repeat-x;
+    background-size: contain;
+  }
+  
+  .nowPlayingColumn_f5023f {
+    flex: 0;
+  }
+  
+  .newMessagesBar-1hF-9G {
+    border-radius: 0 0 0px 0px;
+    background-color: #ffffe1;
+  }
+  
+  .iconBase_de0cd6 {
+    text-align: left;
+    background: none;
+    color: #000;
+    font-size: 12px;
+  }
+  
+  .barBase-3xxDXu {
+    left: 0px;
+    right: 0px;
+    opacity: .95;
+  }
+  
+  .theme-light .children__32014:after {
+    background: -webkit-gradient(linear, left top, right top, from(hsla(0, 0%, 100%, 0)), to(var(--background-primary)));
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, var(--background-primary));
+    display: none;
+  }
+  
+  .content__1a4fe {
+    border-top: 1px solid #8080807a;
+  }
+  
+  .topic__16ae3 {
+    color: #000;
+    font-style: italic;
+  }
+  
+  .compact__54ecc .header__39b23 {
+    display: block;
+  }
+  
+  .messagesWrapper-RpOMA3,
+  .scrollerContent-2SW0kQ {
+    display: flex;
+    box-shadow: inset 0px 0px px black;
+    border-radius: 0px;
+    background: white;
+  }
+  
+  /* timestamp and pronouns */
+  .theme-light .compact__54ecc .timestamp-p1Df1m,
+  .cozy_f5c119 .timestamp_cdbd93 {
+    text-align: center;
+    font-size: 14px;
+    color: #6878b8;
+  }
+  
+  /* @ on hover    */
+  .interactive:hover {
+    color: var(--white-500);
+    background-color: var(--brand-experiment);
+  }
+  
+  .timestamp-p1Df1m.latin12CompactTimeStamp-2G5XJd {
+    width: 3.25rem;
+  }
+  
+  .username_d30d99 {
+    font-size: 12px;
+    font-weight: 500 !important;
+    line-height: 1.375rem;
+    color: #616161;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .imageWrapper_fd6587 {
+    border-radius: 0px;
+    border: solid 1px white;
+    border-bottom: 2px solid #fbfbfb;
+    border-top: 1px solid #d6d6d6;
+    border-left: 2px solid #e0e0e0;
+    box-shadow: 0px 0px 3px black;
+  }
+  
+  .theme-light .markup_a7e664 {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .theme-dark .markup_a7e664 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  /* Contacts*/
+  .membersWrap-3NUR2t {
+    min-width: 196px;
+    border-left: 1px solid #80808063;
+    border-right: 1px solid #80808063;
+  }
+  
+  .members-3WRCEx {
+    width: 196px;
+  }
+  
+  .members-3WRCEx .content-2a4AW9 {
+    width: 196px !important;
+    margin-top: 0px;
+  }
+  
+  .layout-1qmrhw {
+    border-radius: 4px;
+    height: 28px;
+    padding: 0 0px;
+  }
+  
+  /* member list */
+  .container__4f20e {
+    background: linear-gradient(90deg, rgba(229, 236, 242, 1) 0%, rgba(221, 226, 246, 1) 49%, rgba(207, 219, 245, 1) 80%, rgba(204, 216, 240, 1) 100%);
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
+    margin-right: 8px;
+    border-right: 1px solid #00000029;
+  }
+  
+  .container__4f20e:hover,
+  .container__4f20e.selected__9800b {
+    transition: 0.2s;
+    filter: contrast(1.25);
+  }
+  
+  /* member groups */
+  .membersGroup__85843 {
+    padding: 6px 7px 0px 6px;
+    height: 27px;
+    color: var(--accent-color);
+    font-size: 14px;
+  
+    text-shadow: 0px 0px 0px #00000080;
+    box-shadow: 0px 1px #ffffff7d;
+    background: linear-gradient(180deg, #cfdbeb, #fdfeff);
+    border: 1px solid #0000004a;
+    border-bottom: 1px solid #0000004a;
+    margin-right: 8px;
+  }
+  
+  .member_aa4760 {
+    margin-left: 2px;
+  }
+  
+  .name__16feb {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  
+  .content-1U25dZ,
+  .name-3Vmqxm {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: black;
+  
+  }
+  
+  img.avatar__08316.clickable_d866f1 {
+    border-radius: 0%;
+    /* opacity: 0; */
+  }
+  
+  .activity-2EQDZv {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    font-weight: 500;
+    max-width: 140px;
+  }
+  
+  .botTagRegular_c89c9a {
+    background: #7289da00;
+    color: #020afd;
+  }
+  
+  .px__97c6b .botText__19848 {
+    font-size: 10px;
+    line-height: 15px;
+    display: none;
+  }
+  
+  .mask-1FEkla {
+    /*status*/
+    pointer-events: none;
+    position: relative;
+    display: block;
+    height: 26px;
+    width: 26px;
+    bottom: 5px;
+    right: 0px;
+    border-radius: 50%;
+  }
+  
+  .avatar-6qzftW {
+    width: 30px;
+    height: 30px;
+    margin-right: 0px;
+    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/contactold2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .offline_c1fd80 {
+    opacity: 1;
+  }
+  
+  /* offline avatar */
+  .offline_c1fd80 .avatar__6337f {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    content: url(https://ucarecdn.com/db990d79-47cd-4b35-b18a-a8992f7ad6df/offline.png);
+    background: transparent;
+  }
+  
+  .wrapper-1VLyxH {
+    position: relative;
+    border-radius: 0%;
+    width: 35px !important;
+    height: 35px !important;
+  }
+  
+  /* profile / audio / settings */
+  .theme-light .container_ca50b9{
+  background-color: var(--profile-background);
+  border: 1px solid whitesmoke;
+  }
+  
+  .theme-light .nameTag__0e320 > .panelTitleContainer__7a748 > .text-sm-normal_e612c7{
+    color: var(--profile-font-color);
+    font-family: var(--font-display);
+  }
+  .hoverRoll__041cb{
+    color: var(--profile-font-color);
+  }
+  
+  /* profile picture */
+  .avatar_f8541f {
+    pointer-events: none;
+    position: relative;
+    display: block;
+    height: 34px;
+    width: 34px;
+    border-radius: 2px;
+    border: 2px solid var(--avatar-profile-border-color);
+    background: linear-gradient(-45deg, #001933, #0063cc, #44a4ff);
+    box-shadow: 0px 1px 3px black;
+  }
+  
+  img.avatar__08316 {
+    display: block;
+    border: 2px solid black;
+    background: linear-gradient(-45deg, #001933, #0063cc, #44a4ff);
+    box-shadow: 0px 1px 3px black;
+  }
+  
+  .title-338goq {
+    color: #ffffff;
+    font-weight: 200;
+  }
+  
+  .subtext-2HDqJ7 {
+    line-height: 13px;
+  }
+  
+  .button-12Fmur {
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+    color: #fbfbfb;
+  }
+  
+  .clickable-ZD7xvu .icon-2xnN2Y {
+    color: #ffffff;
+  }
+  
+  .icon-2xnN2Y {
+    width: 19px;
+    height: 19px;
+  }
+  
+  .searchBar_e4ea2a>.searchBarComponent__22760,
+  .searchBar_ff8800,
+  div.searchBar_e0c60b {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: inset 1px 1Px 2px black;
+    cursor: text;
+    overflow: hidden;
+    padding: 0 2px;
+    color: #000000;
+    background-color: #eaeaea;
+  }
+  
+  div.searchBar_e0c60b {
+    height: 23px;
+    width: 144px;
+  }
+  
+  .iconContainer__3f9b0 {
+    display: none;
+  }
+  
+  /* voice channels */
+  div.iconContainer__3f9b0[aria-label="Voice icon"] {
+    display: block;
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume.png);
+    width: auto;
+    height: 25px;
+  }
+  
+  /* connected to voice channel */
+  div.modeConnected__1c02e > div > a > div.linkTop_eaa673 > div.iconContainer__3f9b0[aria-label="Voice icon"],
+  div.modeSelected__487d6 > div > a > div.linkTop_eaa673 > div.iconContainer__3f9b0[aria-label="Voice icon"]{
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume2.png);
+  }
+  
+  .base-21yXnu {
+    font-weight: 600;
+  }
+  
+  div.name__02dbd {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000 !important;
+  }
+  
+  /* chatbox */
+  .form-3gdLxP {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -8px;
+  }
+  
+  .channelTextArea-1VQBuV.ZZ {
+    border-radius: 0px;
+    border: 1px solid #80808073;
+    border-left: 0px solid;
+    border-bottom: 0px solid;
+    margin-bottom: 0px;
+    background: linear-gradient(to bottom, #fff 10%, #b2c2e4 50%, #fff);
+  }
+  
+  .scrollableContainer-15eg7h {
+    background-color: #71717100;
+    border-radius: 0px;
+    background: linear-gradient(45deg, #8995d4, transparent, transparent);
+    ;
+  }
+  
+  .button-2fCJ0o {
+    color: #ffffff;
+  }
+  
+  .icon-1d5zch {
+    width: 24px;
+    height: 24px;
+  
+  }
+  
+  .typing-2J1mQU {
+    background-color: transparent;
+    color: white;
+    display: none;
+  }
+  
+  /* gradient below typing form */
+  .form__13a2c {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -8px;
+    background: linear-gradient(0deg, #ffffff, #737373);
+  }
+  
+  /* border radius for chatbox */
+  .scrollableContainer__33e06 {
+    border-radius: 0px;
+    border: 1px solid #80808073;
+  }
+  
+  .fontSize12Padding-1aH21p {
+    /*text chat */
+    box-shadow: inset 1Px 1px 3px #00000047;
+    padding-bottom: 4px;
+    padding-top: 6px;
+    border-radius: 4px;
+    margin-top: 8px;
+    background: white;
+  }
+  
+  div.name__8d1ec {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    /* margin-top: 13px; */
+  }
+  
+  .markup_a7e664 .inline,
+  code.inline {
+    background: lightgray;
+    font-family: var(--font-code);
+    color: black;
+    border-radius: 0px;
+    box-shadow: inset 1px 1px 1px #0000004d;
+  }
+  
+  .theme-dark .shiki-table {
+    background: black;
+    color: black;
+    border-radius: 0px;
+    box-shadow: inset 1px 1px 1px #0000004d;
+  }
+  
+  span[style="color: rgb(106, 153, 85);"] {
+    color: rgb(0, 255, 0) !important;
+  }
+  
+  span[style="color: rgb(197, 134, 192);"] {
+    color: rgb(255, 0, 255) !important;
+  }
+  
+  span[style="color: rgb(206, 145, 120);"] {
+    color: rgb(255, 150, 0) !important;
+  }
+  
+  span[style="color: rgb(156, 220, 254);"] {
+    color: rgb(0, 160, 255) !important;
+  }
+  
+  
+  
+  
+  div.videoGrid__8b6fc {}
+  
+  /* video chat person box */
+  .overlayContainer__83159 {}
+  
+  li.channel_c21703.container__8759a[aria-posinset="2"] {
+    visibility: hidden;
+    height: 0px;
+  }
+  
+  .privateChannelsHeaderContainer_ddcec6 {
+    padding-top: 12.5px;
+  }
+  
+  .channelTextArea__56a36 {
+    border-radius: 0px;
+  }
+  
+  .platform-win .sidebar_ded4b5 {
+    border-radius: 0px 0 0;
+  }
+  
+  .controlSection_daa0d5>div>div>div>section>div>div.children__32014>div.iconWrapper_af9215 {
+    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume.png);
+  }
+  /* voicecall vc */
+  .theme-dark .videoGrid__8b6fc, .callContainer_cbde45 {
+    background: var(--voicecall-background);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* login vc */
+  .characterBackground__2820f.artwork__8fc92 {
+    background: var(--login-background);
+  }
+  
+  /* voicecall channel user number */
+  div.wrapper__5848b {
+    background: linear-gradient(#dbdfe6, #c4c7d4 50%, #b7bac3 50%, #dbdde2);
+    border-radius: 3px;
+  }
+  
+  .total_c01838 {
+    background: linear-gradient(to right, #8499ee, #6878b8);
+    color: whitesmoke;
+  }
+  
+  .users__65981 {
+    background: whitesmoke;
+    color: #6878b8;
+  }
+  
+  .total_c01838:after {
+    border-right-color: #8499ee;
+  }
+  
+  /* embedded */
+  div.grid_c7c4e6 {
+    background-color: #f3f3fd;
+    border: 1px solid #506b9a;
+    box-shadow: inset -10px -10px 14px -5px #8297c2, inset 12.5px 12.5px 14px -10px white;
+    border-radius: 0px 5px 5px 0px;
+    background-size: contain;
+  }
+  
+  article.embedWrapper_c143d9 {
+    border-color: hsla(0, calc(var(--saturation-factor, 1) * 100%), 50%, 1);
+    border-left: 10px solid;
+  }
+  
+  /* font changes */
+  
+  .theme-light .username_d30d99 {
+    font-family: var(--font-primary);
+  }
+  
+  div.inner_ab95dc>div>div>div>button>div {
+    font-family: var(--font-headline);
+  }
+  
+  /* mentioned */
+  .mentioned__58017 {
+    background: var(--background-mentioned);
+  }
+  
+  /* Menu font */
+  .menu_dc52c6 {
+    font-family: var(--font-headline);
+    border-radius: 0px;
+  }
+  
+  .theme-light .username_d30d99 {
+    font-family: var(--font-primary);
+  }
+  
+  div.inner_ab95dc>div>div>div>button>div {
+    font-family: var(--font-headline);
+  }
+  
+  div.containerWithMargin__7d380 {
+    background: white;
+    box-shadow: inset 1px 1px 1px #0000004d;
+    border-radius: var(--radius-xs);
+    margin-left: 10px;
+  }
+  
+  /* misc/ yet to be sorted */
+  /* server progress bar */
+.progressBar_db0972 {}
+
+
+.layout_bb8e67 .wrapper_edb6e0:has(rect[width="10"][height="15"][x="22"][y="17"]):before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  display: block;
+  background-image: url(https://numoder.github.io/dlm7-theme/assets/status/phone.png);
+  background-position: 2px 2px;
+  background-repeat: no-repeat;
+  z-index: 2;
+
+}
+
+.separator__18122{
+  border-bottom: 1px solid var(--menu-border);
+}
+div.menu_dc52c6{
+  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+.item__183e8{
+  
+  border-radius: 0px;
+}
+
+/* svg.icon_f09dde{
+  px !important;
+} */
+
+.scroller__750f5[style="overflow: hidden scroll; padding-right: 0px;"]{
+  overflow: visible;
+  padding: 2px;
+  margin-left: 4px;
+}
+
+/* tooltip */
+.tooltip__01384 {
+  box-shadow: none;
+}
+
+.theme-light .tooltip__01384 .tooltipContent__79a2d, .visuallyHidden__5b0fb{
+  background: var(--tooltip-background) !important;
+  color: var(--text-primary) !important;
+  font-family: var(--font-headline);
+  font-size: 14px;
+  padding: 3px 5px;
+  box-shadow: inset 0 0 0 1px #000 !important;
+  border-radius: 5px;
+}
+
+.theme-light .tooltip__01384 .tooltipContent__79a2d .guildNameText__16f3c {
+  color: var(--text-primary);
+}
+
+.theme-light .tooltip__01384 .tooltipPointer_a79354 {
+  display: none;
+}
+
+.theme-light div.menu_dc52c6, div.buttonsInner_bca8fa, .contentWrapper__321ed, .popoutContainer__7b9a3, .reaction_fef95b, .container__03857, .root_a28985, .wrapper_c727b6{
+  border: 1px solid var(--menu-border);
+  color: var(--text-primary);
+  border-radius: 0px;
+}
+
+div.streamPreviewWrapper__0890e{
+    background-color: white;
+    border: 1px solid var(--menu-border);
+    color: var(--text-primary);
+    padding-left: 0px;
+}
+
+.colorDefault__0b482.focused__27621, .button_d553e5:hover{
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.searchBar_e4ea2a > .searchBarComponent__22760, .searchBar_ff8800, div.searchBar_e0c60b{
+  border: 1px solid var(--accent-color);
+  border-radius: 0px;
+  font: var(--font-headline);
+  background-color: white;
+}
+
+.button_d553e5{
+  padding: 1px;
+}
+
+.emojiItem_b15dee{
+  border: var(--menu-border) 1px solid;
+  border-radius: 0px;
+}
+
+svg.caret_ce50ce{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: ▸;
+}
+
+/* sort friends by status buttons */
+div.tabBar__73938 .item_e4ca95{
+
+}
+
+/* friends search bar */
+.peopleColumn__51df3 > searchBar_ff8800{
+
+}
+
+input, label, option, select, textarea{
+  -webkit-font-smoothing: antialiased;
+}
+input, label, textarea{
+  font-family: "Pixelated MS Sans Serif",Arial;
+  font-size: 11px;
+}
+
+
+/* live button   */
+.live_b195a5{
+  background: linear-gradient(125deg, rgba(255,106,106,1) 0%, rgba(181,0,0,1) 100%);;
+  font-family: var(--font-headline);
+  border: 1px solid white;
+  border-radius: 5px;
+}

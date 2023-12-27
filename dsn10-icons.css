@@ -97,7 +97,104 @@
 }
 
 .button__66e8c[aria-label="Soundboard disabled when deafened"] div {
-    content: url(https://numoder.github.io/dlm7-theme/assets/general/delete.png);
+    /* content: url(https://numoder.github.io/dlm7-theme/assets/general/delete.png); */
+}
+
+/* video */
+div.audioControls__9fbe9, div.videoControls__96149{
+    background: linear-gradient(180deg, rgba(250,250,250,1) 0%, rgba(207,207,207,1) 100%);     border: var(--video-player-border);
+    border-radius: 0px;
+    color: black;
+}
+
+.buffer_e14781, .mediaBarWrapper_f312bd{
+  background-color: linear-gradient(180deg, rgba(185,185,185,1) 0%, rgba(217,217,217,1) 100%);
+  border-bottom: 1px solid rgb(235, 235, 235);
+  border-top: 1px solid darkgray;
+}
+
+.durationTimeDisplay_acef46, .durationTimeSeparator__8b5d8{
+  font-family: Arial !important;
+}
+
+.buffer_e14781{
+  background-color: #c68e8d;
+}
+svg.controlIcon__11f8e{
+  margin-bottom: -2px;
+  padding-right: 4px;
+}
+
+.videoButton__1a553[aria-label="Play"]{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301589580730388/playbutton.png?ex=659daa6b&is=658b356b&hm=967dc8b72dc83bd6ed42727412eb3017930809013fbab78b997e7ad4b6785770&);
+  background-repeat: no-repeat;
+  background-size: 36px;
+  padding-right: 4px;
+  border-right: var(--video-player-border);
+  color: transparent;
+}
+.videoButton__1a553[aria-label="Play"]:hover{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301589928845342/playbutton_hover.png?ex=659daa6b&is=658b356b&hm=c174eb8dd575b19a8f590899c5934714525455698228d6d94c2c8287040b3343&);
+}
+.videoButton__1a553[aria-label="Play"]:active{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301590142750850/playbutton_active.png?ex=659daa6b&is=658b356b&hm=7c76181eaffc7426081c11735adec4bf91576facb4b94dec69cb046c7d30d248&);
+}
+
+/* pause button */
+.videoButton__1a553[aria-label="Pause"]{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301590360870992/pausebutton.png?ex=659daa6b&is=658b356b&hm=0f68697431d04acd9fc98bf55365320567b615e871d2885d776089796046ec05&);
+  background-repeat: no-repeat;
+  background-size: 36px;
+  padding-right: 4px;
+  border-right: var(--video-player-border);
+  color: transparent;
+}
+.videoButton__1a553[aria-label="Pause"]:hover{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301590553796608/pausebutton_hover.png?ex=659daa6b&is=658b356b&hm=2f6d9b4cb526b9e2857caa6c565b4917a6706d5b3c70d6bce36a39d7b98c4cf7&);
+}
+.videoButton__1a553[aria-label="Pause"]:active{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301590750924810/pausebutton_active.png?ex=659daa6b&is=658b356b&hm=f96b5f0c4f810ecf32da10d926642731feeefc662966e0c85729d940acd19099&);
+}
+
+.videoButton__1a553[aria-label="Play again"] {
+  color: black;
+  border-right: var(--video-player-border);
+}
+.videoButton__1a553[aria-label="Play again"] {
+  color: black;
+}
+
+.mediaBarProgress__29db2 {
+  background: linear-gradient(180deg, rgba(230,38,38,1) 0%, rgba(255,227,227,1) 5%, rgba(255,45,45,1) 20%, rgba(187,23,23,1) 100%); 
+}
+.mediaBarProgress__29db2:before, .mediaBarProgress__29db2:after{
+  background-color: transparent;
+}
+.volumeButton__3a6bf[aria-label="Control volume"]{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189311181001867377/volume.png?ex=659db359&is=658b3e59&hm=3c6d4412a539ca19c46a03ac523cc2d1596bcb560e3b98029d870110a2d59a90&);
+  background-repeat: no-repeat;
+  background-size: 36px;
+  padding-right: 4px;
+  color: transparent;
+  border-left: var(--video-player-border);
+  border-radius: 0px;
+}
+.volumeButton__3a6bf[aria-label="Control volume"]:hover{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189311181584875551/volume_hover.png?ex=659db35a&is=658b3e5a&hm=975440e83b076d0683553c2ea6be8b32b4c9d46c5ebd5ec0717d4c83557beb67&);
+}
+
+.mediaBarGrabber_c64ff9{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301590973239386/progresscircle.png?ex=659daa6b&is=658b356b&hm=062cae46307de07a62cb1cd450263eede1e04da25621472bb617eee372a1f7ec&);
+  background-position: center;
+  background-size: 12.5px;
+  width: 12.5px;
+  height: 12.5px;
+  border-radius: 50%;
+  margin-bottom: -5px;
+}
+
+.mediaBarGrabber_c64ff9:hover, .mediaBarGrabber_c64ff9:active{
+  background-image: url(https://cdn.discordapp.com/attachments/1179088824714940536/1189301589383581696/progresscircle_hover.png?ex=659daa6b&is=658b356b&hm=8b8f8944ef3f6f5f93b0e0a53c93474f8736838b3619ffefea1bee7a036a83ef&)
 }
 
 /* -=- disconnect -=- */
@@ -105,6 +202,9 @@
     content: url(https://numoder.github.io/dlm7-theme/assets/general/delete.png);
 }
 
+.controlIcon__25700{
+
+}
 
 /* -=-=- uploads -=-=- */
 .icon_c2f643 {
@@ -121,7 +221,7 @@
 
 /* misc */
 .icon_c2f643.unknown_f537da, [src="/assets/5b74fc90eac76055a5ad.svg"] {
-    background-image: var(--misc-file);
+        content: url(https://numoder.github.io/dlm7-theme/assets/files/misc.png);
 }
 
 /* zip */
@@ -145,14 +245,24 @@
 }
 
 /* audio */
-.icon_c2f643.audio__4fc0c, .audioMetadata_e546a8:before {
+.icon_c2f643.audio__4fc0c{
     content: url(https://numoder.github.io/dlm7-theme/assets/files/audio.png);
 }
+
+.audioMetadata_e546a8:before {
+    background-image: url(https://numoder.github.io/dlm7-theme/assets/files/audio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
 /* pdf */
 .icon_c2f643.acrobat_fec748, [src="/assets/18517b33da6ed36b855b.svg"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/files/pdf.png);
 }
+
+
+  
+
 
 div.attachment_f3cf2c,
 div.messageAttachment_b97504>div.wrapperAudio__555ce {
@@ -171,13 +281,13 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
     padding-bottom: 12px;
 }
 
-.theme-light .container_d667ff {
-    background-color: #f3f3fd;
-    border: 1px solid #506b9a;
-    box-shadow: inset -10px -10px 14px -5px #8297c2, inset 10px 10px 14px -10px white;
-    border-radius: 5px;
-    margin: 5px;
-    background-size: contain;
+.theme-light .activityPanel__22355,  .theme-light .container_d667ff {
+  background-color: #f3f3fd;
+  border: 1px solid #506b9a;
+  box-shadow: inset -10px -10px 14px -5px #8297c2, inset 10px 10px 14px -10px white;
+  border-radius: 5px;
+  margin: 5px;
+  background-size: contain;
 }
 
 .button__66e8c.buttonColor_a6eb73,
@@ -424,7 +534,6 @@ li:nth-child(2)>div>a>div>div.avatar__7bd22 {
     box-shadow: 0 0 100px rgb(91, 91, 255);
 }
 
-
 .actionButton__23182:hover {
     box-shadow: 0 0 100px rgb(91, 91, 255);
 }
@@ -539,4 +648,47 @@ div.button_d553e5[aria-label="Reply"] {
 .icon__46425[aria-label="Clear search"],
 .icon__37cc1 .visible__50aa8[aria-label="Search"] {
     content: url(https://numoder.github.io/dlm7-theme/assets/general/search.png);
+}
+
+
+/* yet to be finished */
+
+div.button_d553e5[aria-label="Copy Message ID"] {
+
+}
+
+div.button_d553e5[aria-label="Copy Link"] {
+}
+
+div.button_d553e5[aria-label="Mark Unread"] {
+
+}
+
+div.button_d553e5[aria-label="Pin Message"] {
+  content: url(https://numoder.github.io/dlm7-theme/assets/channel%20header/pin.png);
+  filter: hue-rotate(120deg);
+}
+
+
+div.button_d553e5[aria-label="Delete"] {
+
+}
+
+.container__11d72 .children__32014 .iconWrapper_af9215 + .titleWrapper__482dc .title__9e2b0:before, .container__11d72 .children__32014 .iconWrapper_af9215 + .hiddenVisually__06c3e + .titleWrapper__482dc .title__9e2b0:before {
+  content: "#";
+}
+
+ li > div > div > a > div > div.name__8d1ec.overflow__87fe8::before{
+content: "# ";
+}
+
+div.upperContainer__993ba > .children__32014 > .iconWrapper_af9215 > svg.icon__4cb88 {
+  color: transparent;
+  width: 0px;
+}
+
+/* FRIENDS.CSS */
+
+.subtext__1a662 > .activity__24558 > .text__1dddb, .subText_ed6eed > .activity_a8c37a > .activityText__84949{
+  font-family: var(--font-headline);
 }
