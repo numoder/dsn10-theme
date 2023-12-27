@@ -4,15 +4,15 @@
  * @author numoder
  * @version 0.0.14
  * @description A little throwback to better times.
- * @source https://github.com/numoder/dlm7-theme
+ * @source https://github.com/numoder/dsn10-
 */
 
 /* 
-@import url('https://numoder.github.io/dlm7-theme/dlm-general.css');
-@import url('https://numoder.github.io/dlm7-theme/dlm-icons.css');
-@import url('https://numoder.github.io/dlm7-theme/dlm-server.css');
-@import url('https://numoder.github.io/dlm7-theme/dlm-friends.css');
-@import url('https://numoder.github.io/dlm7-theme/dlm-settings.css');
+@import url('https://numoder.github.io/dsn10-/dlm-general.css');
+@import url('https://numoder.github.io/dsn10-/dlm-icons.css');
+@import url('https://numoder.github.io/dsn10-/dlm-server.css');
+@import url('https://numoder.github.io/dsn10-/dlm-friends.css');
+@import url('https://numoder.github.io/dsn10-/dlm-settings.css');
 */
 
 :root {
@@ -27,8 +27,8 @@
     --tooltip-border: #000;
     --menu-border: #aca899;
   
-    --login-background: url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png) center/cover;
-    --voicecall-background: url(https://numoder.github.io/dlm7-theme/assets/src/WO_SCN07.png) center;
+    --login-background: url(https://numoder.github.io/dsn10-/assets/src/virtualbox.png) center/cover;
+    --voicecall-background: url(https://numoder.github.io/dsn10-/assets/src/WO_SCN07.png) center;
   
     /* profile */
     --profile-background: #8473c4;
@@ -103,7 +103,7 @@
   
   /* voice chat image */
   .theme-dark .videoGrid__8b6fc {
-    background: var(--voicecallBg, url(https://numoder.github.io/dlm7-theme/assets/src/virtualbox.png));
+    background: var(--voicecallBg, url(https://numoder.github.io/dsn10-/assets/src/virtualbox.png));
     background-size: cover;
   }
   
@@ -298,7 +298,7 @@
   }
   
   div.container_b2ce9c {
-    background: url(https://numoder.github.io/dlm7-theme/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(203, 215, 237, 1) 68%, rgba(254, 254, 254, 1) 90%, rgba(254, 254, 254, 1) 90%);
+    background: url(https://numoder.github.io/dsn10-/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(203, 215, 237, 1) 68%, rgba(254, 254, 254, 1) 90%, rgba(254, 254, 254, 1) 90%);
     background-size: 245px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -310,7 +310,7 @@
   }
   
   div.scroller__00e7e {
-    background: url(https://numoder.github.io/dlm7-theme/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(254, 254, 254, 1) 80%, rgba(254, 254, 254, 1) 100%);
+    background: url(https://numoder.github.io/dsn10-/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(254, 254, 254, 1) 80%, rgba(254, 254, 254, 1) 100%);
     background-size: 360px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -370,13 +370,13 @@
   
   
   .iconSpacing__59128[aria-label="Muted"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Microphone2.png);
+    content: url(https://numoder.github.io/dsn10-/assets/user-area/Microphone2.png);
     width: 20px;
     filter: grayscale(0.6);
   }
   
   .iconSpacing__59128[aria-label="Deafened"] {
-    content: url(https://numoder.github.io/dlm7-theme/assets/user-area/Volume2.png);
+    content: url(https://numoder.github.io/dsn10-/assets/user-area/Volume2.png);
     width: 20px;
     filter: grayscale(0.6);
   }
@@ -768,7 +768,7 @@
   /* voice channels */
   div.iconContainer__3f9b0[aria-label="Voice icon"] {
     display: block;
-    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume.png);
+    content: url(https://numoder.github.io/dsn10-/assets/general/volume.png);
     width: auto;
     height: 25px;
   }
@@ -776,7 +776,7 @@
   /* connected to voice channel */
   div.modeConnected__1c02e > div > a > div.linkTop_eaa673 > div.iconContainer__3f9b0[aria-label="Voice icon"],
   div.modeSelected__487d6 > div > a > div.linkTop_eaa673 > div.iconContainer__3f9b0[aria-label="Voice icon"]{
-    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume2.png);
+    content: url(https://numoder.github.io/dsn10-/assets/general/volume2.png);
   }
   
   .base-21yXnu {
@@ -918,7 +918,7 @@
   }
   
   .controlSection_daa0d5>div>div>div>section>div>div.children__32014>div.iconWrapper_af9215 {
-    content: url(https://numoder.github.io/dlm7-theme/assets/general/volume.png);
+    content: url(https://numoder.github.io/dsn10-/assets/general/volume.png);
   }
   /* voicecall vc */
   .theme-dark .videoGrid__8b6fc, .callContainer_cbde45 {
@@ -1016,7 +1016,7 @@
   width: 16px;
   height: 16px;
   display: block;
-  background-image: url(https://numoder.github.io/dlm7-theme/assets/status/phone.png);
+  background-image: url(https://numoder.github.io/dsn10-/assets/status/phone.png);
   background-position: 2px 2px;
   background-repeat: no-repeat;
   z-index: 2;
