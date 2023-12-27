@@ -1,20 +1,3 @@
-/* dlm.theme.css */
-/**
- * @name DiscordLiveMessenger
- * @author numoder
- * @version 0.0.14
- * @description A little throwback to better times.
- * @source https://github.com/numoder/dsn10-theme
-*/
-
-/* 
-@import url('https://numoder.github.io/dsn10-theme/dlm-general.css');
-@import url('https://numoder.github.io/dsn10-theme/dlm-icons.css');
-@import url('https://numoder.github.io/dsn10-theme/dlm-server.css');
-@import url('https://numoder.github.io/dsn10-theme/dlm-friends.css');
-@import url('https://numoder.github.io/dsn10-theme/dlm-settings.css');
-*/
-
 :root {
     /* general */
     --text-primary: #000;
