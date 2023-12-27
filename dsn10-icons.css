@@ -17,54 +17,54 @@
 
 .button__4f306[aria-label="Disable Game Activity"],
 .sidebar_ded4b5 .button__4f306[aria-label="Disable Game Activity"][aria-checked="false"] {
-    content: url(https://numoder.github.io/dsn10-/assets/user-area/Game-Enabled.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/user-area/Game-Enabled.png);
 }
 
 /* vencord game activity disabled*/
 .button__4f306[aria-label="Enable Game Activity"],
 .sidebar_ded4b5 .button__4f306[aria-label="Enable Game Activity"][aria-checked="true"] {
-    content:url(https://numoder.github.io/dsn10-/assets/user-area/Game-Disabled.png);
+    content:url(https://numoder.github.io/dsn10-theme-/assets/user-area/Game-Disabled.png);
 }
 
 /* unmuted */
 .button_4f306[aria-label="Mute"][aria-checked="false"],
 .sidebar_ded4b5 .button__4f306[aria-label="Mute"] {
-    content: url(https://numoder.github.io/dsn10-/assets/user-area/Microphone.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/user-area/Microphone.png);
 }
 
 /* muted */
 .button_4f306[aria-label="Mute"][aria-checked="true"],
 .sidebar_ded4b5 .button__4f306[aria-label="Mute"][aria-checked="true"] {
-    content:url(https://numoder.github.io/dsn10-/assets/user-area/Microphone2.png);
+    content:url(https://numoder.github.io/dsn10-theme-/assets/user-area/Microphone2.png);
 }
 
 /* undeafened */
 .button__4f306[aria-label="Deafen"][aria-checked="false"],
 .sidebar_ded4b5 .button__4f306[aria-label="Deafen"][aria-checked="false"] {
-    content:url(https://numoder.github.io/dsn10-/assets/user-area/Volume.png);
+    content:url(https://numoder.github.io/dsn10-theme-/assets/user-area/Volume.png);
 }
 
 /* deafened */
 .button__4f306[aria-label="Deafen"][aria-checked="true"],
 .sidebar_ded4b5 .button__4f306[aria-label="Deafen"][aria-checked="true"] {
-    content:url(https://numoder.github.io/dsn10-/assets/user-area/Volume2.png);
+    content:url(https://numoder.github.io/dsn10-theme-/assets/user-area/Volume2.png);
 }
 
 .button__4f306[aria-label="User Settings"],
 .sidebar_ded4b5 .button__4f306[aria-label="User Settings"] {
-    content:url(https://numoder.github.io/dsn10-/assets/general/Settings.png);
+    content:url(https://numoder.github.io/dsn10-theme-/assets/general/Settings.png);
 }
 
 /* -=- camera -=- */
 
 /* camera off */
 .button__66e8c[aria-label="Turn On Camera"] div {
-    content: url(https://numoder.github.io/dsn10-/assets/user-area/webcam2.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/user-area/webcam2.png);
 }
 
 /* camera on */
 .button__66e8c[aria-label="Turn Off Camera"] div {
-    content: url(https://numoder.github.io/dsn10-/assets/user-area/webcam.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/user-area/webcam.png);
 }
 
 
@@ -72,32 +72,32 @@
 
 /* sharescreen off */
 .button__66e8c[aria-label="Share Your Screen"] div {
-    content: url(https://numoder.github.io/dsn10-/assets/voicecall/sharescreen.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/voicecall/sharescreen.png);
 }
 
 /* sharescreen on */
 .button__66e8c[aria-label="Share Your Screen"].buttonActive__407a7 div {
-    content: url(https://numoder.github.io/dsn10-/assets/voicecall/sharescreen2.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/voicecall/sharescreen2.png);
 }
 
 #manage-streams-change-windows>div.iconContainer__829e7 {
-    content: url(https://numoder.github.io/dsn10-/assets/voicecall/window.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/voicecall/window.png);
 }
 
 #manage-streams-stop-streaming>div.iconContainer__829e7 {
-    content: url(https://numoder.github.io/dsn10-/assets/general/delete.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/delete.png);
 }
 
 .button__66e8c[aria-label="Start an Activity"] div {
-    content: url(https://numoder.github.io/dsn10-/assets/voicecall/games.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/voicecall/games.png);
 }
 
 .button__66e8c[aria-label="Open Soundboard"] div {
-    content: url(https://numoder.github.io/dsn10-/assets/voicecall/soundboard.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/voicecall/soundboard.png);
 }
 
 .button__66e8c[aria-label="Soundboard disabled when deafened"] div {
-    /* content: url(https://numoder.github.io/dsn10-/assets/general/delete.png); */
+    /* content: url(https://numoder.github.io/dsn10-theme-/assets/general/delete.png); */
 }
 
 /* video */
@@ -199,7 +199,7 @@ svg.controlIcon__11f8e{
 
 /* -=- disconnect -=- */
 .button__4f306[aria-label="Disconnect"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/delete.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/delete.png);
 }
 
 .controlIcon__25700{
@@ -221,43 +221,43 @@ svg.controlIcon__11f8e{
 
 /* misc */
 .icon_c2f643.unknown_f537da, [src="/assets/5b74fc90eac76055a5ad.svg"] {
-        content: url(https://numoder.github.io/dsn10-/assets/files/misc.png);
+        content: url(https://numoder.github.io/dsn10-theme-/assets/files/misc.png);
 }
 
 /* zip */
 .icon_c2f643.archive__2249d, [src="/assets/5ff8ffaa3831478d2a28.svg"] {
-    content: url(https://numoder.github.io/dsn10-/assets/files/zip.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/files/zip.png);
 }
 
 /*text file */
 .icon_c2f643.document__49623 {
-    content: url(https://numoder.github.io/dsn10-/assets/files/txt.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/files/txt.png);
 }
 
 /* webcode */
 .icon_c2f643.webcode_d3a040 {
-    content: url(https://numoder.github.io/dsn10-/assets/files/webcode.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/files/webcode.png);
 }
 
 /* code */
 .icon_c2f643.code_d3dfc7 {
-    content: url(https://numoder.github.io/dsn10-/assets/files/code.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/files/code.png);
 }
 
 /* audio */
 .icon_c2f643.audio__4fc0c{
-    content: url(https://numoder.github.io/dsn10-/assets/files/audio.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/files/audio.png);
 }
 
 .audioMetadata_e546a8:before {
-    background-image: url(https://numoder.github.io/dsn10-/assets/files/audio.png);
+    background-image: url(https://numoder.github.io/dsn10-theme-/assets/files/audio.png);
     background-position: center;
     background-repeat: no-repeat;
   }
 
 /* pdf */
 .icon_c2f643.acrobat_fec748, [src="/assets/18517b33da6ed36b855b.svg"] {
-    content: url(https://numoder.github.io/dsn10-/assets/files/pdf.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/files/pdf.png);
 }
 
 
@@ -345,7 +345,7 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 
 .emojiButton-3FRTuj {
     background: red;
-    background: url(https://numoder.github.io/dsn10-/assets/emojis/happy.gif);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/emojis/happy.gif);
     background-size: 24px 24px;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -362,7 +362,7 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 
 /* plus */
 .attachButton_eba568[aria-label="Upload a file or send invites"] {
-    content: url(https://numoder.github.io/dsn10-/assets/typing-form/plus.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/typing-form/plus.png);
 }
 
 .attachButton_eba568[aria-label="Upload a file or send invites"][aria-expanded=true] {
@@ -371,22 +371,22 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 }
 
 .button_afdfd9[aria-label="Send a gift"] {
-    content: url(https://numoder.github.io/dsn10-/assets/typing-form/gift.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/typing-form/gift.png);
     margin: 7px;
 }
 
 .button_afdfd9[aria-label="Encrypt Message"] {
-    content: url(https://numoder.github.io/dsn10-/assets/typing-form/lock.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/typing-form/lock.png);
     margin: 7px;
 }
 
 .button_afdfd9[aria-label="Open GIF picker"] {
-    content: url(https://numoder.github.io/dsn10-/assets/typing-form/gif.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/typing-form/gif.png);
     width: 35px;
 }
 
 .stickerButton__8af38 {
-    content: url(https://numoder.github.io/dsn10-/assets/typing-form/sticker.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/typing-form/sticker.png);
     width: 30px;
 }
 
@@ -395,19 +395,19 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 }
 
 .emojiButton__8ff6a:hover {
-    content: url(https://numoder.github.io/dsn10-/assets/emojis/wink.gif);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/emojis/wink.gif);
     height: 31px;
     width: 31px;
 }
 
 .button__8d734[aria-label="Send Message"] disabled {
-    content: url(https://numoder.github.io/dsn10-/assets/typing-form/send.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/typing-form/send.png);
     filter: grayscale(0);
     margin: 8px;
 }
 
 .button__8d734[aria-label="Send Message"] {
-    content: url(https://numoder.github.io/dsn10-/assets/typing-form/send.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/typing-form/send.png);
     margin: 8px;
 }
 
@@ -420,35 +420,35 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 /* channel header icons */
 div.iconWrapper_af9215[aria-label="Add Friends to DM"],
 .button__6d358[aria-label="Invite"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/Invite%20Friends.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/Invite%20Friends.png);
     margin-top: 3px;
 }
 
 div.iconWrapper_af9215[aria-label="Start Voice Call"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/phone.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/phone.png);
 }
 
 div.iconWrapper_af9215[aria-label="Start Video Call"],
 .iconSpacing__59128[aria-label="Video"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/webcam.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/webcam.png);
     width: 25px;
 }
 
 .icon__88ea8[aria-label="Threads"],
 .button_d553e5[aria-label="Create Thread"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/pin.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/pin.png);
 }
 
 .iconWrapper_af9215[aria-label="Notification Settings"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/bell.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/bell.png);
 }
 
 .iconWrapper_af9215[aria-label="Inbox"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/inbox.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/inbox.png);
 }
 
 .iconWrapper_af9215[aria-label="Help"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/help.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/help.png);
 }
 
 .iconWrapper_af9215:hover {
@@ -457,17 +457,17 @@ div.iconWrapper_af9215[aria-label="Start Video Call"],
 }
 
 .iconWrapper_af9215[aria-label="Pinned Messages"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/favorites.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/favorites.png);
 }
 
 .iconWrapper_af9215[aria-label="Hide Member List"],
 .iconWrapper_af9215[aria-label="Show Member List"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/memberlist.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/memberlist.png);
 
 }
 
 .iconWrapper_af9215[aria-label="New Group DM"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/chatplus.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/chatplus.png);
 }
 
 .iconWrapper_af9215[aria-label="Update Ready!"] {
@@ -479,24 +479,24 @@ div.iconWrapper_af9215[aria-label="Start Video Call"],
 
 .iconWrapper_af9215[aria-label="Show Member List"],
 .iconWrapper_af9215[aria-label="Hide Member List"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/memberlist.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/memberlist.png);
     height: 32px;
     width: 32px;
     margin-right: 5px;
 }
 
 li:nth-child(2)>div>a>div>div.avatar__7bd22 {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/memberlist.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/memberlist.png);
 }
 
 .iconItem__8e3b8[aria-label="Open Chat"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/chat.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/chat.png);
     height: 16px;
 }
 
 .iconItem__8e3b8[aria-label="Create Invite"],
 .iconItem__8e3b8[aria-label="Invite to Server"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/Invite%20Friends.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/Invite%20Friends.png);
     height: 16px;
 }
 
@@ -506,13 +506,13 @@ li:nth-child(2)>div>a>div>div.avatar__7bd22 {
 }
 
 .actionButton__23182[aria-label="Message"] svg {
-    background: url(https://numoder.github.io/dsn10-/assets/general/chat.png);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/general/chat.png);
     background-size: 20px;
     margin-left: 1.5px;
 }
 
 .actionButton__23182[aria-label="More"] svg {
-    background: url(https://numoder.github.io/dsn10-/assets/user-area/815.png);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/user-area/815.png);
     background-size: 22px;
     background-repeat: no-repeat;
     margin-left: 1.5px;
@@ -523,11 +523,11 @@ li:nth-child(2)>div>a>div>div.avatar__7bd22 {
 }
 
 .actionButton__23182[aria-label="Accept"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/accept.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/accept.png);
 }
 
 .actionButton__23182[aria-label="Ignore"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/stop.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/stop.png);
 }
 
 .actionButton__23182:hover {
@@ -544,15 +544,15 @@ svg.icon__7215c {
 
 .iconWrapper_af9215[aria-label="Join Voice Call"],
 .iconWrapper_af9215[aria-label="Join Voice Call"] {
-    content: url(https://numoder.github.io/dsn10-/assets/channel%20header/phone.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/phone.png);
 }
 
 .iconWrapper_af9215[aria-label="Join Video Call"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/webcam.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/webcam.png);
 }
 
 div.container_b2ce9c {
-    background: url(https://numoder.github.io/dsn10-/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(203, 215, 237, 1) 68%, rgba(254, 254, 254, 1) 90%, rgba(254, 254, 254, 1) 90%);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(203, 215, 237, 1) 68%, rgba(254, 254, 254, 1) 90%, rgba(254, 254, 254, 1) 90%);
     background-size: 245px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -564,7 +564,7 @@ div.container_b2ce9c {
 }
 
 div.scroller__00e7e {
-    background: url(https://numoder.github.io/dsn10-/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(254, 254, 254, 1) 80%, rgba(254, 254, 254, 1) 100%);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(254, 254, 254, 1) 80%, rgba(254, 254, 254, 1) 100%);
     background-size: 360px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -573,7 +573,7 @@ div.scroller__00e7e {
 
 [src="/assets/9492f371ccf5db4f0156.mp4"],
 video.ready__61f2f {
-    content: url(https://numoder.github.io/dsn10-/assets/general/loading.gif);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/loading.gif);
     height: 200px;
     width: 200px;
 }
@@ -585,11 +585,11 @@ video.ready__61f2f {
 }
 
 div.button_d553e5[aria-label="Add Reaction"] {
-    content: url(https://numoder.github.io/dsn10-/assets/emojis/happy.gif);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/emojis/happy.gif);
 }
 
 div.button_d553e5[aria-label="Reply"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/reply.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/reply.png);
 }
 
 .avatarSpeaking_c95053 {
@@ -601,18 +601,18 @@ div.button_d553e5[aria-label="Reply"] {
 }
 
 .button_afdfd9[aria-label="Invite"] svg {
-    background: url(https://numoder.github.io/dsn10-/assets/general/Invite%20Friends.png);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/general/Invite%20Friends.png);
     color: transparent;
     background-size: contain;
 }
 
 .actionButton__23182[aria-label="Message"] svg {
-    background: url(https://numoder.github.io/dsn10-/assets/general/chat.png);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/general/chat.png);
     background-size: contain;
 }
 
 .button_afdfd9[aria-label="Show Chat"] svg {
-    background: url(https://numoder.github.io/dsn10-/assets/general/chat.png);
+    background: url(https://numoder.github.io/dsn10-theme-/assets/general/chat.png);
     background-size: contain;
     color: transparent;
 }
@@ -623,7 +623,7 @@ div.button_d553e5[aria-label="Reply"] {
 }
 
 .sidebar_ded4b5 .panels__58331 .container_d667ff .rtcConnectionStatus__40882 .ping__47992 {
-    background-image: url(https://numoder.github.io/dsn10-/assets/general/connection.png);
+    background-image: url(https://numoder.github.io/dsn10-theme-/assets/general/connection.png);
     background-size: contain;
 }
 
@@ -641,13 +641,13 @@ div.button_d553e5[aria-label="Reply"] {
 }
 
 .iconItem__8e3b8[aria-label="Edit Channel"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/Settings.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/Settings.png);
     width: 15px;
 }
 
 .icon__46425[aria-label="Clear search"],
 .icon__37cc1 .visible__50aa8[aria-label="Search"] {
-    content: url(https://numoder.github.io/dsn10-/assets/general/search.png);
+    content: url(https://numoder.github.io/dsn10-theme-/assets/general/search.png);
 }
 
 
@@ -665,7 +665,7 @@ div.button_d553e5[aria-label="Mark Unread"] {
 }
 
 div.button_d553e5[aria-label="Pin Message"] {
-  content: url(https://numoder.github.io/dsn10-/assets/channel%20header/pin.png);
+  content: url(https://numoder.github.io/dsn10-theme-/assets/channel%20header/pin.png);
   filter: hue-rotate(120deg);
 }
 

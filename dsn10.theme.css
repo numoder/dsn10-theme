@@ -4,14 +4,14 @@
  * @author numoder
  * @version 0.1.0
  * @description A little throwback to better times.
- * @source https://github.com/numoder/dsn10-theme
+ * @source https://github.com/numoder/dsn10-themetheme
 */
 
-@import url('https://numoder.github.io/dsn10-theme/dsn10-general.css');
-@import url('https://numoder.github.io/dsn10-theme/dsn10-icons.css');
-@import url('https://numoder.github.io/dsn10-theme/dsn10-server.css');
-@import url('https://numoder.github.io/dsn10-theme/dsn10--friends.css');
-@import url('https://numoder.github.io/dsn10-theme/dsn10-settings.css');
+@import url('https://numoder.github.io/dsn10-themetheme/dsn10-themegeneral.css');
+@import url('https://numoder.github.io/dsn10-themetheme/dsn10-themeicons.css');
+@import url('https://numoder.github.io/dsn10-themetheme/dsn10-themeserver.css');
+@import url('https://numoder.github.io/dsn10-themetheme/dsn10-theme-friends.css');
+@import url('https://numoder.github.io/dsn10-themetheme/dsn10-themesettings.css');
 
 :root {
   /* general */
@@ -25,8 +25,8 @@
   --tooltip-border: #000;
   --menu-border: #aca899;
 
-  --login-background: url(https://numoder.github.io/dsn10-/assets/src/virtualbox.png) center/cover;
-  --voicecall-background: url(https://numoder.github.io/dsn10-/assets/src/WO_SCN07.png) center;
+  --login-background: url(https://numoder.github.io/dsn10-theme/assets/src/virtualbox.png) center/cover;
+  --voicecall-background: url(https://numoder.github.io/dsn10-theme/assets/src/WO_SCN07.png) center;
 
   /* profile */
   --profile-background: #8473c4;
