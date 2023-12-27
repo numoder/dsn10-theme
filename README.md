@@ -1,5 +1,5 @@
 
-![Logo](https://cdn.discordapp.com/attachments/1181701173997228204/1181713427127865384/Beta.png?ex=65820f64&is=656f9a64&hm=2dcf95c9d695fb12bec1fc7c2bce45913ba8b54621663066de574a72d4786628&)
+![Logo](https://github.com/numoder/dsn10-theme/blob/main/assets/discord/Beta.png?raw=true)
 
 # DSN Explorer 10
 Inspired by Windows' MSN Messengers' 7th major version, originally from kamuisuki's [**Discord MSN EXPLORER 10**](https://www.deviantart.com/kamuisuki/art/Discord-MSN-Explorer-10-theme-873282935) theme.
