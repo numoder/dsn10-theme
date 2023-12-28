@@ -1,144 +1,160 @@
 /* NEW SERVER LIST */
 
 .wrapper_a7e7a8 {
-    width: 49px;
-    background-color: #63609b;
-  }
-  
-  .tree__7a511 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-    width: 49px;
-  }
-  
-  .scroller__3d071 {
-    background-color: #63609b;
-  background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
-  }
-  
-  .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
-    color: #fff;
-    background-color: #7289da00;
-  }
-  
-  .childWrapper__01b9c {
-    background-color: #fff0;
-  }
-  .tutorialContainer__890ea {
-   position: relative;
-  }
-  
-  .wrapper_d281dd[aria-label="Direct Messages"] svg{
-    display: block;
-    width: 0px;
-    height: 0px;
-  }
-  
-  .wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c {
-    mask: none;
-    background: url(https://numoder.github.io/dsn10-theme/assets/servers/butterflystatic.png);
-    background-size: 44.4px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c:hover {
-    filter: contrast(1.4);
-    transition: 1s;
-  }
-  
-  /* animated icon when friends list is active */
-  .listItemWrapper__1f93b.selected_ad2d13 div {
-    content: url(https://ucarecdn.com/67ac0119-504d-4bc8-9483-9ac51f586682/);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  /* server/friend notification */
-  .numberBadge__50328.base__92a12 {
-    background: linear-gradient(45deg, #ff0202, #f3ec00fa);
-  }
-  
-  .listItem_fa7b36 {
-    position: relative;
-    margin: 0px 0px 0px 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 50px;
-    border: 0px solid #ababab;
-    border-top: 0px solid #a2a2a273;
-    border-left: solid 0px #cacaca;
-    box-shadow: 0px 0px 0Px #5d5d5d;
-    border-bottom: 0px solid #424242;
-    padding-left: 3Px;
-    margin-bottom: 0px;
-    opacity: 1;
-  }
-  
-  .svg_ad7356, .wrapper__3af0b {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 46px;
-    height: 46px;
-    opacity: 1;
-    position: relative;
-    z-index: 1;
-    border: 3px solid #ffffff00;
-    left: -4px;
-    top: -3px;
-  }
-  
-  /* unread mentions indicator on server */
-  .unreadMentionsIndicatorBottom_fdb943, .unreadMentionsIndicatorTop_ada847 {
-    padding: 8px;
-    height: 46px;
-    width: 46px;
-  }
-  
-  /* server pill */
-  .item_f9d377 {
-    position: fixed;
-    display: block;
-    width: 5px;
-    border-radius: 0%;
-    margin-left: 0px;
-    background-color: #ff180000;
-    height: 6px !important;
-    border: 0px solid #780080;
-    background: linear-gradient(to bottom left,#259401, #1bff00);
-    margin: -17px 0px 18px 43px;
-    z-index: 3;
-  }
-  
-  /* server pill length */
-  .wrapper__3670f {
-    width: 49px;
-    height: 39px;
-  }
-  
-  .container-3w7J-x  .content-3YMskv {
-    position: relative;
-    margin-top: 0px;
-  }
-  
-  /* server folder */
-  .expandedFolderBackground__1bec6{
-      left: 4px;
-      width: 40px;
-      bottom: 10px;
-  }
-  .wrapper_ed1dea > ul
-  {
-      display: inline !important;
-  }
-  
+  width: 49px;
+  background-color: #63609b;
+}
 
-  .theme-light .container__590e2{
-    background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
+.tree__7a511 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 49px;
+}
+
+.scroller__3d071 {
+  background-color: #63609b;
+background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
+}
+
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
+  color: #fff;
+  background-color: #7289da00;
+}
+
+.childWrapper__01b9c {
+  background-color: #fff0;
+}
+.tutorialContainer__890ea {
+ position: relative;
+}
+
+.wrapper_d281dd[aria-label="Direct Messages"] svg{
+  display: block;
+  width: 0px;
+  height: 0px;
+}
+
+.wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c {
+  mask: none;
+  background: url(https://numoder.github.io/dsn10-theme/assets/servers/butterflystatic.png);
+  background-size: 44.4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper_d281dd[aria-label="Direct Messages"] .childWrapper__01b9c:hover {
+  filter: contrast(1.4);
+  transition: 1s;
+}
+
+/* animated icon when friends list is active */
+.listItemWrapper__1f93b.selected_ad2d13 div {
+  content: url(https://ucarecdn.com/67ac0119-504d-4bc8-9483-9ac51f586682/);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* server/friend notification */
+.numberBadge__50328.base__92a12 {
+  background: linear-gradient(45deg, #ff0202, #f3ec00fa);
+}
+
+  /* server without picture */
+  .theme-light .acronym_cd4809,
+  .theme-light.wrapper_d281dd {
+    background: linear-gradient(#dbdfe6, #c4c7d4 50%, #b7bac3 50%, #dbdde2);
+    transition: 0s;
+    z-index: 1;
+  }
+
+  /* server voicecall / videocall icon */
+  .upperBadge_c7cfb3{
+    z-index: 2;
+  }
+  .iconBadge_fdf33a.isCurrentUserConnected_d9734f{
+    background: linear-gradient(45deg, #b302ff, #00bef3fa);
+  }
+
+.listItem_fa7b36 {
+  position: relative;
+  margin: 0px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50px;
+  border: 0px solid #ababab;
+  border-top: 0px solid #a2a2a273;
+  border-left: solid 0px #cacaca;
+  box-shadow: 0px 0px 0Px #5d5d5d;
+  border-bottom: 0px solid #424242;
+  padding-left: 3Px;
+  margin-bottom: 0px;
+  opacity: 1;
+}
+
+.svg_ad7356, .wrapper__3af0b {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 46px;
+  height: 46px;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  border: 3px solid #ffffff00;
+  left: -4px;
+  top: -3px;
+}
+
+/* unread mentions indicator on server */
+.unreadMentionsIndicatorBottom_fdb943, .unreadMentionsIndicatorTop_ada847 {
+  padding: 8px;
+  height: 46px;
+  width: 46px;
+}
+
+/* server pill */
+.item_f9d377 {
+  position: fixed;
+  display: block;
+  width: 5px;
+  border-radius: 0%;
+  margin-left: 0px;
+  background-color: #ff180000;
+  height: 6px !important;
+  border: 0px solid #780080;
+  background: linear-gradient(to bottom left,#259401, #1bff00);
+  margin: -17px 0px 18px 43px;
+  z-index: 3;
+}
+
+/* server pill length */
+.wrapper__3670f {
+  width: 49px;
+  height: 39px;
+}
+
+.container-3w7J-x  .content-3YMskv {
+  position: relative;
+  margin-top: 0px;
+}
+
+/* server folder */
+.expandedFolderBackground__1bec6{
+    left: 4px;
+    width: 40px;
+    bottom: 10px;
+}
+.wrapper_ed1dea > ul
+{
+    display: inline !important;
+}
+
+
+.theme-light .container__590e2{
+  background: linear-gradient(to right,#5868a8, #6878b8, #6878b8, #667dbc, #859bdc, #8898d8);
 }

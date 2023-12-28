@@ -31,14 +31,14 @@
   /* profile */
   --profile-background: #8473c4;
   --profile-font-color: rgb(255, 255, 255);
+  --profile-border: whitesmoke;
 
   --avatar-profile-border-color: black;
 
   /* fonts */
-  --font-primary: "Tahoma";
-  --font-display: "Trebuchet MS";
-  --font-headline: "Pixelated MS Sans Serif";
-  --font-headline: "W95FA";
+  --font-primary: "Trebuchet MS";
+  --font-display: var(--font-primary);
+  --font-headline: "Windows";     /* default: "Windows" other: W95FA / Pixelated MS Sans Serif*/
   --font-code: "Perfect DOS VGA 437 Win";
 
   /* mentioned */

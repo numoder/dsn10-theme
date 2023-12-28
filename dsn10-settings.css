@@ -1,82 +1,88 @@
 /* login screen */
 
 .authBox__7196a[data-theme=dark], .authBox__7196a[data-theme=light], .modal__1237a > .content__764ce {
-    background: linear-gradient(180deg, rgba(253,255,254,1) 0%, rgba(207,216,238,1) 100%);
-    border-radius: 1px;
-  }  
-  
-  div.centeringWrapper__319b0{
-    background-image: url(https://numoder.github.io/dsn10-theme/assets/general/msn.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right bottom;
-  }
-  
-  .inputDefault__80165{
-    background-color: white;
-    border: 1px solid var(--accent-color);
-    color: black;
-    border-radius: 0px;
-  }
-  .marginBottom20__64605 > .contents_fb6220, .smallRegisterLink__04c66 > .contents_fb6220, .startOverButton_b3ba6f.button_afdfd9{
-    font-family: var(--font-headline);
-    text-decoration: underline;
-    color: var(--accent-color);
-  }
-  
-  .label__5447e{
-    color: var(--accent-color);
-  
-  }
-  
-  button.marginBottom8_f4aae3.lookFilled__19298.colorBrand_b2253e[type="submit"] {
-    width: 150px;
-    left: 125px;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(217,224,251,1) 100%);
-    box-shadow: inset -1px 3px 3px 5px rgba(255, 255, 255, 1), 5px 5px 5px rgba(0, 0, 0, 0.5); 
-    font-family: var(--font-headline); 
-    font-size: larger;
-    font-weight: 700;
-    color: var(--accent-color);
-    border: 1px solid var(--accent-color);
-  }
-  
-  button.marginBottom8_f4aae3.lookFilled__19298.colorBrand_b2253e[type="submit"]:hover{
-    color: rgb(140, 140, 255);
-    box-shadow: 0 8px 20px rgba(255, 255, 255, 1) inset, 5px 5px 5px rgba(0, 0, 0, 0.5), 1px 2px 4px rgba(255, 174, 33, 1) inset, -1px -2px 4px rgba(255, 174, 33, 1) inset; ; 
-  }
-  
-  [src="/assets/863db41a48a43395cd55.svg"]{
-    content: url(https://numoder.github.io/dsn10-theme/assets/general/loading.gif);
-    width: 100px;
-  }
-  
-  .scrollerBase_dc3aa9 > div.content__5f959, .content__5f959 > div.title_ba21e7, h1.heading-xl-semibold__18cc2 {
-    color: black;
-  }
-  
-  [data-text-variant="heading-xl/semibold"]{
-    color: var(--accent-color) !important;
-  }
-  
-  [style="color: var(--header-secondary);"] {
-    color: gray !important;
-  }
-  
-  [src="/assets/adf75861421c2a6a6269.png"] {
-    content: url(https://numoder.github.io/dsn10-theme/assets/servers/butterflystatic.png);
-  }
-
-  .accountCard_b2af27,  button.marginBottom8_f4aae3.lookFilled__19298.colorBrand_b2253e[type="submit"] {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(217,224,251,1) 100%);
-    border: 1px solid var(--accent-color);
-  }
-  .usernameSection_ccd090 > .username__35d9d > .text-md-semibold__4cb23 {
-    color: black !important; 
-  }
+  background: url(https://media.discordapp.net/attachments/1189324560168923228/1189670757006057593/loginboxbackground.png?ex=659f023b&is=658c8d3b&hm=38a443eea9234ba227335e2ab32593d5e91d7b028741875c1d1dd3e879e777a4&=&format=webp&quality=lossless);
+  border-radius: 0px;
+  background-position: center;
+  background-size: cover;
+}  
 
 
+.authBox__7196a{
+  border: 2px solid #d2dbfc !important;
+}
+
+/* header text for login screen */
+div.mainLoginContainer__58502 > div.header_feace3 > h1,  div > div > section > div.centeringWrapper__319b0 > h1 {
+font-family: var(--font-primary), bold;
+font-size: xx-large;
+font-style: italic;
+text-transform: lowercase;
+color: #ffffff50 !important;
+}
+
+/* links for login */
+.marginBottom20__64605 > .contents_fb6220, .smallRegisterLink__04c66 > .contents_fb6220, .startOverButton_b3ba6f.button_afdfd9, button.marginTop8__83d4b.marginCenterHorz__4cf72.linkButton_ba7970.button_afdfd9.lookLink__93965 > div{
+  font-family: var(--font-headline);
+  text-decoration: underline;
+  color: #C0CCFF;
+}
+
+.qrLoginInner__86510 > .text-md-normal__4afad{
+  margin-top: -50px;
+}
+
+div.mainLoginContainer__58502 > div.header_feace3 > div.text-md-normal__4afad, .qrLoginInner__86510 > .heading-xl-semibold__18cc2{
+  color: transparent !important;
+  font-size: 0px !important;
+}
+
+.inputDefault__80165{
+  background-color: white;
+  border: 1px solid var(--accent-color);
+  color: black;
+  border-radius: 0px;
+}
+
+.label__5447e{
+  font-family: var(--font-headline) !important;
+}
+
+div.qrCodeContainer__52c91{
+  background: linear-gradient(135deg, rgba(255,125,82,1) 0%, rgba(255,179,106,1) 100%); 
+  border-radius: 5px;
+  padding: 6px;
+}
+
+[src="/assets/863db41a48a43395cd55.svg"]{
+  content: url(https://numoder.github.io/dsn10-theme/assets/general/loading.gif);
+  width: 100px;
+}
+
+.scrollerBase_dc3aa9 > div.content__5f959, .content__5f959 > div.title_ba21e7, h1.heading-xl-semibold__18cc2 {
+  color: black;
+}
+
+[data-text-variant="heading-xl/semibold"]{
+  color: var(--accent-color) !important;
+}
+
+[style="color: var(--header-secondary);"] {
+  color: gray !important;
+}
+
+[src="/assets/adf75861421c2a6a6269.png"] {
+  content: url(https://numoder.github.io/dsn10-theme/assets/servers/butterflystatic.png);
+  margin-left: -20px;
+  margin-top: -17.5px;
+}
+
+.accountCard_b2af27,  button.marginBottom8_f4aae3.lookFilled__19298.colorBrand_b2253e[type="submit"] {
+
+}
+.usernameSection_ccd090 > .username__35d9d > .text-md-semibold__4cb23 {
+  color: black !important; 
+}
 
 
 /* dark settings */
@@ -85,73 +91,67 @@
 
 /* settings header */
 
-
-
-
 .theme-light .contentRegionScroller__86c79{
-  background: var(--light-settings-background);
+background: var(--light-settings-background);
 }
 
 .theme-dark .contentRegionScroller__86c79 {
-  background: var(--dark-settings-background);
+background: var(--dark-settings-background);
 }
 
 
 .theme-dark div.sidebarRegionScroller__1fa7e{
-  background: var(--light-settings-sidebar-background);
-  border-right: 1px solid whitesmoke;
+background: var(--light-settings-sidebar-background);
+border-right: 1px solid whitesmoke;
 }
 
 .theme-dark .sidebar__9e3e2 .side_b4b3f6 .header_f72511 {
-  padding: 6px 10px 10px 6px !important;
-  border-radius: 5px 5px 0 0;
+padding: 6px 10px 10px 6px !important;
+border-radius: 5px 5px 0 0;
 }
 
-
-
 .theme-dark .header_f72511:first-child{
-  background-color: var(--accent-color);
-  color: white;
+background-color: var(--accent-color);
+color: white;
 }
 
 .theme-dark .header_f72511:not(:first-child){
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(194,213,255,1) 100%);
-  color: var(--accent-color); 
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(194,213,255,1) 100%);
+color: var(--accent-color); 
 }
 
 .theme-dark .sidebar__9e3e2 div.item__48dda.themed_b957e8{
-  border-left: 1px solid white;
-  border-right: 1px solid white; 
-  background-color: #d8dff8;
-  color: var(--accent-color);
-  font-family: var(--font-headline);
-  border-radius: 0px;
-  margin-bottom: -1px;
+border-left: 1px solid white;
+border-right: 1px solid white; 
+background-color: #d8dff8;
+color: var(--accent-color);
+font-family: var(--font-headline);
+border-radius: 0px;
+margin-bottom: -1px;
 }
 
 .theme-dark .themed_b957e8[aria-label="My Account"], .theme-dark .themed_b957e8[aria-label="Nitro"], .theme-dark .themed_b957e8[aria-label="Appearance"], .theme-dark .vc-settings[data-tab-id="VencordSettings"],  .theme-dark .themed_b957e8[data-tab-id="Activity Privacy"],  .theme-dark .themed_b957e8[data-tab-id="logout"], .theme-dark .themed_b957e8[data-tab-id="changelog"] {
-  border: 1px solid white;
+border: 1px solid white;
 }
 
 .theme-dark .themed_b957e8[data-tab-id="Friend Requests"], .theme-dark .themed_b957e8[data-tab-id="Billing"], .theme-dark .vc-vesktop-settings[data-tab-id="Vesktop"], .theme-dark .themed_b957e8[data-tab-id="Text Component"] {
-  border-bottom: 1px solid white;
+border-bottom: 1px solid white;
 }
 
 .theme-dark .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda, .theme-dark .side_b4b3f6 .themed_b957e8:hover {
-  background-color: var(--background-modifier-hover);
-  color: var(--accent-color-selected);
-  text-decoration: underline;
-  
+background-color: var(--background-modifier-hover);
+color: var(--accent-color-selected);
+text-decoration: underline;
 }
 
 div.info__755e1{
-  background-color: var(--accent-color);
-  border: 1px solid white; 
+background-color: var(--accent-color);
+border: 1px solid white; 
 }
 
 .info__755e1 > .text-xs-normal__56c35[data-text-variant="text-xs/normal"]{
-  font-family: var(--font-headline);
-  color: white !important;
+font-family: var(--font-headline);
+color: white !important;
 }
 
 .socialLinks_c1fc99{
@@ -159,38 +159,37 @@ div.info__755e1{
 }
 
 .theme-dark .eyebrow_f53856[data-text-variant="eyebrow"]:first-child::before {
-  content: url();
-  font-family: var(--font-headline);
-  color: white;
+content: url();
+font-family: var(--font-headline);
+color: white;
 }
 
 .theme-light .modeSelected__487d6 .name__8d1ec{
-  color: var(--accent-color-selected);
+color: var(--accent-color-selected);
 }
 
 .searchBar_e4ea2a>.searchBarComponent__22760,
 .searchBar_ff8800,
 div.searchBar_e0c60b {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    border-radius: 0px;
-    -webkit-box-shadow: none;
-    box-shadow: inset 1px 1Px 2px black;
-    cursor: text;
-    overflow: hidden;
-    padding: 0 2px;
-    color: #000000;
-    background-color: #eaeaea;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: inset 1px 1Px 2px black;
+  cursor: text;
+  overflow: hidden;
+  padding: 0 2px;
+  color: #000000;
+  background-color: #eaeaea;
 }
 
 div.searchBar_e0c60b {
-    height: 23px;
-    width: 144px;
+  height: 23px;
+  width: 144px;
 }
-
