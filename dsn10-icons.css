@@ -41,7 +41,7 @@
 /* undeafened */
 .button__4f306[aria-label="Deafen"][aria-checked="false"],
 .sidebar_ded4b5 .button__4f306[aria-label="Deafen"][aria-checked="false"] {
-    content:url(https://numoder.github.io/dsn10-theme/assets/user-area/Volume.png);
+    content:url(https://numoder.github.io/dsn10-theme/assets/general/volume.png);
 }
 
 /* deafened */
@@ -98,11 +98,7 @@
 
 div > span.disabledButtonWrapper__69c70 > .button__66e8c[aria-label="Soundboard disabled when deafened"] {
     content: url(https://numoder.github.io/dsn10-theme/assets/general/delete.png);
-    /* margin-top: -5px; */
-    /* margin-left: -10px; */
 }
-
-
 
 /* video */
 div.audioControls__9fbe9, div.videoControls__96149{
@@ -366,7 +362,7 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 
 /* bottom bar */
 .attachButton_eba568:hover,
-.flex_f5fbb7>.button_afdfd9:hover {
+.avatarWrapper_ba5175 > .flex_f5fbb7 > .button_afdfd9:hover {
     transform: scale(1.1);
     transition: 0.2s;
 }

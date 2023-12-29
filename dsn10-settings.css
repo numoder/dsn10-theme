@@ -164,6 +164,16 @@ font-family: var(--font-headline);
 color: white;
 }
 
+div.linkTop_eaa673 > .name__8d1ec:hover {
+  transition: 0.2s;
+  color: black;
+}
+
+div.linkTop_eaa673:hover > .name__8d1ec:hover{
+  transition: 0.2s;
+  color: var(--accent-color);
+}
+
 .theme-light .modeSelected__487d6 .name__8d1ec{
 color: var(--accent-color-selected);
 }

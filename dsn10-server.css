@@ -73,7 +73,7 @@ background: linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff)
   .upperBadge_c7cfb3{
     z-index: 2;
   }
-  .iconBadge_fdf33a.isCurrentUserConnected_d9734f{
+  .iconBadge_fdf33a{
     background: linear-gradient(45deg, #b302ff, #00bef3fa);
   }
 
