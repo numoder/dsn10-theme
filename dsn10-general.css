@@ -167,6 +167,7 @@ foreignObject {
 /* Exit button */
 .winButtonClose__73489 {
   content: url(https://numoder.github.io/dsn10-theme/assets/windows/close1.png);
+  margin-right: 5px;
 }
 .winButtonClose__73489:hover {
   content: url(https://numoder.github.io/dsn10-theme/assets/windows/close2.png);
@@ -193,7 +194,6 @@ content: url(https://numoder.github.io/dsn10-theme/assets/windows/minimize1.png)
 .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351>div:nth-child(4),
 .winButtonMinMax__72f36.winButton__88672:nth-child(4):hover {
 content: url(https://numoder.github.io/dsn10-theme/assets/windows/minimize2.png);
-margin-right: 5px;
 }
 
 .withFrame__485f4 {
