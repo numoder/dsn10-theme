@@ -142,7 +142,7 @@ foreignObject {
 .typeWindows__5fa63 {
   background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/topbarmsn9.png);
   background-size: cover;
-  height: 22px;
+  height: 24px;
 }
 
 .bg__12180 {
@@ -158,10 +158,9 @@ foreignObject {
 .winButtonClose__73489,
 .winButtonMinMax__72f36,
 .winButton__88672 {
-  height: 17px;
-  width: 17px;
+  width: 19px;
+  height: 20px;
   margin-top: 5px;
-  margin-right: 5px;
 }
 
 
@@ -194,16 +193,8 @@ content: url(https://numoder.github.io/dsn10-theme/assets/windows/minimize1.png)
 .typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351>div:nth-child(4),
 .winButtonMinMax__72f36.winButton__88672:nth-child(4):hover {
 content: url(https://numoder.github.io/dsn10-theme/assets/windows/minimize2.png);
+margin-right: 5px;
 }
-
-/* windows button on hover */
-.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351>div:nth-child(4):hover,
-.winButtonMinMax__72f36:hover,
-.winButtonClose__73489:hover {
-  filter: contrast(1.1);
-  transform: scale(1.15);
-}
-
 
 .withFrame__485f4 {
   margin-top: 0px;

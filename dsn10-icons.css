@@ -203,15 +203,11 @@ svg.controlIcon__11f8e{
 }
 
 /* noise suppression */
-.button__4f306[aria-label="Noise Suppression powered by Krisp"]{
-  content: url(https://numoder.github.io/dsn10-theme/assets/general/volume3.png);
-}
+.flex_f5fbb7 > .button__4f306:first-child{
+    content: url(https://numoder.github.io/dsn10-theme/assets/general/volume3.png);
+  }
 
-.controlIcon__25700{
-
-}
-
-/* -=-=- uploads -=-=- */
+/* uploads  */
 .icon_c2f643 {
     background-size: contain;
     margin: 10px;
@@ -265,10 +261,6 @@ svg.controlIcon__11f8e{
     content: url(https://numoder.github.io/dsn10-theme/assets/files/pdf.png);
 }
 
-
-  
-
-
 div.attachment_f3cf2c,
 div.messageAttachment_b97504>div.wrapperAudio__555ce {
     background-color: #f3f3fd;
@@ -277,8 +269,6 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
     border-radius: 5px;
     background-size: contain;
 }
-
-
 
 /* -=- before uploading -=- */
 
