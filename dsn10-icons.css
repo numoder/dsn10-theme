@@ -272,13 +272,8 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 
 /* -=- before uploading -=- */
 
-.list__02208 {
-    padding-bottom: 12px;
-}
-
-
 /* voicecall box */
-.theme-light .activityPanel__22355,  .theme-light .container_d667ff {
+.theme-light .activityPanel__22355,  .theme-light .container_d667ff{
   background-color: #f3f3fd;
   border: 1px solid #506b9a;
   box-shadow: inset -10px -10px 14px -5px #8297c2, inset 10px 10px 14px -10px white;
@@ -288,20 +283,35 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 }
 
 /* voicecall buttons */
-.button__66e8c.buttonColor_a6eb73 {
-    background: transparent;
-    height: 45px;
-    width: 45px;
-    border-radius: 50px;
-    padding: 10px;
+div.wrapper__0ed4a > div > div.actionButtons_b58cbb > button, div.wrapper__0ed4a > div > div.actionButtons_b58cbb > div > button, div.wrapper__0ed4a > div > div.actionButtons_b58cbb > div > span > button, div.wrapper__0ed4a > div > div.actionButtons_b58cbb > div > span{
+  background: transparent !important;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 50px;
+  padding: 10px !important;
+  opacity: 1 !important;
 }
 
-.button__66e8c.buttonColor_a6eb73:hover {
-    background-color: #f3f3fd;
+div.wrapper__0ed4a > div > div.actionButtons_b58cbb > div > span > button{
+  margin-top: -7.5px;
+  margin-left: -7.5px;
+}
+
+div.wrapper__0ed4a > div > div.actionButtons_b58cbb > button:hover, div.wrapper__0ed4a > div > div.actionButtons_b58cbb > div > button:hover {
     border: 1px solid #506b9a;
     box-shadow: inset -10px -10px 14px -5px #8297c2, inset 10px 10px 14px -10px white;
     background-size: contain;
 }
+
+.theme-light .actionButton__23182:hover{
+  background-color: #f3f3fd;
+
+}
+.theme-dark .actionButton__23182:hover{
+  background-color: #63609b;
+
+}
+
 
 .button__66e8c.buttonColor_a6eb73 svg:hover,
 .button__66e8c.buttonColor_a6eb73.buttonActive__407a7,
@@ -343,7 +353,7 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 .emojiButton-3FRTuj {
     background: red;
     background: url(https://numoder.github.io/dsn10-theme/assets/emojis/happy.gif);
-    background-size: 24px 24px;
+    /* background-size: 24px 24px; */
     background-position: fixed;
     background-repeat: no-repeat;
     margin-top: 8px;
@@ -353,18 +363,29 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
 /* bottom bar */
 .attachButton_eba568:hover,
 .avatarWrapper_ba5175 > .flex_f5fbb7 > .button_afdfd9:hover {
-    transform: scale(1.1);
+    transform: scale(1.05), rotate(125deg);
     transition: 0.2s;
 }
 
 /* plus */
-.attachButton_eba568[aria-label="Upload a file or send invites"] {
+.attachButton_eba568[aria-label="Upload a file or send invites"]{
+  content: url(https://numoder.github.io/dsn10-theme/assets/typing-form/plus.png);
+}
+
+.circleIconButton_d8df29[aria-label="Add a Server"] {
     content: url(https://numoder.github.io/dsn10-theme/assets/typing-form/plus.png);
+    filter: hue-rotate(-75deg);
+    background-color: transparent;
+}
+
+.circleIconButton_d8df29[aria-label="Explore Discoverable Servers"] {
+    content: url(https://numoder.github.io/dsn10-theme/assets/general/explore.png);
+    filter: hue-rotate(-75deg);
+    background-color: transparent;
 }
 
 .attachButton_eba568[aria-label="Upload a file or send invites"][aria-expanded=true] {
-    filter: invert(2)hue-rotate(180deg);
-    transition: 0.5s;
+    filter: drop-shadow(0px 0px 1px #000000);
 }
 
 .button_afdfd9[aria-label="Send a gift"] {
@@ -377,6 +398,13 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
     margin: 7px;
 }
 
+.modeLocked_fcc71a > div > a.link__95dc0 > div.linkTop_eaa673 > .iconContainer__3f9b0 {
+  content: url(https://numoder.github.io/dsn10-theme/assets/typing-form/lock.png);
+  width: 20px;
+  height: 20px;
+  display: block;
+  filter: grayscale(0.);
+}
 .button_afdfd9[aria-label="Open GIF picker"] {
     content: url(https://numoder.github.io/dsn10-theme/assets/typing-form/gif.png);
     width: 35px;
@@ -408,11 +436,22 @@ div.messageAttachment_b97504>div.wrapperAudio__555ce {
     margin: 8px;
 }
 
+.inner__9fd0b > .buttons_ce5b56 > div :hover{
+  transform: rotate(2.5deg);
+  transition: 0.2s;
+}
+
 .button_afdfd9:disabled,
 .button_afdfd9[aria-disabled=true] {
     cursor: not-allowed;
     opacity: 0.75;
 }
+
+div.iconWrapper_af9215[aria-label="Show User Profile"],
+div.iconWrapper_af9215[aria-label="Hide User Profile"],
+div.iconWrapper_af9215[aria-label="Show User Profile (Unavailable)"]{
+    content: url(https://numoder.github.io/dsn10-theme/assets/general/userprofile.png);
+    }
 
 /* channel header icons */
 div.iconWrapper_af9215[aria-label="Add Friends to DM"],
@@ -467,11 +506,14 @@ div.iconWrapper_af9215[aria-label="Start Video Call"],
     content: url(https://numoder.github.io/dsn10-theme/assets/general/chatplus.png);
 }
 
-.iconWrapper_af9215[aria-label="Update Ready!"] {
-    background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
-    height: 32px;
-    width: 32px;
-    margin-right: 5px;
+.iconWrapper_af9215[aria-label="Update Ready!"], .hoverButtonGroup__5b423 .anchor_c8ddc0[aria-label="Download"] {
+    content: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/download.png);
+    width: 24px;
+}
+
+.hoverButtonGroup__5b423{
+  border: solid 1px var(--menu-border);
+  border-radius: 0px;
 }
 
 .iconWrapper_af9215[aria-label="Show Member List"],

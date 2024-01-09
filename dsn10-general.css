@@ -5,6 +5,7 @@
   --accent-color-selected: #317df7;
   --background-modifier-selected: transparent;
 
+
     /* tooltip */
   --tooltip-background: #ffffe1;
   --tooltip-border: #000;
@@ -14,7 +15,7 @@
   --voicecall-background: url(https://numoder.github.io/dsn10-theme/assets/src/WO_SCN07.png) center;
 
   /* profile */
-  --profile-background: #8473c4;
+  --profile-background: #768eca;
   --profile-font-color: rgb(255, 255, 255);
   --profile-border: whitesmoke;
 
@@ -27,7 +28,7 @@
   --font-code: "Perfect DOS VGA 437 Win";
 
   /* mentioned */
-  --mention-foreground: rgb(29, 102, 0);
+  --mention-foreground: rgb(166, 171, 164);
   --mention-background: rgba(0, 112, 0, 0.2);
   --background-mentioned: linear-gradient(to right, rgb(182, 244, 146), rgba(51, 139, 147, 0));
 
@@ -93,7 +94,7 @@
 
 /* voice chat image */
 .theme-dark .videoGrid__8b6fc {
-  background: var(--voicecallBg, url(https://numoder.github.io/dsn10-theme/assets/src/virtualbox.png));
+  background: var(--voicecall-background, url(https://numoder.github.io/dsn10-theme/assets/src/virtualbox.png));
   background-size: cover;
 }
 
@@ -163,14 +164,16 @@ foreignObject {
   margin-top: 5px;
 }
 
-
 /* Exit button */
 .winButtonClose__73489 {
   content: url(https://numoder.github.io/dsn10-theme/assets/windows/close1.png);
+  transition: 0.2s;
   margin-right: 5px;
 }
 .winButtonClose__73489:hover {
   content: url(https://numoder.github.io/dsn10-theme/assets/windows/close2.png);
+  background: transparent;
+  transition: 0.2s;
 }
 
 .winButtonClose__73489:active {
@@ -180,20 +183,29 @@ foreignObject {
 /* Maximize button */
 .winButtonMinMax__72f36 {
   content: url(https://numoder.github.io/dsn10-theme/assets/windows/maximize1.png);
+  transition: 0.2s;
 }
 .winButtonMinMax__72f36:hover {
   content: url(https://numoder.github.io/dsn10-theme/assets/windows/maximize2.png);
+  background: transparent;
+  transition: 0.2s;
 }
 
 /* Minimize button */
-.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351>div:nth-child(4),
 .winButtonMinMax__72f36.winButton__88672:nth-child(4) {
 content: url(https://numoder.github.io/dsn10-theme/assets/windows/minimize1.png);
+background: transparent;
+transition: 0.2s;
 }
 
-.typeWindows__5fa63.withFrame__485f4.titleBar__01af6.withBackgroundOverride_b6a351>div:nth-child(4),
 .winButtonMinMax__72f36.winButton__88672:nth-child(4):hover {
 content: url(https://numoder.github.io/dsn10-theme/assets/windows/minimize2.png);
+background: transparent;
+transition: 0.2s;
+}
+
+.winButton__88672:active{
+  filter: contrast(1.25);
 }
 
 .withFrame__485f4 {
@@ -222,127 +234,16 @@ content: url(https://numoder.github.io/dsn10-theme/assets/windows/minimize2.png)
 }
 
 
-
-/* SERVER LIST*/
-
-
-/* server channel background */
-.theme-light .scroller_f0f183, .theme-light .container_ca50b9 {
-  z-index: 1;
-  padding-right: 8px;
-  border-right: 1px solid #80808073;
-  border-radius: 0px 0 0 0;
-}
-
-/*category in server*/
-li.containerDefault__23a29,
-li.containerDefault__3187b.wrapper__7bcde>div {
-  position: relative;
-  padding-top: 3px;
-  background: linear-gradient(13deg, #ffffff30, #fbfbfbbf, #fbfbfb);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 4px;
-  box-shadow: inset 1px 1px 1px #6d6d6d;
-  margin-left: 7px;
-  margin-right: 2px;
-  margin-top: 7.5px;
-}
-
-/* server buttons */
-a.link__95dc0 {
-  background: white;
-  box-shadow: inset 1px 1px 1px #0000004d;
-  margin-right: 2px;
-}
-
-a.link__95dc0:hover {
-  background: white;
-  box-shadow: inset 1px 1px 1px #0000004d;
-}
-
-div.container_b2ce9c, .members__9f47b {
-  background: url(https://numoder.github.io/dsn10-theme/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(203, 215, 237, 1) 68%, rgba(254, 254, 254, 1) 90%, rgba(254, 254, 254, 1) 90%);
-  background-size: 245px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right bottom;
-}
-
-.members__9f47b {
-  background-color: transparent;
-}
-
-div.scroller__00e7e {
-  background: url(https://numoder.github.io/dsn10-theme/assets/servers/786.png), linear-gradient(0deg, rgba(213, 225, 245, 1) 54%, rgba(254, 254, 254, 1) 80%, rgba(254, 254, 254, 1) 100%);
-  background-size: 360px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right bottom;
-}
-
-/*name in voicechanel */
-.theme-light .icon__1d60c,
-.username__73ce9 {
-  color: black !important;
-}
-
-.name-28HaxV {
-  color: black;
-}
-
-.modeSelected__487d6 .link__95dc0 {
-  color: inherit;
-}
-
-.theme-light .link__95dc0:hover,
-.modeSelected__487d6 .link__95dc0 {
-  background: linear-gradient(to right, #b5b5b5, #ffffff);
-  box-shadow: inset 1Px 1px 2px grey;
-}
-
-.modeSelected__487d .name__8d1ec {
-  color: inherit;
-}
-
-.modeUnread-3Cxepe .name-28HaxV {
-  color: #020202;
-  background: url(http://www.netscape-communications.com/wp-content/uploads/2021/07/pin.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: right;
-  font-weight: 600;
-}
-
-.unread__11823 {
-  position: absolute;
-  height: 8px;
-  width: 8px;
-  border-radius: 15px;
-  top: 22%;
-  left: 5px;
-  margin-top: 0px;
-  display: none;
-}
-
-.voiceUser__0470a {
-  background-color: #f3f3fd;
-  border: 1px solid #506b9a;
-  box-shadow: inset -5px -5px 10px -5px #8297c2, inset 5px 5px 10px -10px white;
-  border-radius: 5px;
-}
-
-
 .iconSpacing__59128[aria-label="Muted"] {
   content: url(https://numoder.github.io/dsn10-theme/assets/user-area/Microphone2.png);
+  filter: contrast(0.7);
   width: 20px;
-  filter: grayscale(0.6);
 }
 
 .iconSpacing__59128[aria-label="Deafened"] {
-  content: url(https://numoder.github.io/dsn10-theme/assets/user-area/volume2.png);
+  content: url(https://numoder.github.io/dsn10-theme/assets/user-area/Volume2.png);
+  filter: contrast(0.7);
   width: 20px;
-  filter: grayscale(0.6);
 }
 
 .icon-2W8DHg {
@@ -528,16 +429,19 @@ div.avatarStack__6604a.img.avatar__991e2 {
 }
 
 /* member list */
-.container__4f20e {
-  background: linear-gradient(90deg, rgba(229, 236, 242, 1) 0%, rgba(221, 226, 246, 1) 49%, rgba(207, 219, 245, 1) 80%, rgba(204, 216, 240, 1) 100%);
+.theme-light .container__4f20e {
+  background: linear-gradient(90deg, rgba(229,236,242,1) 0%, rgba(221,226,246,1) 50%, rgba(207,219,245,1) 80%, rgba(204,216,240,1) 100%);
   margin-right: 8px;
   border-right: 1px solid #00000029;
+  border-radius: 0px;
 }
 
-.container__4f20e:hover,
-.container__4f20e.selected__9800b {
+.theme-light .container__4f20e:hover,
+.theme-light .container__4f20e.selected__9800b {
+  background: linear-gradient(90deg, rgba(252,254,255,1) 0%, rgba(208,218,255,1) 50%, rgba(182,205,255,1) 75%, rgba(137,174,255,1) 100%);
   transition: 0.2s;
-  filter: contrast(1.25);
+  border-radius: 0px;
+
 }
 
 /* member groups */
@@ -563,6 +467,7 @@ div.avatarStack__6604a.img.avatar__991e2 {
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .content-1U25dZ,
@@ -639,18 +544,6 @@ img.avatar__08316.clickable_d866f1 {
   height: 35px !important;
 }
 
-/* profile / audio / settings */
-section.panels__58331{
-background: var(--profile-background) !important;
-border: 1px solid var(--profile-border);
-}
-
-.container_ca50b9{
-  background: var(--profile-background) !important;
-  border-top: 1px solid var(--profile-border); 
-  border-bottom: 1px solid var(--profile-border);
-}
-
 .theme-light .nameTag__0e320 > .panelTitleContainer__7a748 > .text-sm-normal_e612c7{
   color: var(--profile-font-color);
   font-family: var(--font-display);
@@ -661,15 +554,11 @@ border: 1px solid var(--profile-border);
 
 /* profile picture */
 .avatar_f8541f {
-  pointer-events: none;
+  background: linear-gradient(-45deg, #001933, #0063cc, #44a4ff);
+  border: 2px solid var(--avatar-profile-border-color);
   position: relative;
   display: block;
-  height: 34px;
-  width: 34px;
-  border-radius: 2px;
-  border: 2px solid var(--avatar-profile-border-color);
-  background: linear-gradient(-45deg, #001933, #0063cc, #44a4ff);
-  box-shadow: 0px 1px 3px black;
+  border-radius: 0px;
 }
 
 img.avatar__08316 {
@@ -752,12 +641,6 @@ div.modeSelected__487d6 > div > a > div.linkTop_eaa673 > div.iconContainer__3f9b
   font-weight: 600;
 }
 
-div.name__02dbd {
-  font-size: 16px;
-  line-height: 22px;
-  color: #000 !important;
-}
-
 /* chatbox */
 .form-3gdLxP {
   -ms-flex-negative: 0;
@@ -826,7 +709,6 @@ div.name__02dbd {
 div.name__8d1ec {
   padding-bottom: 0px;
   padding-top: 0px;
-  /* margin-top: 13px; */
 }
 
 .markup_a7e664 .inline,
@@ -862,12 +744,20 @@ span[style="color: rgb(156, 220, 254);"] {
 }
 
 
-
-
-div.videoGrid__8b6fc {}
-
+  
 /* video chat person box */
-.overlayContainer__83159 {}
+.overlayContainer__83159 {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    /* border-radius: 5px; */
+  /* z-index: 9; */
+  margin: 0px;
+}
+
+div.background__3b30f:not(img){
+  background: url('https://numoder.github.io/dsn10-theme/assets/general/volume.png'), linear-gradient(45deg, #8995d4, transparent, transparent);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  filter: contrast(1.2);
+}
 
 li.channel_c21703.container__8759a[aria-posinset="2"] {
   visibility: hidden;
@@ -964,7 +854,7 @@ div.inner_ab95dc>div>div>div>button>div {
   font-family: var(--font-headline);
 }
 
-div.containerWithMargin__7d380 {
+div.containerWithMargin__7d380, .progressBarContainer__82ad7 {
   background: white;
   box-shadow: inset 1px 1px 1px #0000004d;
   border-radius: var(--radius-xs);
@@ -972,7 +862,7 @@ div.containerWithMargin__7d380 {
 }
 
 /* server progress bar */
-.theme-light .progressBarContainer__9b571{
+.progressBarContainer__9b571, .progressBar__2cbc2{
   background-color: #fff;
   box-sizing: border-box;
   height: 14px;
@@ -983,15 +873,13 @@ div.containerWithMargin__7d380 {
   overflow: hidden;
 }
 
-.progressBar_db0972, .container__4f639:hover .progressBar_db0972   {
+.progressBar_db0972, .container__4f639:hover .progressBar_db0972, .progressBar__47525  {
   background: repeating-linear-gradient(to right,#fff 0px, #fff 2px, transparent 2px, transparent 10px),
               linear-gradient(to bottom, #acedad 0%,#7be47d 14%, #4cda50 28%, #2ed330 42%,#42d845 57%, #76e275 71%, #8fe791 85%, #ffffff 100%);
   height: 10px;
   box-shadow: inset 0px 0px 1px 0px rgba(104, 104, 104, 1);
 }
-
-
-
+  
 .layout_bb8e67 .wrapper_edb6e0:has(rect[width="10"][height="15"][x="22"][y="17"]):before {
 pointer-events: none;
 content: "";
@@ -1028,18 +916,18 @@ padding: 2px;
 margin-left: 4px;
 }
 
-/* tooltip */
+/* tooltips / balloons */
 .tooltip__01384 {
 box-shadow: none;
 }
 
-.theme-light .tooltip__01384 .tooltipContent__79a2d, .visuallyHidden__5b0fb{
+.theme-light .tooltip__01384 .tooltipContent__79a2d, .visuallyHidden__5b0fb, .reactionTooltip__9384a, .wrapper_daf1cf > .root__46d4f {
+box-shadow: inset 0 0 0 1px #000 !important;
 background: var(--tooltip-background) !important;
 color: var(--text-primary) !important;
 font-family: var(--font-headline);
 font-size: 14px;
 padding: 3px 5px;
-box-shadow: inset 0 0 0 1px #000 !important;
 border-radius: 5px;
 }
 
@@ -1126,4 +1014,39 @@ background: linear-gradient(125deg, rgba(255,106,106,1) 0%, rgba(181,0,0,1) 100%
 font-family: var(--font-headline);
 border: 1px solid white;
 border-radius: 5px;
+}
+
+
+/* unsorted */
+
+.theme-dark .container__590e2{
+  background-color: #63609b;
+  }
+  
+    
+  .theme-dark .wrapper__7bcde .modeLocked_fcc71a{
+      background-color: #63609b;
+  }
+  
+  .container-3w7J-x {
+      background: #63609b;
+      background-image: url(http://www.fa-series.com/wp-content/uploads/2020/11/servertitle3.png);
+      background-repeat: no-repeat;
+      background-position-y: 38px;
+      background-size: contain;
+  }
+
+  .info__755e1::before{
+      content: "DiscordNetwork 10";
+      font-family: "Comic Sans MS";
+      font-size: 12px;
+      color: rgb(247, 0, 255);
+      padding-bottom: 10px;
+  }
+
+
+.chat__52833 .content__1a4fe .chatContent__5dca8 .messagesWrapper_ea2b0b .scroller__1f96e::-webkit-scrollbar {
+background: var(--2k-checker-bg);
+width: 16px;
+height: 16px;
 }

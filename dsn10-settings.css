@@ -1,3 +1,4 @@
+
 /* login screen */
 
 .authBox__7196a[data-theme=dark], .authBox__7196a[data-theme=light], .modal__1237a > .content__764ce {
@@ -6,7 +7,6 @@
   background-position: center;
   background-size: cover;
 }  
-
 
 .authBox__7196a{
   border: 2px solid #d2dbfc !important;
@@ -134,7 +134,7 @@ margin-bottom: -1px;
 border: 1px solid white;
 }
 
-.theme-dark .themed_b957e8[data-tab-id="Friend Requests"], .theme-dark .themed_b957e8[data-tab-id="Billing"], .theme-dark .vc-vesktop-settings[data-tab-id="Vesktop"], .theme-dark .themed_b957e8[data-tab-id="Text Component"] {
+.theme-dark .themed_b957e8[data-tab-id="Friend Requests"], .theme-dark .themed_b957e8[data-tab-id="Billing"], .theme-dark .themed_b957e8[data-tab-id="Advanced"],.theme-dark .vc-vesktop-settings[data-tab-id="Vesktop"], .theme-dark .themed_b957e8[data-tab-id="Text Component"] {
 border-bottom: 1px solid white;
 }
 
@@ -169,7 +169,7 @@ div.linkTop_eaa673 > .name__8d1ec:hover {
   color: black;
 }
 
-div.linkTop_eaa673:hover > .name__8d1ec:hover{
+div.linkTop_eaa673:hover{
   transition: 0.2s;
   color: var(--accent-color);
 }
