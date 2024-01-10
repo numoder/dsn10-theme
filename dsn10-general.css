@@ -3,6 +3,7 @@
   --text-primary: #000;
   --accent-color: #0042a5;
   --accent-color-selected: #317df7;
+  --background-color: #5a7edc;
   --background-modifier-selected: transparent;
 
 
@@ -12,24 +13,28 @@
   --menu-border: #aca899;
 
   --login-background: url(https://numoder.github.io/dsn10-theme/assets/src/virtualbox.png) center/cover;
-  --voicecall-background: url(https://numoder.github.io/dsn10-theme/assets/src/WO_SCN07.png) center;
 
   /* profile */
   --profile-background: #768eca;
   --profile-font-color: rgb(255, 255, 255);
   --profile-border: whitesmoke;
-
   --avatar-profile-border-color: black;
 
   /* fonts */
-  --font-primary: "Trebuchet MS";
-  --font-display: var(--font-primary);
-  --font-headline: "Windows";     /* default: "Windows" other: W95FA / Pixelated MS Sans Serif*/
+  --font-header: "Franklin Gothic ATF Med";
+  --font-body: "Tahoma";
+  --font-small: "Pixelated MS Sans Serif",Arial; /* default: "Windows" other: W95FA / Pixelated MS Sans Serif*/
+  
+  /* --font-primary: "Trebuchet MS"; */
+  --font-primary: "Tahoma", bold;
+  --font-headline: var(--font-body);  
   --font-code: "Perfect DOS VGA 437 Win";
 
+  --font-display: var(--font-primary);
+
   /* mentioned */
-  --mention-foreground: rgb(166, 171, 164);
-  --mention-background: rgba(0, 112, 0, 0.2);
+  /* --mention-foreground: rgb(75, 210, 0); */
+  /* --mention-background: rgba(0, 255, 0, 0.2); */
   --background-mentioned: linear-gradient(to right, rgb(182, 244, 146), rgba(51, 139, 147, 0));
 
   /* settings */
@@ -92,13 +97,24 @@
   font-style: normal;
 }
 
-/* voice chat image */
-.theme-dark .videoGrid__8b6fc {
-  background: var(--voicecall-background, url(https://numoder.github.io/dsn10-theme/assets/src/virtualbox.png));
-  background-size: cover;
+@font-face{
+  font-family: "Franklin Gothic ATF Med";
+  src: url(https://ucarecdn.com/2ab09811-4df1-4cfa-bdb2-777548e3694c/) format("woff");
+  src: url(https://ucarecdn.com/a1c741af-477e-4384-8884-0af7c930dd17/) format("woff2");
+  font-weight: 400;
+  font-style: normal;
 }
 
-.characterBackground__2820f {
+@font-face{
+  font-family: "Tahoma";
+  src: url(https://ucarecdn.com/8de1e10e-3685-4bbd-8577-1d2d237d4cbe/);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* login vc */
+.characterBackground__2820f{
   background: var(--login-background);
   background-position: center;
 }
@@ -137,6 +153,11 @@ foreignObject {
 foreignObject {
   display: block;
   overflow: hidden;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
 }
 
 /* -=-=- WINDOWS TITLEBAR -=-=- */
@@ -384,8 +405,6 @@ div.avatarStack__6604a.img.avatar__991e2 {
   text-transform: uppercase;
 }
 
-
-
 .imageWrapper_fd6587 {
   border-radius: 0px;
   border: solid 1px white;
@@ -395,15 +414,41 @@ div.avatarStack__6604a.img.avatar__991e2 {
   box-shadow: 0px 0px 3px black;
 }
 
-.theme-light .markup_a7e664 {
-  color: #000;
-  font-weight: 400;
-  font-size: 14px;
+.messageContent__21e69, .repliedTextPreview__90311 {
+  font-family: var(--font-small);
+  font-size: 11px;
 }
+
+.message__80c10.systemMessage__6e6a4{
+          background-color: var(--light-settings-background);
+          border: 1px solid #7f9db9;
+          margin: 2px;
+}
+
+  .message__80c10.systemMessage__6e6a4  > .contents_f41bb2 > .markup_a7e664 {
+      font-family: var(--font-header) !important;
+  }
+
+.group-spacing-16 .groupStart__56db5{
+  margin-top: 1rem;
+}
+
+  .scrollerInner__059a5 > li:hover, .scrollerInner__059a5 > li.selected-3s45Ha {
+      background-color: var(--background-modifier-hover);
+  }
+
+  .markup_a7e664 {
+      font-weight: 400;
+      font-size: 11px;
+  }
+
+.theme-light .markup_a7e664{
+  color: #000;
+}
+
 .theme-dark .markup_a7e664 {
   color: white;
-  font-weight: 400;
-  font-size: 14px;
+
 }
 
 /* Contacts*/
@@ -759,11 +804,6 @@ div.background__3b30f:not(img){
   filter: contrast(1.2);
 }
 
-li.channel_c21703.container__8759a[aria-posinset="2"] {
-  visibility: hidden;
-  height: 0px;
-}
-
 .privateChannelsHeaderContainer_ddcec6 {
   padding-top: 12.5px;
 }
@@ -779,17 +819,8 @@ li.channel_c21703.container__8759a[aria-posinset="2"] {
 .controlSection_daa0d5>div>div>div>section>div>div.children__32014>div.iconWrapper_af9215 {
   content: url(https://numoder.github.io/dsn10-theme/assets/general/volume.png);
 }
-/* voicecall vc */
-.theme-dark .videoGrid__8b6fc, .callContainer_cbde45 {
-  background: var(--voicecall-background);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-/* login vc */
-.characterBackground__2820f.artwork__8fc92 {
-  background: var(--login-background);
-}
+
 
 /* voicecall channel user number */
 div.wrapper__5848b {
@@ -842,8 +873,13 @@ div.inner_ab95dc>div>div>div>button>div {
 
 /* Menu font */
 .menu_dc52c6 {
-  font-family: var(--font-headline);
+  font-family: var(--font-small);
+  font-size: 11px;
   border-radius: 0px;
+}
+
+.label__73cb9{
+  font-size: 11px;
 }
 
 .theme-light .username_d30d99 {
@@ -873,9 +909,9 @@ div.containerWithMargin__7d380, .progressBarContainer__82ad7 {
   overflow: hidden;
 }
 
-.progressBar_db0972, .container__4f639:hover .progressBar_db0972, .progressBar__47525  {
+.progressBar_db0972, .container__4f639:hover .progressBar_db0972, .progressBar__47525, div.progressBar__47525.small_f53288.animating_affaf1  {
   background: repeating-linear-gradient(to right,#fff 0px, #fff 2px, transparent 2px, transparent 10px),
-              linear-gradient(to bottom, #acedad 0%,#7be47d 14%, #4cda50 28%, #2ed330 42%,#42d845 57%, #76e275 71%, #8fe791 85%, #ffffff 100%);
+              linear-gradient(to bottom, #acedad 0%,#7be47d 14%, #4cda50 28%, #2ed330 42%,#42d845 57%, #76e275 71%, #8fe791 85%, #ffffff 100%) !;
   height: 10px;
   box-shadow: inset 0px 0px 1px 0px rgba(104, 104, 104, 1);
 }
@@ -902,8 +938,9 @@ border-bottom: 1px solid var(--menu-border);
 
 
 .item__183e8{
-
 border-radius: 0px;
+padding-bottom: 0px;
+padding-top: 0px;
 }
 
 /* svg.icon_f09dde{
@@ -925,8 +962,8 @@ box-shadow: none;
 box-shadow: inset 0 0 0 1px #000 !important;
 background: var(--tooltip-background) !important;
 color: var(--text-primary) !important;
-font-family: var(--font-headline);
-font-size: 14px;
+font-family: var(--font-small) !important;
+font-size: 11px;
 padding: 3px 5px;
 border-radius: 5px;
 }
@@ -993,22 +1030,89 @@ content: ▸;
 }
 
 /* sort friends by status buttons */
-div.tabBar__73938 .item_e4ca95{
+.topPill__0cdf1 .item__48dda{
+}
+
+.item_e4ca95 > div.badge_d35eba {
+  display: inline-block;
+}
+
+div.tabBar__73938{
+  margin-bottom: -35px !important;
+  padding-bottom: 7px;
 
 }
 
-/* friends search bar */
-.peopleColumn__51df3 > searchBar_ff8800{
-
+.container__11d72{
+  padding-bottom: 0px !important;
 }
 
-
-input, label, textarea{
-font-family: "Pixelated MS Sans Serif";
-font-size: 11px;
+.tabBar__73938 > div {
+  padding: 14px;
+  clear: both;
+  background: linear-gradient(180deg,#fff,#fafaf9 26%,#f0f0ea 95%,#ecebe5);
+  border: 1px solid #888;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 9px;
 }
 
-/* live button   */
+.tabBar__73938[role="tablist"]{
+  position: relative;
+  margin: 0 0 -2px;
+  text-indent: 0;
+  list-style-type: none;
+  display: flex;
+  padding-left: -3px;
+  font-family: var(--font-small);
+}
+
+.tabBar__73938[role="tablist"] > div{
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      z-index: 1;
+      display: block;
+      color: #222 !important;
+      text-decoration: none;
+      min-width: unset;
+      font-size: 11px;
+}
+.tabBar__73938[role="tablist"] > .item_e4ca95:hover{
+      box-shadow: unset;
+      border-top: 1px solid #e68b2c;
+      box-shadow: inset 0 2px #ffc73c;
+}
+
+.tabBar__73938[role="tablist"] > .item_e4ca95:active{
+  background: linear-gradient(180deg,#cdcac3,#e3e3db 8%,#e5e5de 94%,#f2f2f1);
+  background-color: transparent;
+  box-shadow: unset;
+  border-top: 1px solid #e68b2c;
+  box-shadow: inset 0 2px #ffc73c;
+}
+
+.tabBar__73938[role="tablist"] > .item_e4ca95:focus{
+outline: 1px dotted #222;
+outline-offset: -4px;
+}
+
+.tabBar__73938[role="tablist"] > .item_e4ca95[aria-selected="true"]{
+background-color: #fcfcfe !important;
+border-color: #919b9c;
+  border-top-color: rgb(145, 155, 156);
+  border-bottom-color: rgb(145, 155, 156);
+margin-right: -1px;
+border-bottom: 1px solid transparent;
+border-top: 1px solid #e68b2c;
+box-shadow: inset 0 2px #ffc73c;
+}
+
+.tabBar__73938[role="tablist"] > .item_e4ca95:last-child{
+  background: linear-gradient(0deg, rgba(0,136,93,1) 0%, rgba(125,242,131,1) 100%);
+  color: white !important;
+}
+
+/* live button */
 .live_b195a5{
 background: linear-gradient(125deg, rgba(255,106,106,1) 0%, rgba(181,0,0,1) 100%);;
 font-family: var(--font-headline);
@@ -1049,4 +1153,8 @@ border-radius: 5px;
 background: var(--2k-checker-bg);
 width: 16px;
 height: 16px;
+}
+
+.upperContainer__993ba, div.lineClamp1__92431, div.container_b03b4b > h3, h1 {
+  font-family: var(--font-header);
 }

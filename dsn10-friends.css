@@ -1,3 +1,10 @@
 .subtext__1a662 > .activity__24558 > .text__1dddb, .subText_ed6eed > .activity_a8c37a > .activityText__84949{
-  font-family: var(--font-headline);
-} 
+  font-family: var(--font-small);
+  font-size: 11px;
+}   
+
+.theme-light .tabBody_b3d268 {
+  background: linear-gradient(180deg,#fcfcfe,#f4f3ee);
+  padding: 14px;
+  border: 1px solid #919b9c;
+}

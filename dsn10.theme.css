@@ -1,8 +1,7 @@
-/* dlm.theme.css */
 /**
  * @name DiscordNetwork10
  * @author numoder
- * @version 0.1.1
+ * @version 0.2.1
  * @description A little throwback to better times.
  * @source https://github.com/numoder/dsn10-theme
 */
@@ -18,7 +17,9 @@
   --text-primary: #000;
   --accent-color: #0042a5;
   --accent-color-selected: #317df7;
+  --background-color: #5a7edc;
   --background-modifier-selected: transparent;
+
 
     /* tooltip */
   --tooltip-background: #ffffe1;
@@ -26,24 +27,28 @@
   --menu-border: #aca899;
 
   --login-background: url(https://numoder.github.io/dsn10-theme/assets/src/virtualbox.png) center/cover;
-  --voicecall-background: url(https://numoder.github.io/dsn10-theme/assets/src/WO_SCN07.png) center;
 
   /* profile */
-  --profile-background: #8473c4;
+  --profile-background: #768eca;
   --profile-font-color: rgb(255, 255, 255);
   --profile-border: whitesmoke;
-
   --avatar-profile-border-color: black;
 
   /* fonts */
-  --font-primary: "Trebuchet MS";
-  --font-display: var(--font-primary);
-  --font-headline: "Windows";     /* default: "Windows" other: W95FA / Pixelated MS Sans Serif*/
+  --font-header: "Franklin Gothic ATF Med";
+  --font-body: "Tahoma";
+  --font-small: "Pixelated MS Sans Serif",Arial; /* default: "Windows" other: W95FA / Pixelated MS Sans Serif*/
+  
+  /* --font-primary: "Trebuchet MS"; */
+  --font-primary: "Tahoma", bold;
+  --font-headline: var(--font-body);  
   --font-code: "Perfect DOS VGA 437 Win";
 
+  --font-display: var(--font-primary);
+
   /* mentioned */
-  --mention-foreground: rgb(29, 102, 0);
-  --mention-background: rgba(0, 112, 0, 0.2);
+  /* --mention-foreground: rgb(75, 210, 0); */
+  /* --mention-background: rgba(0, 255, 0, 0.2); */
   --background-mentioned: linear-gradient(to right, rgb(182, 244, 146), rgba(51, 139, 147, 0));
 
   /* settings */
@@ -53,6 +58,7 @@
   --dark-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
   --background-modifier-hover: #d2dbfc;
   --light-channel-background:linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
+
 
   /* video player */
   --video-player-border: 1px solid #acacac;

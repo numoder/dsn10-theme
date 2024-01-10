@@ -14,23 +14,11 @@ None of this could've been done without the people who made the works below!
  [XP.CSS](https://botoxparty.github.io/XP.css/)
 
  [High Res Windows XP icons](https://github.com/marchmountain/-Windows-XP-High-Resolution-Icon-Pack)
- 
-## Roadmap
-
-Very soon:
-- Finish adding all icons
-- Settings menu
-- Dark mode support
-
-Later:
-- User profiles
-- MSN emojis
-  
-Then it'll finally be ready for BetterDiscord Themes!
 
 ## Screenshots
 
 ![Login](https://cdn.discordapp.com/attachments/1179087942552133685/1189776707050291200/image.png?ex=659f64e7&is=658cefe7&hm=f5b339059306b986790019133112cce312370c0e503896d5963b279fd982e9dd&)
-![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1189432727829745816/image.png?ex=659e248c&is=658baf8c&hm=62a5d73c85998ed962101688ca01f523acd89ead8befd06cf09c98f7fa42bca6&)
-![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1189432976073834516/image.png?ex=659e24c8&is=658bafc8&hm=c41a3100db27e5847b487a20216cd3fa16e235d232e8c693ceb086fdba95a899&)
-![Settings](https://cdn.discordapp.com/attachments/1179087942552133685/1187608419746725960/image.png?ex=65978187&is=65850c87&hm=11d4e95f710f5d8d70559683724b890e9338104506e4c84e958abc989e28e092&)
+![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1194142937454485544/image.png?ex=65af4746&is=659cd246&hm=be1e11dffa0b592b68f9c97b72032d5fb342cdc221a5d7681e42860100ebb223&)
+![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1194143944410402817/image.png?ex=65af4836&is=659cd336&hm=e5318bdb4264e88374347e41944913e4aaa439ff7e8295a9a21436c83ff46e0d&)
+![Settings](https://cdn.discordapp.com/attachments/1181701173997228204/1194143475373977770/image.png?ex=65af47c6&is=659cd2c6&hm=d538a350bef120f0e9dcc2f127fc95448bc7f6c42945135ad671fa78680ee157&)
+PS this theme is very ugly at the moment!!! anything may be suited to be changed! I've only been doing CSS for a year and as I improve, so will the theme!

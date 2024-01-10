@@ -374,13 +374,12 @@ div.wrapper__0ed4a > div > div.actionButtons_b58cbb > button:hover, div.wrapper_
 
 .circleIconButton_d8df29[aria-label="Add a Server"] {
     content: url(https://numoder.github.io/dsn10-theme/assets/typing-form/plus.png);
-    filter: hue-rotate(-75deg);
+    filter: hue-rotate(135deg);
     background-color: transparent;
 }
 
 .circleIconButton_d8df29[aria-label="Explore Discoverable Servers"] {
     content: url(https://numoder.github.io/dsn10-theme/assets/general/explore.png);
-    filter: hue-rotate(-75deg);
     background-color: transparent;
 }
 
