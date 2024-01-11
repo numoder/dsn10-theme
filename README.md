@@ -17,7 +17,7 @@ None of this could've been done without the people who made the works below!
 
 ## Screenshots
 
-![Login](https://cdn.discordapp.com/attachments/1179087942552133685/1189776707050291200/image.png?ex=659f64e7&is=658cefe7&hm=f5b339059306b986790019133112cce312370c0e503896d5963b279fd982e9dd&)
+![Login](https://cdn.discordapp.com/attachments/1179087942552133685/1194871429586501662/image.png?ex=65b1edbc&is=659f78bc&hm=22e2698fd1dec7cbc92f406fa9aa0442e1e781e451ed3f5512cb7e4bdac5ef2b&)
 ![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1194868152274784266/image.png?ex=65b1eaaf&is=659f75af&hm=e872e33970fd67686a50f1590914a2c396c52b20148c07e851bf58c3fb46d653&)
 ![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1194869117723885618/image.png?ex=65b1eb95&is=659f7695&hm=d8694dcbc429bb62535482ebe61bbfba96836b187fbcf84b04bc23f8d33707f7&)
 ![ Dark Settings](https://cdn.discordapp.com/attachments/1181701173997228204/1194869576505233448/image.png?ex=65b1ec02&is=659f7702&hm=723c848a16c0a1228d6fb61362ec7170a742bdd24635d3f0edd516eb9bd037c8&)
