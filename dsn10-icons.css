@@ -568,6 +568,8 @@ li:nth-child(2)>div>a>div>div.avatar__7bd22 {
     content: url(https://numoder.github.io/dsn10-theme/assets/general/stop.png);
 }
 
+
+
 .actionButton__23182:hover {
     box-shadow: 0 0 100px rgb(91, 91, 255);
 }
@@ -607,6 +609,7 @@ div.scroller__00e7e {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom;
+    margin-left: 0px;
 }
 
 [src="/assets/9492f371ccf5db4f0156.mp4"],

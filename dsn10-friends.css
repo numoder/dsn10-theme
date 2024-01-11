@@ -1,10 +1,10 @@
-.subtext__1a662 > .activity__24558 > .text__1dddb, .subText_ed6eed > .activity_a8c37a > .activityText__84949{
+.subtext__1a662 > .activity__24558 > .text__1dddb, .subText_ed6eed > .activity_a8c37a > .activityText__84949, .activityText__47ec1, .linkBottom_bac113 > div, .statusDiv_a4cf67 > div{
   font-family: var(--font-small);
-  font-size: 11px;
+  font-size: 11px !important;
 }   
 
 .theme-light .tabBody_b3d268 {
   background: linear-gradient(180deg,#fcfcfe,#f4f3ee);
-  padding: 14px;
+  padding: 0px;
   border: 1px solid #919b9c;
 }

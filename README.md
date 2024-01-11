@@ -18,7 +18,7 @@ None of this could've been done without the people who made the works below!
 ## Screenshots
 
 ![Login](https://cdn.discordapp.com/attachments/1179087942552133685/1189776707050291200/image.png?ex=659f64e7&is=658cefe7&hm=f5b339059306b986790019133112cce312370c0e503896d5963b279fd982e9dd&)
-![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1194142937454485544/image.png?ex=65af4746&is=659cd246&hm=be1e11dffa0b592b68f9c97b72032d5fb342cdc221a5d7681e42860100ebb223&)
-![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1194143944410402817/image.png?ex=65af4836&is=659cd336&hm=e5318bdb4264e88374347e41944913e4aaa439ff7e8295a9a21436c83ff46e0d&)
-![Settings](https://cdn.discordapp.com/attachments/1181701173997228204/1194143475373977770/image.png?ex=65af47c6&is=659cd2c6&hm=d538a350bef120f0e9dcc2f127fc95448bc7f6c42945135ad671fa78680ee157&)
+![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1194868152274784266/image.png?ex=65b1eaaf&is=659f75af&hm=e872e33970fd67686a50f1590914a2c396c52b20148c07e851bf58c3fb46d653&)
+![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1194869117723885618/image.png?ex=65b1eb95&is=659f7695&hm=d8694dcbc429bb62535482ebe61bbfba96836b187fbcf84b04bc23f8d33707f7&)
+![ Dark Settings](https://cdn.discordapp.com/attachments/1181701173997228204/1194869576505233448/image.png?ex=65b1ec02&is=659f7702&hm=723c848a16c0a1228d6fb61362ec7170a742bdd24635d3f0edd516eb9bd037c8&)
 PS this theme is very ugly at the moment!!! anything may be suited to be changed! I've only been doing CSS for a year and as I improve, so will the theme!

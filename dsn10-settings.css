@@ -184,7 +184,7 @@ div.linkTop_eaa673:hover{
 color: var(--accent-color-selected);
 }
 
-.searchBar_e4ea2a>.searchBarComponent__22760, .searchBar_ff8800, div.searchBar_e0c60b {
+.upperContainer__993ba > div > div > div > div.searchBar_e0c60b {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: -webkit-box;
