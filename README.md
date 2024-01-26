@@ -4,6 +4,8 @@
 # DSN Explorer 10
 Inspired by Windows MSN Messenger 7 and MSN Explorer 7 / 10, originally from kamuisuki's [**Discord MSN EXPLORER 10**](https://www.deviantart.com/kamuisuki/art/Discord-MSN-Explorer-10-theme-873282935) theme.
 
+Back from hiatus!! Update coming soon~
+
 ![Escargot](https://img.shields.io/badge/malkavian@escargot.chat-e1512c?color=%23e1512c&style=plastic) ![Downloads](https://img.shields.io/github/downloads/numoder/dsn10-theme/total?style=plastic&color=%238ec64b) ![Issues](https://img.shields.io/github/issues/numoder/dsn10-theme?style=plastic&color=%23609bd7) ![License](https://img.shields.io/github/license/numoder/dsn10-theme?color=%23e9da4b&style=plastic)
 ## Sources
 
