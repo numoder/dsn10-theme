@@ -19,8 +19,8 @@ None of this could've been done without the people who made the works below!
 
 ## Screenshots
 
-![Login](https://cdn.discordapp.com/attachments/1179087942552133685/1194871429586501662/image.png?ex=65b1edbc&is=659f78bc&hm=22e2698fd1dec7cbc92f406fa9aa0442e1e781e451ed3f5512cb7e4bdac5ef2b&)
-![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1205196204523262042/image.png?ex=65d77d6e&is=65c5086e&hm=47e9cea10929d16ae64972aac49402034549f76410c9be81c328be370b201083&)
+![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1206675683359596635/image.png?ex=65dcdf4d&is=65ca6a4d&hm=27cd960cd27e07d93942f75a608e598c7bf270d226ce502118a4d7df81331c78&)
 ![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1194869117723885618/image.png?ex=65b1eb95&is=659f7695&hm=d8694dcbc429bb62535482ebe61bbfba96836b187fbcf84b04bc23f8d33707f7&)
 ![Settings](https://github.com/numoder/dsn10-theme/assets/72421281/14f20d34-e645-4e74-b1b2-4633ae27a37a)
+![Login](https://cdn.discordapp.com/attachments/1179087942552133685/1194871429586501662/image.png?ex=65b1edbc&is=659f78bc&hm=22e2698fd1dec7cbc92f406fa9aa0442e1e781e451ed3f5512cb7e4bdac5ef2b&)
 PS this theme is very ugly at the moment!!! anything may be suited to be changed! I've only been doing CSS for a year and as I improve, so will the theme!
