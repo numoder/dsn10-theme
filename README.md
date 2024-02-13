@@ -10,7 +10,6 @@ Back from hiatus!! Update coming soon~
 ## Sources
 
 None of this could've been done without the people who made the works below!
-
  [Original WinClassic thread](https://winclassic.net/thread/753/discord-classic-msn-theme)
  
  [XP.CSS](https://botoxparty.github.io/XP.css/)
@@ -24,4 +23,5 @@ None of this could've been done without the people who made the works below!
 ![Settings](https://media.discordapp.net/attachments/1181701173997228204/1206813194702557255/image.png?ex=65dd5f5f&is=65caea5f&hm=fc19dbb111cd458f05267ef05b5f5efe0cba740f748cf85e0f7c61fac0f2679e&=&format=webp&quality=lossless)
 ![Login](https://github.com/numoder/dsn10-theme/assets/72421281/63df9423-782e-4493-b284-f1a93fafd48a)
 
-PS this theme is very ugly at the moment!!! anything may be suited to be changed! I've only been doing CSS for a year and as I improve, so will the theme!
+P.S. this theme is very ugly at the moment!!! anything may be suited to be changed! I've only been doing CSS for a year and as I improve, so will the theme!
+P.P.S. due to the way discord handles icons, 99% of the custom icons from this theme won't work on non english languages. sorry!!! ☹️
