@@ -20,7 +20,7 @@ None of this could've been done without the people who made the works below!
 
 ## Screenshots
 
-![Homepage](https://cdn.discordapp.com/attachments/1179087942552133685/1209299437076094996/image.png?ex=65e66add&is=65d3f5dd&hm=ef7b335a98031105c508625daa9aa6c1103cf1dbc8a3885cf33dbec46346802e&)
+![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1211698244556693544/image.png?ex=65ef24ed&is=65dcafed&hm=21d14e0a07f2814d1df9a3b2822f36191a39ed513179448079d58d6ffaae9eef&)
 ![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1211697663620288594/image.png?ex=65ef2463&is=65dcaf63&hm=40990676185d680ecfd7f02c71ebabba6fc2d5a9b302c016377616a2f16223d2&)
 ![Settings](https://cdn.discordapp.com/attachments/1181701173997228204/1211697154125598800/image.png?ex=65ef23e9&is=65dcaee9&hm=5297396bb77b1e3de953af90a7d50de351e954cabba4981ea24962f24bfb7bde&)
 ![Login](https://github.com/numoder/dsn10-theme/assets/72421281/63df9423-782e-4493-b284-f1a93fafd48a)
