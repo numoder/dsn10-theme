@@ -25,4 +25,4 @@ None of this could've been done without the people who made the works below!
 
 
 P.S. this theme is very ugly at the moment!!! anything may be suited to be changed! I've only been doing CSS for a year and as I improve, so will the theme!
-P.P.S. due to the way discord handles icons, 99% of the custom icons from this theme won't work with languages other than english. sorry!!! ☹️
+P.P.S. due to the way discord handles icons, 99% of the custom icons from this theme won't work with languages other than english. sorry!!! ☹️ I'll add support for more languages in the future
