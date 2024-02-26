@@ -20,7 +20,7 @@ None of this could've been done without the people who made the works below!
 
 ## Screenshots
 
-![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1211698244556693544/image.png?ex=65ef24ed&is=65dcafed&hm=21d14e0a07f2814d1df9a3b2822f36191a39ed513179448079d58d6ffaae9eef&)
+![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1211703313670869002/image.png?ex=65ef29a6&is=65dcb4a6&hm=369b0a52d0b956395468a3a7c598d819968c3e5765d104262be144ffe1eb3afa&)
 ![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1211697663620288594/image.png?ex=65ef2463&is=65dcaf63&hm=40990676185d680ecfd7f02c71ebabba6fc2d5a9b302c016377616a2f16223d2&)
 ![Settings](https://cdn.discordapp.com/attachments/1181701173997228204/1211697154125598800/image.png?ex=65ef23e9&is=65dcaee9&hm=5297396bb77b1e3de953af90a7d50de351e954cabba4981ea24962f24bfb7bde&)
 ![Voicechat](https://github.com/numoder/dsn10-theme/assets/72421281/9f0c87fe-3b4b-4d97-95ef-b3114f1ffe03)
