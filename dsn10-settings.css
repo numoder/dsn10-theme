@@ -18,8 +18,7 @@
 
 /* header text for login screen */
 div.mainLoginContainer__58502 > div.header_feace3 > h1,
-div > div > section > div.centeringWrapper__319b0 > h1,
-.bd-sidebar-header{
+div > div > section > div.centeringWrapper__319b0 > h1{
   font-family: var(--font-primary), bold;
   font-size: xx-large;
   font-style: italic;
