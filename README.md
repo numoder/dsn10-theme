@@ -19,9 +19,8 @@ None of this could've been done without the people who made the works below!
 ## Screenshots
 
 ![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1211703313670869002/image.png?ex=65ef29a6&is=65dcb4a6&hm=369b0a52d0b956395468a3a7c598d819968c3e5765d104262be144ffe1eb3afa&)
-![Server](https://cdn.discordapp.com/attachments/1181701173997228204/1212851333552545883/image.png?ex=65f356d3&is=65e0e1d3&hm=e26a5c06a8d42e4e00b2db9788ff3ad8f6925448c30f3d23a101f40794b2fc70&)
-![Settings](https://cdn.discordapp.com/attachments/1181701173997228204/1211697154125598800/image.png?ex=65ef23e9&is=65dcaee9&hm=5297396bb77b1e3de953af90a7d50de351e954cabba4981ea24962f24bfb7bde&)
-![Voicechat](https://github.com/numoder/dsn10-theme/assets/72421281/9f0c87fe-3b4b-4d97-95ef-b3114f1ffe03)
+![Server](https://github.com/numoder/dsn10-theme/assets/72421281/bb6ae765-02a1-442e-ab89-905f45cf2b69)
+![Friend chat](https://github.com/numoder/dsn10-theme/assets/72421281/7fb8f5d3-9507-43e4-8623-3f8ef1beb2f0)
 
 
 P.S. this theme is very ugly at the moment!!! anything may be suited to be changed! I've only been doing CSS for a year and as I improve, so will the theme!
