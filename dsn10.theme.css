@@ -12,8 +12,14 @@
 @import url("https://numoder.github.io/dsn10-theme/dsn10-friends.css");
 @import url("https://numoder.github.io/dsn10-theme/dsn10-settings.css");
 
+/* avatar settings */
+@import url("https://numoder.github.io/dsn10-theme/settings/avatar2.css");
+/* avatar1.css = messenger icons on server sidebar instead of avatars*/
+/* avatar2.css = messenger status icons only, avatars left alone */
+
+
 /* more themes coming soon!~ */
-@import url("https://numoder.github.io/dsn10-theme/default.css");
+@import url("https://numoder.github.io/dsn10-theme//themes/default.css");
 
 :root {
   /* general */
