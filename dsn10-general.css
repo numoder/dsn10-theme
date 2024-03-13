@@ -112,9 +112,9 @@
 
 @font-face {
   font-family: "Perfect DOS VGA 437 Win";
-  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/PerfectDOSVGA437/PerfectDOSVGA437.woff)
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/PerfectDOSVGA437/PerfectDOSVGA437Win.woff)
     format("woff");
-    src: url(https://numoder.github.io/dsn10-theme/assets/fonts/PerfectDOSVGA437/PerfectDOSVGA437.woff2)
+    src: url(https://numoder.github.io/dsn10-theme/assets/fonts/PerfectDOSVGA437/PerfectDOSVGA437Win.woff2)
     format("woff2");
   font-weight: 400;
   font-style: normal;
