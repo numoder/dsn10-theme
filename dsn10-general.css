@@ -12,10 +12,16 @@
   --login-background: url(https://numoder.github.io/dsn10-theme/assets/src/starfield.jpg)
     center/cover;
 
+  /* avatar */
+  --avatar-border: 2px solid #222;
+  --small-avatar-border: 
+  --avatar-background: linear-gradient(-45deg, #001933, #0063cc, #44a4ff);
+
+
   /* fonts */
   --font-header: "Trebuchet MS";
   --font-body: "Tahoma";
-  --font-small: "MS Sans Serif", Arial; /* for a more accurate WinXP look, try these options: Windows / W95FA / MS Sans Serif */
+  --font-small: "MS Sans Serif", Arial;
   --font-small-size: 11px; /* default: 11px */
 
   --font-primary: "Tahoma", bold;
@@ -90,29 +96,25 @@
 
 @font-face {
   font-family: "MS Sans Serif";
-  src: url(https://ucarecdn.com/a40684b6-a473-40ed-95dc-e3fc082c7ae9/)
-    format("woff");
-  src: url(https://ucarecdn.com/852c45fe-9f5c-4b69-88e5-9b79fc8a93f3/)
-    format("woff2");
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/MS%20Sans%20Serif/MSSansSerif.woff) format("woff");
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/MS%20Sans%20Serif/MSSansSerif.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "MS Sans Serif", bold;
-  src: url(https://ucarecdn.com/e5f8c7e0-88a5-4a82-a795-a214497e36ff/)
-    format("woff");
-  src: url(https://ucarecdn.com/764ec4de-2b2b-4f09-bbe2-0bc7ea00672d/)
-    format("woff2");
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/MS%20Sans%20Serif/MSSansBold.woff) format("woff");
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/MS%20Sans%20Serif/MSSansBold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Perfect DOS VGA 437 Win";
-  src: url(https://ucarecdn.com/64f63cfc-b692-42b5-9415-d99ad77c0aca/)
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/PerfectDOSVGA437/PerfectDOSVGA437.woff)
     format("woff");
-  src: url(https://ucarecdn.com/1520e58c-8d6b-4f22-8e11-ce19216a73d5/)
+    src: url(https://numoder.github.io/dsn10-theme/assets/fonts/PerfectDOSVGA437/PerfectDOSVGA437.woff2)
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -121,8 +123,10 @@
 
 @font-face {
   font-family: "Trebuchet MS";
-  src: url(https://ucarecdn.com/57ff7c47-b87a-4837-b005-d18074a9df35/trebuc.woff)
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Trebuchet%20MS/trebuc.woff)
     format("woff");
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Trebuchet%20MS/trebuc.woff2)
+    format("woff2");
   font-weight: 500;
   font-style: normal;
 }
@@ -149,9 +153,9 @@
 
 @font-face {
   font-family: "Franklin Gothic ATF Med";
-  src: url(https://ucarecdn.com/2ab09811-4df1-4cfa-bdb2-777548e3694c/)
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Franklin%20Gothic.woff)
     format("woff");
-  src: url(https://ucarecdn.com/a1c741af-477e-4384-8884-0af7c930dd17/)
+    src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Franklin%20Gothic.woff2)
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -159,15 +163,35 @@
 
 @font-face {
   font-family: "Tahoma";
-  src: url(https://ucarecdn.com/9e88f417-d6ca-4670-ac58-60f94308ac93/)
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Tahoma/tahoma.woff)
     format("woff");
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Tahoma/tahoma.woff2)
+    format("woff2");
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Verdana/verdana.woff)
+    format("woff");
+  src: url(https://numoder.github.io/dsn10-theme/assets/fonts/Verdana/verdana.woff2)
+    format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 
 foreignObject,
 [id=":r4r:"] {
   mask: none !important;
+}
+
+.theme-light {
+  --text-primary: #222;
+}
+
+.theme-dark {
+  --text-primary: #fff;
 }
 
 .folderIconWrapper__72239,
