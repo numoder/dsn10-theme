@@ -6,7 +6,7 @@ Inspired by Windows MSN Messenger 7 and MSN Explorer 7 / 10, originally from kam
 
 also warning: due to how small the main font is, it can often be blurry and illegible. if its too much to handle i'd suggest switching --font-small from MS Sans Serif to Tahoma.
 
-![Escargot](https://img.shields.io/badge/malkavian@escargot.chat-e1512c?color=%23e1512c&style=plastic) ![Downloads](https://img.shields.io/github/downloads/numoder/dsn10-theme/total?style=plastic&color=%238ec64b) ![Issues](https://img.shields.io/github/issues/numoder/dsn10-theme?style=plastic&color=%23609bd7) ![License](https://img.shields.io/github/license/numoder/dsn10-theme?color=%23e9da4b&style=plastic)
+![Escargot](https://img.shields.io/badge/malkavian@escargot.chat-e1512c?color=%23e1512c&style=plastic) ![Downloads](https://img.shields.io/github/downloads/numoder/dsn10-theme/total?style=plastic&color=%238ec64b) ![Issues](https://img.shields.io/github/issues/numoder/dsn10-theme?style=plastic&color=%23609bd7) ![License](https://img.shields.io/github/license/numoder/dsn10-theme?color=%23e9da4b&style=plastic) <a href="https://wakatime.com/badge/user/d2591a35-0e84-4f15-9761-74e696bef8f4/project/018cac41-ef7c-497e-b067-2232a943da53"><img src="https://wakatime.com/badge/user/d2591a35-0e84-4f15-9761-74e696bef8f4/project/018cac41-ef7c-497e-b067-2232a943da53.svg" alt="wakatime"></a>
 ## Sources
 
 None of this could've been done without the people who made the works below!
