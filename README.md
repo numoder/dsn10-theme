@@ -16,6 +16,8 @@ None of this could've been done without the people who made the works below!
 
  [High Res Windows XP icons](https://github.com/marchmountain/-Windows-XP-High-Resolution-Icon-Pack)
 
+
+While you are here check out Leafinguh's take on a <b>[MSN7 discord theme!](https://github.com/Leafinguh/msn7-disc)</b>
 ## Screenshots
 
 ![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1211703313670869002/image.png?ex=65ef29a6&is=65dcb4a6&hm=369b0a52d0b956395468a3a7c598d819968c3e5765d104262be144ffe1eb3afa&)
