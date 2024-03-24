@@ -1758,6 +1758,10 @@ h1 {
   opacity: 1;
 }
 
+.controlIcon__25700, .dropdownIcon_d3bbbc{
+  visibility:visible !important;
+}
+
 .checkbox_c7f690:before,
 .container__871ba .input_be50d1:before,
 .control_f6cce7 .container__871ba .input_be50d1:before {
