@@ -272,14 +272,7 @@ div.wrapper_e832ee > div > div.actionButtons__85e3c > div > button:hover {
   display: none;
 }
 
-.emojiButton__176c8 {
-  background: red;
-  background: url(https://numoder.github.io/dsn10-theme/assets/emojis/happy.gif);
-  /* background-size: 24px 24px; */
-  background-position: fixed;
-  background-repeat: no-repeat;
-  margin-top: 8px;
-}
+
 
 /* bottom bar */
 .attachButton__5f6dc:hover,
@@ -747,3 +740,4 @@ div.upperContainer__57565
   color: transparent;
   width: 0px;
 }
+

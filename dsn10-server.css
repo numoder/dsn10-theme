@@ -525,6 +525,14 @@ li.containerDefault__3187b > div:active {
   background-color: #fff0;
 }
 
+.membersWrap__5ca6b{
+  min-width: none;
+}
+
+.tree__7a511{
+  background: linear-gradient(90deg, #fff 0%, #ccd5e6 100%);
+}
+
 .wrapperSimple_a34580 {
   border-radius: 0px;
 }
