@@ -103,46 +103,46 @@
     height: 30px;
   }
   
-  div.buttons__7ecff > div:nth-child(3) > button {
-    content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gif.png);
-    width: 24px;
-    height: 24px;
-    transition: 0.2s;
-  }
-  
-  div.buttons__7ecff > div:nth-child(3):hover > button {
-    filter:saturate(5);
-    transition: 0.2s;
-  }
-  
-  
-  .stickerButton_c02bc0 {
-    content: url(https://numoder.github.io/dsn10-theme/assets/textarea/sticker.png);
-    width: 24px;
-    height: 24px;
-  }
-  
-  .stickerButton_c02bc0:hover {
-    filter:hue-rotate(180deg) ;
-  }
-  
-  div.buttons__7ecff > .button__581d0 > div{
-    content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gift.png);
-    background: transparent;
-    border-radius: 50px;
-    margin-right: 10px;
-  }
-  
-  div.buttons__7ecff > div:nth-child(5) > button{
-    content: url(https://numoder.github.io/dsn10-theme/assets/emojis/happy.gif);
-    background: transparent;
-    border-radius: 50px;
-    margin-right: 10px;
-  }
-  
-  div.buttons__7ecff > div:nth-child(5):hover > button{
-    content: url(https://numoder.github.io/dsn10-theme/assets/emojis/wink.gif);
-  }
+button:has([d=" M-7,-10 C-8.656999588012695,-10 -10,-8.656999588012695 -10,-7 C-10,-7 -10,7 -10,7 C-10,8.656999588012695 -8.656999588012695,10 -7,10 C-7,10 7,10 7,10 C8.656999588012695,10 10,8.656999588012695 10,7 C10,7 10,-7 10,-7 C10,-8.656999588012695 8.656999588012695,-10 7,-10 C7,-10 -7,-10 -7,-10z"]) {
+  content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gif.png);
+  width: 24px;
+  height: 24px;
+  transition: 0.2s;
+}
+
+button:has([d=" M-7,-10 C-8.656999588012695,-10 -10,-8.656999588012695 -10,-7 C-10,-7 -10,7 -10,7 C-10,8.656999588012695 -8.656999588012695,10 -7,10 C-7,10 7,10 7,10 C8.656999588012695,10 10,8.656999588012695 10,7 C10,7 10,-7 10,-7 C10,-8.656999588012695 8.656999588012695,-10 7,-10 C7,-10 -7,-10 -7,-10z"]):hover {
+  filter:saturate(5);
+  transition: 0.2s;
+}
+
+
+.stickerButton_c02bc0 {
+  content: url(https://numoder.github.io/dsn10-theme/assets/textarea/sticker.png);
+  width: 24px;
+  height: 24px;
+}
+
+.stickerButton_c02bc0:hover {
+  filter:hue-rotate(180deg) ;
+}
+
+div.buttons__7ecff > .button__581d0 > div{
+  content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gift.png);
+  background: transparent;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+button:has(.spriteContainer__732c7) {
+  content: url(https://numoder.github.io/dsn10-theme/assets/emojis/happy.gif);
+  background: transparent;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+button:has(.spriteContainer__732c7):hover {
+  content: url(https://numoder.github.io/dsn10-theme/assets/emojis/wink.gif);
+}
   
   /* message to: bar */
   .subtitleContainer_f50402 > section > .upperContainer__57565{
