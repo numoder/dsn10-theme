@@ -58,6 +58,10 @@
     --profile-color-4: #eef2f9;
     --profile-color-5: #d2ddef;
   
+
+    --reaction-background: linear-gradient(0deg, rgba(46, 155, 55, 0.6) 0%, rgba(166, 252, 95, 0.5));
+    --reaction-border: green;
+
     --add-friend-background: linear-gradient(180deg, rgba(205,217,238,1) 0%, rgba(223,231,243,1) 50%, rgba(250,251,253,1) 100%);
     --add-friend-border: var( --border-light);
   
