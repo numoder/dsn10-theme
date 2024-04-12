@@ -544,19 +544,18 @@
     min-height: 20px;
   }
   
-  .panels__58331
-    .actionButtons__85e3c
-    > .button_b82d53:first-child
-    > .contents__322f4 {
-    content: url(https://numoder.github.io/dsn10-theme/assets/user-area/webcam.png);
-  }
-  
-  .panels__58331
-    .actionButtons__85e3c
-    > .button_b82d53.fauxDisabled_daee54:first-child
-    > .contents__322f4 {
-    content: url(https://numoder.github.io/dsn10-theme/assets/user-area/webcam2.png);
-  }
+  .actionButtons__85e3c > .button_b82d53:first-child > div {
+      background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam.png);
+        background-size: contain;
+    }
+      
+.panels__58331
+  .actionButtons__85e3c
+  > .button_b82d53.fauxDisabled_daee54:first-child
+  > .contents__322f4 {
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam2.png);
+  background-size: contain;
+}
   
   .button_b82d53.buttonColor__7bad9.fauxDisabled_daee54 {
     opacity: 1;
