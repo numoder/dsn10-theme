@@ -306,10 +306,10 @@
   }
   
   
-  .chatContent_f087cb .themedBackground__3a4c0 .inner__9fd0b .buttons__7ecff button{
-    position: relative;
-    left: 45px;
-  }
+.chatContent_f087cb .themedBackground__3a4c0 .inner__9fd0b .buttons__7ecff:has(.separator__666aa) button{
+  position: relative;
+  left: 45px;
+}
   
   
   .chatContent_f087cb:has(.messagesWrapper_add28b) .inner__9fd0b .textArea_a86690 {
