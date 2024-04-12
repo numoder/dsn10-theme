@@ -1,4 +1,5 @@
-![Logo](https://github.com/numoder/dsn10-theme/blob/main/assets/discord/Beta.png?raw=true)
+
+![Logo](https://github.com/numoder/dsn10-theme/blob/main/assets/src/banner.png?raw=true)
 
 # Discord Network Messenger
 
@@ -20,10 +21,12 @@ None of this could've been done without the people who made the works below!
 
 [Windows XP Visual Guidelines](http://interface.free.fr/Archives/GUI_Xp.pdf)
 
+`<b>`[Leafinguhs AMAZINGLY accurate theme](https://github.com/Leafinguh/msn7-disc)`</b>`
+
 For the most accurate look I recommend [turning off Clear type](https://github.com/bp2008/BetterClearTypeTuner)
 
 ## Screenshots
 
-![Homepage](https://cdn.discordapp.com/attachments/1181701173997228204/1211703313670869002/image.png?ex=65ef29a6&is=65dcb4a6&hm=369b0a52d0b956395468a3a7c598d819968c3e5765d104262be144ffe1eb3afa&)
-
-![Server](https://github.com/numoder/dsn10-theme/assets/github/server.png)
+![page1](https://github.com/numoder/dsn10-theme/blob/main/assets/src/1.png)
+![page2](https://github.com/numoder/dsn10-theme/blob/main/assets/src/2.png)
+![page3](https://github.com/numoder/dsn10-theme/blob/main/assets/src/3.png)

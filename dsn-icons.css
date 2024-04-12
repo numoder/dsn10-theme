@@ -1,0 +1,411 @@
+/* icons.css */
+
+.toolbar__62fb5 .clickable_ce0925 .icon_ae0b42, .sendIcon_f67abd{
+    color: transparent;
+  }
+  
+  /* pin */
+  [aria-label="Pinned Messages"] > svg {
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/pin.png);
+    background-size: cover;
+  } 
+  
+  /* inbox */
+  .recentsIcon_a585d7 svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/email.png);
+    background-size: cover;
+  }
+  
+  .recentsIcon_a585d7 .selected__1fc53 svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/email2.png);
+    background-size: cover;
+  }
+  
+  [aria-label="New Group DM"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/group.png) !important;
+    background-size: cover;
+  }
+  
+  /* add contact*/
+  [aria-label="Add Friends to DM"] > svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/addacontact.png);
+    background-size: cover;
+  }
+  
+  [href="https://support.discord.com"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/Help.png);
+    background-size: cover;
+  }
+  
+  [aria-label="Join Voice Call"] svg, [aria-label="Start Voice Call"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/phone.png);
+    background-size: cover;
+  }
+  
+  [aria-label="Join Video Call"] svg, [aria-label="Start Video Call"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam.png);
+    background-size: cover;
+  }
+  
+  [aria-label="Join Voice Call"] svg, [aria-label="Join Video Call"] svg{
+    filter: sepia(1) hue-rotate(90deg) saturate(3);
+  }
+  
+  [aria-label="Notification Settings"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/bell.png);
+    background-size: cover;
+  }
+  
+  [aria-label="Show User Profile"] svg, [aria-label="Hide User Profile"] svg {
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/userprofile.png);
+    background-size: cover;
+  color: transparent;
+  }
+  [aria-label="Show User Profile (Unavailable)"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/userprofile2.png);
+    background-size: cover;
+    color: transparent;
+  }
+  
+  [aria-label="Hide Member List"] svg, [aria-label="Show Member List"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/memberlist.png);
+    background-size: cover;
+  }
+  
+  [aria-label="Hide Member List"] svg{
+    filter: grayscale(0.25);
+  }
+  
+  
+  .listItemContents_e97b28 > .actions_bd37ed > .actionButton__2b4bb:first-child svg,[aria-label="Threads"] svg{
+    background: url(https://numoder.github.io/dsn10-theme/assets/actions/chat.png);
+    background-size: cover;
+    color: transparent;
+  }
+  [aria-label="Threads"] svg{
+    filter: hue-rotate(190deg);
+  }
+  
+  .inner__9fd0b .buttons__7ecff > div, .inner__9fd0b .buttons__7ecff > button{
+  margin: 0px 3px;
+  }
+  
+  .invisible-typing-button svg {
+    background: url(https://numoder.github.io/dsn10-theme/assets/textarea/keyboard.png);
+    position: relative;
+    background-size: contain;
+    color: transparent;
+  }
+  
+  
+  .disabled-stroke-through{
+    width: 800px;
+    height: 30px;
+  }
+  
+  div.buttons__7ecff > div:nth-child(3) > button {
+    content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gif.png);
+    width: 24px;
+    height: 24px;
+    transition: 0.2s;
+  }
+  
+  div.buttons__7ecff > div:nth-child(3):hover > button {
+    filter:saturate(5);
+    transition: 0.2s;
+  }
+  
+  
+  .stickerButton_c02bc0 {
+    content: url(https://numoder.github.io/dsn10-theme/assets/textarea/sticker.png);
+    width: 24px;
+    height: 24px;
+  }
+  
+  .stickerButton_c02bc0:hover {
+    filter:hue-rotate(180deg) ;
+  }
+  
+  div.buttons__7ecff > .button__581d0 > div{
+    content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gift.png);
+    background: transparent;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  
+  div.buttons__7ecff > div:nth-child(5) > button{
+    content: url(https://numoder.github.io/dsn10-theme/assets/emojis/happy.gif);
+    background: transparent;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  
+  div.buttons__7ecff > div:nth-child(5):hover > button{
+    content: url(https://numoder.github.io/dsn10-theme/assets/emojis/wink.gif);
+  }
+  
+  /* message to: bar */
+  .subtitleContainer_f50402 > section > .upperContainer__57565{
+    flex-direction: column-reverse;
+    min-height: 57px;
+  }
+  
+  .upperContainer__57565 .children_cde9af:not(:has(.tabBar__73938 )) {
+    top: 37px;
+    left: 6px;
+  }
+  
+  .container__694a1.floating__8f631 .upperContainer__57565 .children_cde9af{
+    position: relative !important;
+    top: 51px !important;
+  }
+  
+  .upperContainer__57565 .children_cde9af:not(:has(.tabBar__73938 )):before, .upperContainer__57565 .children_cde9af:has(.avatar__7c789):before{
+    content: "To:";
+  }
+  
+  .videoControls_af6621 .children_cde9af:not(:has(.tabBar__73938 )):before, .videoControls_af6621 .children_cde9af:has(.avatar__7c789):before{
+    content: "Calling:" !important;
+    padding-left: 6px; 
+  }
+  
+  .callContainer__1477d, .wrapper__6bf2d.minimum__7f356{
+    background: transparent;  
+  }
+  
+  .theme-light .videoControls_af6621 .children_cde9af{
+    background: transparent;
+    border: 1px solid transparent;
+    color: black !important;
+  }
+  
+  .videoControls_af6621 .children_cde9af{
+    font-family: var(--font-primary) !important;
+    background: var(--tooltip-background);
+    border: 1px solid var(--tooltip-border);
+    color: var(--text-primary);
+    margin: 0 500px 0 -6px;
+  }
+  
+  .tooltip__7b090 {
+    background: var(--tooltip-background) !important;
+    border: 1px solid var(--tooltip-border);
+    border-radius: 0px;
+  }
+  
+  .tooltipContent_adb6d5{
+    padding: 2px;
+  }
+  
+  .tooltipRight__2c7a5 .tooltipPointer_f7411c{
+    visibility: hidden;
+    border-color: transparent;
+  }
+  
+  .input__723c9{
+    --text-normal: #222;
+  }
+  
+  .theme-dark .input__723c9:focus{
+    background-color: var(--input-background) !important;
+  }
+  
+  .videoControls_af6621 .children_cde9af h1 {
+    color: black !important;
+  }
+  
+  /* profile */
+  .avatar__611fe{
+    mask: none;
+    margin-left: 1px;
+  }
+  
+  .userPanelInnerThemed_c2aed9, .userPanelInnerThemed_c2aed9::before{
+    background: transparent !important;
+  }
+  
+  .userPanelOuter_eb00b1.userProfileOuterThemed__1fbd7.profileColors_ac6ab4 {
+    background: transparent;
+  }
+  
+  .akaBadge__27cd4{
+    background: var(--server-notification);
+    border-radius: 2px;
+    color: var(--text-primary);
+    font-family: var(--font-primary);
+    font-weight: bold !important;
+    left: -20.5px;
+    position: relative;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 2px 0.75px #ffffff, inset 0px 0px 2px 1px #ffffff80;
+  }
+  
+  .divider__01aed .content__7191e{
+    font-family: "Trebuchet MS" !important;
+    font-weight: bold !important;
+    background: var(--server-notification);
+    border-radius: 2px;
+    color: var(--text-primary);
+    box-shadow: 0px 0px 1px 0px #ffffff, inset 0px 0px 0px 1px #ffffff80;
+  }
+  
+  .theme-light .akaBadge__27cd4{
+    color: #fff;
+  }
+  
+  .akaBadge__27cd4:hover{
+    background: var(--server-notification-hover);
+  }
+  
+  .akaBadge__27cd4:active{
+    background: var(--server-notification-active);
+  }
+  
+  .container_f41675.clickable__1383f:has(:not(.hasBanner__04337.bannerVisible_ef30fe)),
+  .searchBar__621ec{
+    background:
+    var(--dmbarsearchleft),
+    var(--dmmainbarmiddle);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 350px 58px;
+    background-position: left 3px, left 3px;
+    border-radius: 0 0 0 10px;
+  }
+  
+  .container_f41675:hover{
+    box-shadow: var(--sidebar-header-hover);
+    transition: 0.2s;
+  } 
+  
+  .container_bd15da > .container__26baa.themed_b152d4 {
+    background:
+    var(--dmmainbarmiddle),
+    var(--dmbarsearchleft);
+    background-repeat: repeat-x, no-repeat;
+    background-color: transparent;
+    background-position: 5px, right 3px;
+  }
+  
+  .chat__52833, .videoControls_af6621 .headerWrapper_ea51a0 {
+    background: var(--dmmainbarright),
+    var(--dmbarsearchmiddle);
+    background-repeat: no-repeat, repeat-x;
+    background-color: transparent;
+    background-size: auto,auto;
+    background-position: top 3px right 0px, left 3px;
+    z-index: 3 !important;
+  }
+  
+  .subtitleContainer_f50402 {
+    background-image: var(--dmmainbarmiddle), var(--dmbarsearchbarright), var(--dmbarsearchmiddle), var(--searchbarbg);
+    background-repeat: no-repeat,no-repeat;
+    background-color: transparent;
+    background-size: 300px 58px, 57px auto, 200px 26px, 35px 26px;
+    background-position: top 3px left, 300px 3px, 300px 24px, 500px 24px;
+    z-index: 4 !important;
+  }
+  
+  .searchBar__621ec, .header__77c95, .toolbar__62fb5{
+    height: 61px;
+  }
+  
+  .content__76dcf:has(.privateChannels__9b518) .toolbar__62fb5 .iconWrapper_de6cd1{
+    margin: 0 10px;
+  }
+  .content__76dcf:has(.container__7e23c) .toolbar__62fb5 .iconWrapper_de6cd1{
+    margin: 0 12px;
+  }
+  
+  .topControls_e834ab .toolbar__62fb5{
+    position: relative;
+    top: 0px;
+  }
+  
+  .container__26baa{
+    height: 64px;
+  }
+  
+  .headerContent__6fcc7{
+    position: relative;
+    top: 6px;
+  }
+  
+  .toolbar__62fb5{
+    margin-bottom: -36px;
+  }
+  
+  .toolbar__62fb5 > div:nth-child(5).search__07df0 {
+    position: relative;
+    left: 40px;
+  }
+  
+  .search__07df0{
+    order: 2;
+    position: relative !important;
+    top: 3px;
+    left: 20px;
+  }
+  
+  .videoControls_af6621 .search__07df0{
+    /* top: 2px; */
+  }
+  
+  
+  .open_d3ab4e .searchBar__5a20a, .focused__037a4 .searchBar__5a20a{
+    width: 144px;
+  }
+  
+  .search__07df0, .searchBar__5a20a{
+    height: 23px;
+  }
+  
+  .searchBar__5a20a{
+    position: relative;
+    top: -1px !important;
+    border-radius: 0px;
+    background: transparent;
+  }
+  
+  .searchBar__5a20a .icon__53a5c{
+    background:url(https://leafinguh.github.io/msn7-disc/raw/topbar/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .searchBar__5a20a .icon__5c8c7, .clear__70411.iconLayout__9d9a4:hover .icon__5c8c7{
+    color: transparent;
+  }
+  
+  .searchBar__5a20a .icon__53a5c:hover{
+    background: url(https://numoder.github.io/dsn10-theme/assets/general/delete.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    color: transparent !important;
+  }
+  
+  .member_aa4760[user="numoder"], .member_aa4760:has([aria-label="numoder, Online"], [aria-label="numoder, Idle"], [aria-label="numoder, Do Not Disturb"]){
+    background-image: URL(https://i.ibb.co/V3FmySL/tumblr-3bce6649fd69d61e10bd2c7cc5653769-9e14d317-200.gif);
+    box-shadow: inset 0px 0px 0px 1px hotpink,inset 0px 0px 0px 2px #ff69b48a, inset 0px 0px 0px 3px rgba(81, 255, 0, 1);
+  }
+  
+  .member_aa4760[user="numoder"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Online"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Idle"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Do Not Disturb"].nameAndDecorators__389dd:after{
+    background: silver;
+    content: ":3";
+    color: rgb(255, 255, 255);
+    margin-left: 6px;
+    padding: 4px;
+    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+  }
+  
+  [src="/assets/9bcd2aba4eefb34114f8.svg"] {
+    visibility: hidden;
+  }
+  
+  .searchHeader__2707c {
+    background: url(http://www.betaarchive.com/imageupload/1304990899.th.90622.png);
+    width: 831px;
+    height: 260px;
+    background-size: cover;
+    image-rendering: pixelated;
+  }
