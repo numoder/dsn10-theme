@@ -723,15 +723,20 @@
     top: 0px;
   }
   
-  .panels__58331 .nameTag__77ab2 {
-    position: relative;
-    flex-direction: row;
-    width: 175px;
-    left: 20px;
-    top: 11px;
-    gap: 20px;
-    contain: paint;
-  }
+.panels__58331 .nameTag__77ab2 {
+  position: relative;
+  flex-direction: row;
+  width: 175px;
+  left: 15px;
+  top: 22px;
+  gap: 20px;
+  contain: paint;
+}
+
+.customStatus__928b7{
+  width: 160px;
+}
+
   
   .hoverRoll__3ea9e .default__74311 {
     font-family: var(--font-body);
