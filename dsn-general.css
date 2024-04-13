@@ -11,6 +11,8 @@
   
     --border-top-left: #c2cbe7;
     --border-bottom-right: #788db7;
+
+    --profile-picture: url(https://github.com/numoder/dsn10-theme/raw/main/assets/src/banner.png?raw=true);
   
     /* dont touch */
     --background-secondary-alt: none;
@@ -1296,3 +1298,7 @@
   .menu__088f7 .scroller__8f066::-webkit-scrollbar{
     width: 0px;
   }
+
+.panels__58331 .avatarStack__789b4 > .avatar__991e2{
+  content: var(--profile-picture);
+}
