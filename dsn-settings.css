@@ -338,7 +338,7 @@
     content: url(https://numoder.github.io/dsn10-theme/assets/actions/group.png) !important;
     background-color: transparent;
   }
-
+  .wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
 .tree__7a511 > .scroller_de945b > .tutorialContainer_b06ae6:has(.selected__501f5) {
     background: var(--server-notification-hover);
   }
