@@ -45,6 +45,11 @@
     margin: -3px 0 -3px 30px;
     transition: 0.2s;
   }
+
+
+.scroller_de945b > [style="opacity: 1; height: 56px; transform: scale(1);"] {
+  margin-top: 20px;
+}
   
   .scroller_de945b > div > .wrapper__832f2 > ul > .listItem__48528 > div > .blobContainer_c44493{
     margin: 11px 0 11px 0;
