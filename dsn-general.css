@@ -12,7 +12,7 @@
     --border-top-left: #c2cbe7;
     --border-bottom-right: #788db7;
 
-    --profile-picture: url(https://github.com/numoder/dsn10-theme/raw/main/assets/src/banner.png?raw=true);
+    --profile-picture: inherit;
   
     /* dont touch */
     --background-secondary-alt: none;
