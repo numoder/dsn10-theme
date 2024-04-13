@@ -5,7 +5,6 @@
     color: var(--settings-page-header-text-color) !important;
   }
   
-  
   .side_b4b3f6 .item__48dda{
     margin: 0 2px 0 2px;
   }
@@ -333,13 +332,15 @@
     top: 6px;
     position: relative;
   }
-  
-  .tutorialContainer_b06ae6:has(.selected__501f5) {
-    background: var(--server-background-selected);
-  }
+
   
   .tutorialContainer_b06ae6 .childWrapper_a6ce15  {
     content: url(https://numoder.github.io/dsn10-theme/assets/actions/group.png) !important;
+    background-color: transparent;
+  }
+
+  .tutorialContainer_b06ae6:has(.selected__501f5) {
+    background: var(--server-notification-hover);
   }
   
   .tutorialContainer_b06ae6 .pill_d1140c{
