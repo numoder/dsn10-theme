@@ -19,8 +19,10 @@
   
   .sidebar_e031be .container__7e23c .scroller__1f498 {
     box-shadow: var(--general-box-shadow);
+    background: var(--background);
     top: 6px;
   }
+
   
   .listItem__48528:has(.selected_e85eba){
     z-index: 4;
