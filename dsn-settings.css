@@ -364,3 +364,8 @@ svg:has([d="M10.99 3.16A1 1 0 1 0 9 2.84L8.15 8H4a1 1 0 0 0 0 2h3.82l-.67 4H3a1 
   visibility: hidden;
   z-index: 0;
 }
+
+.layerContainer_a2fcaa > .layer__6b5c3:has(.threadIcon_a292d5) {
+  left:  72px; 
+  position: relative;
+}
