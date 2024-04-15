@@ -848,14 +848,14 @@
   
   .peopleColumn__0c784
     .peopleList_d2f527::-webkit-scrollbar-button:single-button:vertical:decrement {
-    background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/down.png);
+      background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/up.png);
     background-repeat: no-repeat;
     height: 15px;
   }
   
   .peopleColumn__0c784
     .peopleList_d2f527::-webkit-scrollbar-button:single-button:vertical:increment {
-      background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/up.png);
+      background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/down.png);
     background-repeat: no-repeat;
     height: 15px;
   }
