@@ -2,6 +2,8 @@
   --font-primary: "Tahoma";
   --font-bold: "Tahoma", bold;
 
+  --font-size: 11px;
+
   --border-light: #d9def2;
 
   --light-color: #ecf0f5;
@@ -912,7 +914,7 @@ width: 160px;
 }
 
 .sectionTitle_b622ce .title_c42cad {
-  font-size: 11px;
+  font-size: var(--font-size);
   font-family: var(--font-primary);
   font-weight: bold !important;
   letter-spacing: 0px;
