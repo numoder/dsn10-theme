@@ -1,411 +1,441 @@
 /* icons.css */
 
 .toolbar__62fb5 .clickable_ce0925 .icon_ae0b42, .sendIcon_f67abd{
-    color: transparent;
-  }
-  
-  /* pin */
-  [aria-label="Pinned Messages"] > svg {
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/pin.png);
-    background-size: cover;
-  } 
-  
-  /* inbox */
-  .recentsIcon_a585d7 svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/email.png);
-    background-size: cover;
-  }
-  
-  .recentsIcon_a585d7 .selected__1fc53 svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/email2.png);
-    background-size: cover;
-  }
-  
-  [aria-label="New Group DM"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/group.png) !important;
-    background-size: cover;
-  }
-  
-  /* add contact*/
-  [aria-label="Add Friends to DM"] > svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/addacontact.png);
-    background-size: cover;
-  }
-  
-  [href="https://support.discord.com"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/help.png);
-    background-size: cover;
-  }
-  
-  [aria-label="Join Voice Call"] svg, [aria-label="Start Voice Call"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/phone.png);
-    background-size: cover;
-  }
-  
-  [aria-label="Join Video Call"] svg, [aria-label="Start Video Call"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam.png);
-    background-size: cover;
-  }
-  
-  [aria-label="Join Voice Call"] svg, [aria-label="Join Video Call"] svg{
-    filter: sepia(1) hue-rotate(90deg) saturate(3);
-  }
-  
-  [aria-label="Notification Settings"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/bell.png);
-    background-size: cover;
-  }
-  
-  [aria-label="Show User Profile"] svg, [aria-label="Hide User Profile"] svg {
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/userprofile.png);
-    background-size: cover;
   color: transparent;
-  }
-  [aria-label="Show User Profile (Unavailable)"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/userprofile2.png);
-    background-size: cover;
-    color: transparent;
-  }
-  
-  [aria-label="Hide Member List"] svg, [aria-label="Show Member List"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/memberlist.png);
-    background-size: cover;
-  }
-  
-  [aria-label="Hide Member List"] svg{
-    filter: grayscale(0.25);
-  }
-  
-  
-  .listItemContents_e97b28 > .actions_bd37ed > .actionButton__2b4bb:first-child svg,[aria-label="Threads"] svg{
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/chat.png);
-    background-size: cover;
-    color: transparent;
-  }
-  [aria-label="Threads"] svg{
-    filter: hue-rotate(190deg);
-  }
-  
-  .inner__9fd0b .buttons__7ecff > div, .inner__9fd0b .buttons__7ecff > button{
-  margin: 0px 3px;
-  }
-  
-  .invisible-typing-button svg {
-    background: url(https://numoder.github.io/dsn10-theme/assets/textarea/keyboard.png);
-    position: relative;
-    background-size: contain;
-    color: transparent;
-  }
-  
-  
-  .disabled-stroke-through{
-    width: 800px;
-    height: 30px;
-  }
-  
+}
+
+/* pin */
+[aria-label="Pinned Messages"] > svg, svg:has([d="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5 0 0 0-.7 0l-.03.03a3 3 0 0 0 0 4.24L13 5l-2.92 2.92-3.65-.34a2 2 0 0 0-1.6.58l-.62.63a1 1 0 0 0 0 1.42l9.58 9.58a1 1 0 0 0 1.42 0l.63-.63a2 2 0 0 0 .58-1.6l-.34-3.64L19 11l.38.38ZM9.07 17.07a.5.5 0 0 1-.08.77l-5.15 3.43a.5.5 0 0 1-.63-.06l-.42-.42a.5.5 0 0 1-.06-.63L6.16 15a.5.5 0 0 1 .77-.08l2.14 2.14Z"]) {
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/pin.png);
+  background-size: cover;
+} 
+
+/* inbox */
+.recentsIcon_a585d7 svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/email.png);
+  background-size: cover;
+}
+
+.recentsIcon_a585d7 .selected__1fc53 svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/email2.png);
+  background-size: cover;
+}
+
+[aria-label="New Group DM"] svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/group.png) !important;
+  background-size: cover;
+}
+
+.inviteToolbar__7cc96 > div{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/group.png);
+  background-size: contain;
+}
+
+/* add contact*/
+[aria-label="Add Friends to DM"] > svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/addacontact.png);
+  background-size: cover;
+}
+
+
+a[href="https://support.discord.com"] svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/help.png);
+  order: 2;
+  background-size: cover;
+}
+
+[aria-label="Join Voice Call"] svg, [aria-label="Start Voice Call"] svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/phone.png);
+  background-size: cover;
+}
+
+[aria-label="Join Video Call"] svg, [aria-label="Start Video Call"] svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam.png);
+  background-size: cover;
+}
+
+[aria-label="Join Voice Call"] svg, [aria-label="Join Video Call"] svg{
+  filter: sepia(1) hue-rotate(90deg) saturate(3);
+}
+
+[aria-label="Notification Settings"] svg, svg:has([d="M9.7 2.89c.18-.07.32-.24.37-.43a2 2 0 0 1 3.86 0c.05.2.19.36.38.43A7 7 0 0 1 19 9.5v2.09c0 .12.05.24.13.33l1.1 1.22a3 3 0 0 1 .77 2.01v.28c0 .67-.34 1.29-.95 1.56-1.31.6-4 1.51-8.05 1.51-4.05 0-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3 3 0 0 1 .77-2l1.1-1.23a.5.5 0 0 0 .13-.33V9.5a7 7 0 0 1 4.7-6.61ZM9.18 19.84A.16.16 0 0 0 9 20a3 3 0 1 0 6 0c0-.1-.09-.17-.18-.16a24.86 24.86 0 0 1-5.64 0Z"]){
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/bell.png);
+  background-size: cover;
+}
+
+[aria-label="Show User Profile"] svg, [aria-label="Hide User Profile"] svg {
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/userprofile.png);
+  background-size: cover;
+color: transparent;
+}
+[aria-label="Show User Profile (Unavailable)"] svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/userprofile2.png);
+  background-size: cover;
+  color: transparent;
+}
+
+svg:has([d="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5 5 0 0 1 2.14 3.08c.01.06.06.1.12.1ZM18.44 17.27c.15.43.54.73 1 .73h1.06c.83 0 1.5-.67 1.5-1.5a7.5 7.5 0 0 0-6.5-7.43c-.55-.08-.99.38-1.1.92-.06.3-.15.6-.26.87-.23.58-.05 1.3.47 1.63a9.53 9.53 0 0 1 3.83 4.78ZM12.5 9a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM2 20.5a7.5 7.5 0 0 1 15 0c0 .83-.67 1.5-1.5 1.5a.2.2 0 0 1-.2-.16c-.2-.96-.56-1.87-.88-2.54-.1-.23-.42-.15-.42.1v2.1a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2.1c0-.25-.31-.33-.42-.1-.32.67-.67 1.58-.88 2.54a.2.2 0 0 1-.2.16A1.5 1.5 0 0 1 2 20.5Z"]),
+[aria-label="Hide Member List"] svg, [aria-label="Show Member List"] svg{
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/memberlist.png);
+  background-size: cover;
+}
+
+[aria-label="Hide Member List"] svg{
+  filter: grayscale(0.25);
+}
+
+/* more */
+.toolbar__62fb5 .iconWrapper_de6cd1{
+  order: 1;
+}
+
+.iconWrapper_de6cd1 svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]), svg:has[d="M10 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm2 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"], [aria-label="More"] svg {
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/more.png);
+  order: 3;
+}
+
+/* threads / chat */
+.actions_bd37ed .actionButton__2b4bb:first-child svg,
+svg:has([d="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1 1 0 0 1 1.41 0l9.2 9.2a1 1 0 0 1 0 1.4l-.7.7a1 1 0 0 1-1.3.13l-9.54-6.72a1 1 0 0 1-.08-1.58l1-1L12 2.8ZM12 21.2a1 1 0 0 1 0 1.41l-.35.35a1 1 0 0 1-1.41 0l-9.2-9.19a1 1 0 0 1 0-1.41l.7-.7a1 1 0 0 1 1.3-.12l9.54 6.72a1 1 0 0 1 .07 1.58l-1 1 .35.36ZM15.66 16.8a1 1 0 0 1-1.38.28l-8.49-5.66A1 1 0 1 1 6.9 9.76l8.49 5.65a1 1 0 0 1 .27 1.39ZM17.1 14.25a1 1 0 1 0 1.11-1.66L9.73 6.93a1 1 0 0 0-1.11 1.66l8.49 5.66Z"]){
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/chat.png);
+  background-size: cover;
+  color: transparent;
+}
+
+.toolbar__62fb5 svg:has([d="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1 1 0 0 1 1.41 0l9.2 9.2a1 1 0 0 1 0 1.4l-.7.7a1 1 0 0 1-1.3.13l-9.54-6.72a1 1 0 0 1-.08-1.58l1-1L12 2.8ZM12 21.2a1 1 0 0 1 0 1.41l-.35.35a1 1 0 0 1-1.41 0l-9.2-9.19a1 1 0 0 1 0-1.41l.7-.7a1 1 0 0 1 1.3-.12l9.54 6.72a1 1 0 0 1 .07 1.58l-1 1 .35.36ZM15.66 16.8a1 1 0 0 1-1.38.28l-8.49-5.66A1 1 0 1 1 6.9 9.76l8.49 5.65a1 1 0 0 1 .27 1.39ZM17.1 14.25a1 1 0 1 0 1.11-1.66L9.73 6.93a1 1 0 0 0-1.11 1.66l8.49 5.66Z"]){
+  filter: hue-rotate(190deg);
+}
+
+.inner__9fd0b .buttons__7ecff > div, .inner__9fd0b .buttons__7ecff > button{
+margin: 0px 3px;
+}
+
+.invisible-typing-button svg {
+  background: url(https://numoder.github.io/dsn10-theme/assets/textarea/keyboard.png);
+  position: relative;
+  background-size: contain;
+  color: transparent;
+}
+
+
+.disabled-stroke-through{
+  width: 800px;
+  height: 30px;
+}
+
 button:has([d=" M-7,-10 C-8.656999588012695,-10 -10,-8.656999588012695 -10,-7 C-10,-7 -10,7 -10,7 C-10,8.656999588012695 -8.656999588012695,10 -7,10 C-7,10 7,10 7,10 C8.656999588012695,10 10,8.656999588012695 10,7 C10,7 10,-7 10,-7 C10,-8.656999588012695 8.656999588012695,-10 7,-10 C7,-10 -7,-10 -7,-10z"]) {
-  content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gif.png);
-  width: 24px;
-  height: 24px;
-  transition: 0.2s;
+content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gif.png);
+width: 24px;
+height: 24px;
+transition: 0.2s;
 }
 
 button:has([d=" M-7,-10 C-8.656999588012695,-10 -10,-8.656999588012695 -10,-7 C-10,-7 -10,7 -10,7 C-10,8.656999588012695 -8.656999588012695,10 -7,10 C-7,10 7,10 7,10 C8.656999588012695,10 10,8.656999588012695 10,7 C10,7 10,-7 10,-7 C10,-8.656999588012695 8.656999588012695,-10 7,-10 C7,-10 -7,-10 -7,-10z"]):hover {
-  filter:saturate(5);
-  transition: 0.2s;
+filter:saturate(5);
+transition: 0.2s;
 }
 
 
 .stickerButton_c02bc0 {
-  content: url(https://numoder.github.io/dsn10-theme/assets/textarea/sticker.png);
-  width: 24px;
-  height: 24px;
+content: url(https://numoder.github.io/dsn10-theme/assets/textarea/sticker.png);
+width: 24px;
+height: 24px;
 }
 
 .stickerButton_c02bc0:hover {
-  filter:hue-rotate(180deg) ;
+filter:contrast(2);
 }
 
 div.buttons__7ecff > .button__581d0 > div{
-  content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gift.png);
-  background: transparent;
-  border-radius: 50px;
-  margin-right: 10px;
+content: url(https://numoder.github.io/dsn10-theme/assets/textarea/gift.png);
+background: transparent;
+border-radius: 50px;
+margin-right: 10px;
 }
 
 button:has(.spriteContainer__732c7) {
-  content: url(https://numoder.github.io/dsn10-theme/assets/emojis/happy.gif);
-  background: transparent;
-  border-radius: 50px;
-  margin-right: 10px;
+content: url(https://numoder.github.io/dsn10-theme/assets/emojis/happy.gif);
+background: transparent;
+border-radius: 50px;
+margin-right: 10px;
 }
 
 button:has(.spriteContainer__732c7):hover {
-  content: url(https://numoder.github.io/dsn10-theme/assets/emojis/wink.gif);
+content: url(https://numoder.github.io/dsn10-theme/assets/emojis/wink.gif);
 }
-  
-  /* message to: bar */
-  .subtitleContainer_f50402 > section > .upperContainer__57565{
-    flex-direction: column-reverse;
-    min-height: 57px;
-  }
-  
-  .upperContainer__57565 .children_cde9af:not(:has(.tabBar__73938 )) {
-    top: 37px;
-    left: 6px;
-  }
-  
-  .container__694a1.floating__8f631 .upperContainer__57565 .children_cde9af{
-    position: relative !important;
-    top: 51px !important;
-  }
-  
-  .upperContainer__57565 .children_cde9af:not(:has(.tabBar__73938 )):before, .upperContainer__57565 .children_cde9af:has(.avatar__7c789):before{
-    content: "To:";
-  }
-  
-  .videoControls_af6621 .children_cde9af:not(:has(.tabBar__73938 )):before, .videoControls_af6621 .children_cde9af:has(.avatar__7c789):before{
-    content: "Calling:" !important;
-    padding-left: 6px; 
-  }
-  
-  .callContainer__1477d, .wrapper__6bf2d.minimum__7f356{
-    background: transparent;  
-  }
-  
-  .theme-light .videoControls_af6621 .children_cde9af{
-    background: transparent;
-    border: 1px solid transparent;
-    color: black !important;
-  }
-  
-  .videoControls_af6621 .children_cde9af{
-    font-family: var(--font-primary) !important;
-    background: var(--tooltip-background);
-    border: 1px solid var(--tooltip-border);
-    color: var(--text-primary);
-    margin: 0 500px 0 -6px;
-  }
-  
-  .tooltip__7b090 {
-    background: var(--tooltip-background) !important;
-    border: 1px solid var(--tooltip-border);
-    border-radius: 0px;
-  }
-  
-  .tooltipContent_adb6d5{
-    padding: 2px;
-  }
-  
-  .tooltipRight__2c7a5 .tooltipPointer_f7411c{
-    visibility: hidden;
-    border-color: transparent;
-  }
-  
-  .input__723c9{
-    --text-normal: #222;
-  }
-  
-  .theme-dark .input__723c9:focus{
-    background-color: var(--input-background) !important;
-  }
-  
-  .videoControls_af6621 .children_cde9af h1 {
-    color: black !important;
-  }
-  
-  /* profile */
-  .avatar__611fe{
-    mask: none;
-    margin-left: 1px;
-  }
-  
-  .userPanelInnerThemed_c2aed9, .userPanelInnerThemed_c2aed9::before{
-    background: transparent !important;
-  }
-  
-  .userPanelOuter_eb00b1.userProfileOuterThemed__1fbd7.profileColors_ac6ab4 {
-    background: transparent;
-  }
-  
-  .akaBadge__27cd4{
-    background: var(--server-notification);
-    border-radius: 2px;
-    color: var(--text-primary);
-    font-family: var(--font-primary);
-    font-weight: bold !important;
-    left: -20.5px;
-    position: relative;
-    border: 1px solid gray;
-    box-shadow: 0px 0px 2px 0.75px #ffffff, inset 0px 0px 2px 1px #ffffff80;
-  }
-  
-  .divider__01aed .content__7191e{
-    font-family: "Trebuchet MS" !important;
-    font-weight: bold !important;
-    background: var(--server-notification);
-    border-radius: 2px;
-    color: var(--text-primary);
-    box-shadow: 0px 0px 1px 0px #ffffff, inset 0px 0px 0px 1px #ffffff80;
-  }
-  
-  .theme-light .akaBadge__27cd4{
-    color: #fff;
-  }
-  
-  .akaBadge__27cd4:hover{
-    background: var(--server-notification-hover);
-  }
-  
-  .akaBadge__27cd4:active{
-    background: var(--server-notification-active);
-  }
-  
-  .container_f41675.clickable__1383f:has(:not(.hasBanner__04337.bannerVisible_ef30fe)),
-  .searchBar__621ec{
-    background:
-    var(--dmbarsearchleft),
-    var(--dmmainbarmiddle);
-    background-repeat: no-repeat, no-repeat;
-    background-size: auto, 350px 58px;
-    background-position: left 3px, left 3px;
-    border-radius: 0 0 0 10px;
-  }
-  
-  .container_f41675:hover{
-    box-shadow: var(--sidebar-header-hover);
-    transition: 0.2s;
-  } 
-  
-  .container_bd15da > .container__26baa.themed_b152d4 {
-    background:
-    var(--dmmainbarmiddle),
-    var(--dmbarsearchleft);
-    background-repeat: repeat-x, no-repeat;
-    background-color: transparent;
-    background-position: 5px, right 3px;
-  }
-  
-  .chat__52833, .videoControls_af6621 .headerWrapper_ea51a0 {
-    background: var(--dmmainbarright),
-    var(--dmbarsearchmiddle);
-    background-repeat: no-repeat, repeat-x;
-    background-color: transparent;
-    background-size: auto,auto;
-    background-position: top 3px right 0px, left 3px;
-    z-index: 3 !important;
-  }
-  
-  .subtitleContainer_f50402 {
-    background-image: var(--dmmainbarmiddle), var(--dmbarsearchbarright), var(--dmbarsearchmiddle), var(--searchbarbg);
-    background-repeat: no-repeat,no-repeat;
-    background-color: transparent;
-    background-size: 300px 58px, 57px auto, 200px 26px, 35px 26px;
-    background-position: top 3px left, 300px 3px, 300px 24px, 500px 24px;
-    z-index: 4 !important;
-  }
-  
-  .searchBar__621ec, .header__77c95, .toolbar__62fb5{
-    height: 61px;
-  }
-  
-  .content__76dcf:has(.privateChannels__9b518) .toolbar__62fb5 .iconWrapper_de6cd1{
-    margin: 0 10px;
-  }
-  .content__76dcf:has(.container__7e23c) .toolbar__62fb5 .iconWrapper_de6cd1{
-    margin: 0 12px;
-  }
-  
-  .topControls_e834ab .toolbar__62fb5{
-    position: relative;
-    top: 0px;
-  }
-  
-  .container__26baa{
-    height: 64px;
-  }
-  
-  .headerContent__6fcc7{
-    position: relative;
-    top: 6px;
-  }
-  
-  .toolbar__62fb5{
-    margin-bottom: -36px;
-  }
-  
-  .toolbar__62fb5 > div:nth-child(5).search__07df0 {
-    position: relative;
-    left: 40px;
-  }
-  
-  .search__07df0{
-    order: 2;
-    position: relative !important;
-    top: 3px;
-    left: 20px;
-  }
-  
-  .videoControls_af6621 .search__07df0{
-    /* top: 2px; */
-  }
-  
-  
-  .open_d3ab4e .searchBar__5a20a, .focused__037a4 .searchBar__5a20a{
-    width: 144px;
-  }
-  
-  .search__07df0, .searchBar__5a20a{
-    height: 23px;
-  }
-  
-  .searchBar__5a20a{
-    position: relative;
-    top: -1px !important;
-    border-radius: 0px;
-    background: transparent;
-  }
-  
-  .searchBar__5a20a .icon__53a5c{
-    background:url(https://leafinguh.github.io/msn7-disc/raw/topbar/search.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .searchBar__5a20a .icon__5c8c7, .clear__70411.iconLayout__9d9a4:hover .icon__5c8c7{
-    color: transparent;
-  }
-  
-  .searchBar__5a20a .icon__53a5c:hover{
-    background: url(https://numoder.github.io/dsn10-theme/assets/general/delete.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
-    background-position: center;
-    color: transparent !important;
-  }
-  
-  .member_aa4760[user="numoder"], .member_aa4760:has([aria-label="numoder, Online"], [aria-label="numoder, Idle"], [aria-label="numoder, Do Not Disturb"]){
-    background-image: URL(https://i.ibb.co/V3FmySL/tumblr-3bce6649fd69d61e10bd2c7cc5653769-9e14d317-200.gif);
-    box-shadow: inset 0px 0px 0px 1px hotpink,inset 0px 0px 0px 2px #ff69b48a, inset 0px 0px 0px 3px rgba(81, 255, 0, 1);
-  }
-  
-  .member_aa4760[user="numoder"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Online"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Idle"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Do Not Disturb"].nameAndDecorators__389dd:after{
-    background: silver;
-    content: ":3";
-    color: rgb(255, 255, 255);
-    margin-left: 6px;
-    padding: 4px;
-    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
-  }
-  
-  [src="/assets/9bcd2aba4eefb34114f8.svg"] {
-    visibility: hidden;
-  }
-  
-  .searchHeader__2707c {
-    background: url(http://www.betaarchive.com/imageupload/1304990899.th.90622.png);
-    width: 831px;
-    height: 260px;
-    background-size: cover;
-    image-rendering: pixelated;
-  }
+
+/* message to: bar */
+.subtitleContainer_f50402 > section > .upperContainer__57565{
+  flex-direction: column-reverse;
+  min-height: 57px;
+}
+
+.upperContainer__57565 .children_cde9af:not(:has(.tabBar__73938 )) {
+  top: 38px;
+  left: 6px;
+}
+
+.theme-dark .children_cde9af .input__723c9{
+color: white;
+}
+
+.container__694a1.floating__8f631 .upperContainer__57565 .children_cde9af{
+  position: relative !important;
+  top: 51px !important;
+}
+
+.upperContainer__57565 .children_cde9af:not(:has(.tabBar__73938 )):before, .upperContainer__57565 .children_cde9af:has(.avatar__7c789):before{
+  content: "To:";
+}
+
+.videoControls_af6621 .children_cde9af:not(:has(.tabBar__73938 )):before, .videoControls_af6621 .children_cde9af:has(.avatar__7c789):before{
+  content: "Calling:" !important;
+  padding-left: 6px; 
+}
+
+.callContainer__1477d, .wrapper__6bf2d.minimum__7f356{
+  background: transparent;  
+}
+
+.theme-light .videoControls_af6621 .children_cde9af{
+  background: transparent;
+  border: 1px solid transparent;
+  color: black !important;
+}
+
+.videoControls_af6621 .children_cde9af{
+  font-family: var(--font-primary) !important;
+  background: var(--tooltip-background);
+  border: 1px solid var(--tooltip-border);
+  color: var(--text-primary);
+  margin: 0 500px 0 -6px;
+}
+
+.tooltip__7b090 {
+  background: var(--tooltip-background) !important;
+  border: 1px solid var(--tooltip-border);
+  border-radius: 0px;
+}
+
+.tooltipContent_adb6d5{
+  padding: 2px;
+}
+
+.tooltipRight__2c7a5 .tooltipPointer_f7411c{
+  visibility: hidden;
+  border-color: transparent;
+}
+
+.input__723c9{
+  --text-normal: #222;
+}
+
+
+.videoControls_af6621 .children_cde9af h1 {
+  color: black !important;
+}
+
+/* profile */
+.avatar__611fe{
+  mask: none;
+  margin-left: 1px;
+}
+
+.userPanelInnerThemed_c2aed9, .userPanelInnerThemed_c2aed9::before{
+  background: transparent !important;
+}
+
+.userPanelOuter_eb00b1.userProfileOuterThemed__1fbd7.profileColors_ac6ab4 {
+  background: transparent;
+}
+
+.akaBadge__27cd4{
+  background: var(--server-notification);
+  border-radius: 2px;
+  color: var(--text-primary);
+  font-family: var(--font-primary);
+  font-weight: bold !important;
+  position: relative;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 2px 0.75px #ffffff, inset 0px 0px 2px 1px #ffffff80;
+}
+
+div.children_cde9af > .divider_bdb894{
+  margin: 0px !important;
+}
+
+.divider__01aed .content__7191e{
+  font-family: "Trebuchet MS" !important;
+  font-weight: bold !important;
+  background: var(--server-notification);
+  border-radius: 2px;
+  color: var(--text-primary);
+  box-shadow: 0px 0px 1px 0px #ffffff, inset 0px 0px 0px 1px #ffffff80;
+}
+
+.theme-light .akaBadge__27cd4{
+  color: #fff;
+}
+
+.akaBadge__27cd4:hover{
+  background: var(--server-notification-hover);
+}
+
+.akaBadge__27cd4:active{
+  background: var(--server-notification-active);
+}
+
+.container_f41675.clickable__1383f:has(:not(.hasBanner__04337.bannerVisible_ef30fe)),
+.searchBar__621ec{
+  background:
+  var(--dmbarsearchleft),
+  var(--dmmainbarmiddle);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, 350px 58px;
+  background-position: left 3px, left 3px;
+  border-radius: 0 0 0 10px;
+}
+
+.container_f41675:hover{
+  box-shadow: var(--sidebar-header-hover);
+  transition: 0.2s;
+} 
+
+.container_bd15da > .container__26baa.themed_b152d4 {
+  background:
+  var(--dmmainbarmiddle),
+  var(--dmbarsearchleft);
+  background-repeat: repeat-x, no-repeat;
+  background-color: transparent;
+  background-position: 5px, right 3px;
+}
+
+.chat__52833, .videoControls_af6621 .headerWrapper_ea51a0 {
+  background: var(--dmmainbarright),
+  var(--dmbarsearchmiddle);
+  background-repeat: no-repeat, repeat-x;
+  background-color: transparent;
+  background-size: auto,auto;
+  background-position: top 3px right 0px, left 3px;
+  z-index: 3 !important;
+}
+
+.subtitleContainer_f50402 {
+  background-image: var(--dmmainbarmiddle), var(--dmbarsearchbarright), var(--dmbarsearchmiddle), var(--searchbarbg);
+  background-repeat: no-repeat,no-repeat;
+  background-color: transparent;
+  background-size: 300px 58px, 57px auto, 200px 26px, 35px 26px;
+  background-position: top 3px left, 300px 3px, 300px 24px, 500px 24px;
+  z-index: 4 !important;
+}
+
+.searchBar__621ec, .header__77c95, .toolbar__62fb5{
+  height: 61px;
+}
+
+.content__76dcf:has(.privateChannels__9b518) .toolbar__62fb5 .iconWrapper_de6cd1{
+  margin: 0 10px;
+}
+.content__76dcf:has(.container__7e23c) .toolbar__62fb5 .iconWrapper_de6cd1{
+  margin: 0 12px;
+}
+
+.topControls_e834ab .toolbar__62fb5{
+  position: relative;
+  top: 0px;
+}
+
+.container__26baa{
+  height: 64px;
+}
+
+.headerContent__6fcc7{
+  position: relative;
+  top: 6px;
+}
+
+.toolbar__62fb5{
+  margin-bottom: -36px;
+}
+
+.toolbar__62fb5 > div:nth-child(5).search__07df0 {
+  position: relative;
+  left: 40px;
+}
+
+.search__07df0{
+  order: 2;
+  position: relative !important;
+  top: 3px;
+  left: 20px;
+}
+
+.videoControls_af6621 .search__07df0{
+  /* top: 2px; */
+}
+
+
+.open_d3ab4e .searchBar__5a20a, .focused__037a4 .searchBar__5a20a{
+  width: 144px;
+}
+
+.search__07df0, .searchBar__5a20a{
+  height: 23px;
+}
+
+.searchBar__5a20a{
+  position: relative;
+  top: -1px !important;
+  border-radius: 0px;
+  background: transparent;
+}
+
+.searchBar__5a20a .icon__53a5c, .inner__999f6 .iconLayout__67261 svg {
+  background:url(https://leafinguh.github.io/msn7-disc/raw/topbar/search.png);
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inner__999f6 > div, .inner__999f6 > input {
+  position: relative;
+  top: -1px;
+}
+
+.searchBar__5a20a .icon__5c8c7, .clear__70411.iconLayout__9d9a4:hover .icon__5c8c7{
+  color: transparent;
+}
+
+.searchBar__5a20a .icon__53a5c:hover{
+  background: url(https://numoder.github.io/dsn10-theme/assets/general/delete.png);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: center;
+  color: transparent !important;
+}
+
+.member_aa4760[user="numoder"], .member_aa4760:has([aria-label="numoder, Online"], [aria-label="numoder, Idle"], [aria-label="numoder, Do Not Disturb"]){
+  background-image: URL(https://i.ibb.co/V3FmySL/tumblr-3bce6649fd69d61e10bd2c7cc5653769-9e14d317-200.gif);
+  box-shadow: inset 0px 0px 0px 1px hotpink,inset 0px 0px 0px 2px #ff69b48a, inset 0px 0px 0px 3px rgba(81, 255, 0, 1);
+}
+
+.member_aa4760[user="numoder"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Online"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Idle"] .nameAndDecorators__389dd:after, .member_aa4760[aria-label="numoder, Do Not Disturb"].nameAndDecorators__389dd:after{
+  background: silver;
+  content: ":3";
+  color: rgb(255, 255, 255);
+  margin-left: 6px;
+  padding: 4px;
+  box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+}
+
+[src="/assets/9bcd2aba4eefb34114f8.svg"] {
+  visibility: hidden;
+}
+
+.searchHeader__2707c {
+  background: url(http://www.betaarchive.com/imageupload/1304990899.th.90622.png);
+  width: 831px;
+  height: 260px;
+  background-size: cover;
+  image-rendering: pixelated;
+}
