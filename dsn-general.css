@@ -329,7 +329,7 @@ th,
 td,
 button,
 textarea {
-  font-size: 11px !important;
+  font-size: var(--font-size) !important;
   word-spacing: normal;
   letter-spacing: 0px;
   font-weight: normal !important;
