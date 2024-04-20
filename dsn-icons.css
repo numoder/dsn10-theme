@@ -203,7 +203,11 @@ color: white;
   color: black !important;
 }
 
-.videoControls_af6621 .children_cde9af{
+.theme-dark .videoControls_af6621 .children_cde9af .titleWrapper_d6133e h1{
+  color: white !important;
+}
+
+.theme-light .videoControls_af6621 .children_cde9af{
   font-family: var(--font-primary) !important;
   background: var(--tooltip-background);
   border: 1px solid var(--tooltip-border);
