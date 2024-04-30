@@ -1,7 +1,7 @@
 
 ![Logo](https://github.com/numoder/dsn10-theme/blob/main/assets/src/banner.png?raw=true)
 
-# Discord Network Messenger
+# Discord Network theme
 
 Inspired by Windows MSN Messenger 7 and MSN Explorer 7 / 10, originally from kamuisuki's [**Discord MSN EXPLORER 10**](https://www.deviantart.com/kamuisuki/art/Discord-MSN-Explorer-10-theme-873282935) theme.
 
