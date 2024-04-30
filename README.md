@@ -27,7 +27,7 @@ For the most accurate look I recommend [turning off Clear type](https://github.c
 
 ## Screenshots
 
-![page1](https://github.com/numoder/dsn10-theme/blob/main/assets/src/1.png)
+![page1](https://github.com/numoder/dsn10-theme/assets/72421281/fad0040d-5bc0-4f3b-b5e2-ae57b6c3a307)
 ![page2](https://github.com/numoder/dsn10-theme/blob/main/assets/src/2.png)
 ![page3](https://github.com/numoder/dsn10-theme/blob/main/assets/src/3.png)
 *Ps* these screenshots have been taken with ClearType disabled, and they are missing a few icons that have since been addressed and added
