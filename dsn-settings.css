@@ -1,4 +1,13 @@
 /* settings.css */  
+.vc-settings-card img[role="presentation"] {
+  content: url(https://numoder.github.io/dsn10-theme/assets/misc/stupidfuckingdog.png);
+  width: 80px;
+  height: 80px;
+}
+
+.theme-light .vc-settings-card img[role="presentation"] {
+  rotate: -10deg !important;
+}
 
 .sectionTitle__3e02b > h2, .contentColumn__5f80b > h2{
   font-family: "Franklin Gothic" !important;
@@ -292,7 +301,7 @@ svg:has([d="M15.16 16.51c-.57.28-1.16-.2-1.16-.83v-.14c0-.43.28-.8.63-1.02a3 3 0
   color: transparent !important;
 }
 
-svg:has([d="M10.99 3.16A1 1 0 1 0 9 2.84L8.15 8H4a1 1 0 0 0 0 2h3.82l-.67 4H3a1 1 0 1 0 0 2h3.82l-.8 4.84a1 1 0 0 0 1.97.32L8.85 16h4.97l-.8 4.84a1 1 0 0 0 1.97.32l.86-5.16H20a1 1 0 1 0 0-2h-3.82l.67-4H21a1 1 0 1 0 0-2h-3.82l.8-4.84a1 1 0 1 0-1.97-.32L15.15 8h-4.97l.8-4.84ZM14.15 14l.67-4H9.85l-.67 4h4.97Z"]) {
+.linkTop_c8969d svg:has([d="M10.99 3.16A1 1 0 1 0 9 2.84L8.15 8H4a1 1 0 0 0 0 2h3.82l-.67 4H3a1 1 0 1 0 0 2h3.82l-.8 4.84a1 1 0 0 0 1.97.32L8.85 16h4.97l-.8 4.84a1 1 0 0 0 1.97.32l.86-5.16H20a1 1 0 1 0 0-2h-3.82l.67-4H21a1 1 0 1 0 0-2h-3.82l.8-4.84a1 1 0 1 0-1.97-.32L15.15 8h-4.97l.8-4.84ZM14.15 14l.67-4H9.85l-.67 4h4.97Z"]) {
   width: 0px;
 }
 
@@ -436,6 +445,58 @@ width: 0px;
 }
 
 .card_x5zW6z{
-  background: var(--settings-sub-container);
+  background: var(--settings-sub-container) !important;
   box-shadow: inset 1px 1px #fcfcfe,inset -1px -1px #fcfcfe,1px 2px 2px 0 rgba(208,206,191,.75);
 }
+
+/* youtube */
+
+[href="https://www.youtube.com"] {
+  background: url(https://numoder.github.io/dsn10-theme/assets/connections/youtube.png); 
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+  color: transparent !important;
+  font-size: 16px !important;
+}
+
+.theme-dark [href="https://www.youtube.com"] {
+  background: url(https://numoder.github.io/dsn10-theme/assets/connections/youtube-white.png) !important; 
+  background-size: contain !important;
+  background-position: center left !important;
+  background-repeat: no-repeat !important;
+}
+
+.embedWrapper__47b23:has([href="https://www.youtube.com"]){  border-image: 
+  linear-gradient(
+    to bottom, 
+    rgb(255, 62, 62),
+    red, 
+    rgb(122, 0, 0)
+  ) 1 100%;
+}
+
+.theme-light .embedWrapper__47b23:has([href="https://www.youtube.com"]){
+  background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(225,226,226,1) 50%, rgba(255,255,255,1) 100%); 
+  box-shadow: inset 0px 0px 3px 0px rgb(173, 173, 173);
+  border-radius: 4px;
+}
+
+.html5-video-player { 
+  outline: black 1px solid !important;
+  box-shadow: inset 0px 0px 30px 0px gray;
+}
+
+.theme-dark .embedWrapper__47b23:has([href="https://www.youtube.com"]){
+  background: linear-gradient(0deg, rgb(39, 39, 39) 0%, rgb(15, 7, 7), rgb(44, 44, 44) 100%); 
+  box-shadow: inset 0px 0px 3px 0px rgba(255, 255, 255, 0.479);
+  border-radius: 4px;
+}
+
+/* spotify */
+ [src="/assets/371bb877e1a3fe7e68dd.svg"] {
+  content: url(https://numoder.github.io/dsn10-theme/assets/connections/spotify.png) !important; 
+  width: 24px;
+  height: 24px;
+}
+
