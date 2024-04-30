@@ -25,9 +25,7 @@ None of this could've been done without the people who made the works below!
 
 For the most accurate look I recommend [turning off Clear type](https://github.com/bp2008/BetterClearTypeTuner)
 
-## Screenshots
-
+## Preview
 ![page1](https://github.com/numoder/dsn10-theme/assets/72421281/fad0040d-5bc0-4f3b-b5e2-ae57b6c3a307)
 ![page2](https://github.com/numoder/dsn10-theme/assets/72421281/db347edd-786f-446e-b83b-47c2464f5fc4)
 ![page3](https://github.com/numoder/dsn10-theme/assets/72421281/d24a6b76-86e5-48e2-92fc-d8a093794491)
-*Ps* these screenshots have been taken with ClearType disabled, and they are missing a few icons that have since been addressed and added
