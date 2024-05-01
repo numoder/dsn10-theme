@@ -773,7 +773,10 @@ margin-top: 20px;
   border: 1px solid var(--text-area-border);
 }
 
-
+.buttons__7ecff:not(.platform-web .buttons__7ecff){
+    margin-right: 0px;
+}
+  
 .innerDisabled__1d121.sansAttachButton__5f863{
   border-bottom: 1px solid var(--text-area-border);
 }
