@@ -1389,3 +1389,8 @@ text-indent: -5px;
     margin-left: -45px;
 }
 
+html:has([id="vencord-css-core"]) .chatContent_f087cb .sansAttachButton__5f863 .buttons__7ecff {
+    border-radius: 8px 8px 0 0;
+    margin-right: 0px;
+}
+
