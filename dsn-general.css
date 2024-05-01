@@ -1376,3 +1376,16 @@ div.buttons__7ecff > div:active {
 .theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after {
   background: transparent;
 }
+
+.compact_eda3c8 .timestamp_c79dd2{
+text-indent: -5px;
+}
+
+.theme-dark .compact_eda3c8 .timestamp_c79dd2{
+    color: orange;
+}
+
+.compact_eda3c8 .contents_d3ae0d{
+    margin-left: -45px;
+}
+
