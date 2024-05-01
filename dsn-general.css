@@ -726,7 +726,7 @@ left: 201px;
 > .button_b82d53.fauxDisabled_daee54:first-child
 > .contents__322f4 {
 background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam2.png);
-background-size: contain;
+background-size: cover;
 }
 
 .button_b82d53.buttonColor__7bad9.fauxDisabled_daee54 {
