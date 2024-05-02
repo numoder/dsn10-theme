@@ -58,7 +58,7 @@
 }
 
 .panels__58331 .avatarStack__789b4 > .avatar__991e2 {
-    content: var(--profile-picture) !important;
+    content: var(--user-profile) !important;
     image-rendering: initial;
 }
 
