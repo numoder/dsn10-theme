@@ -1393,4 +1393,7 @@ html:has([id="vencord-css-core"]) .chatContent_f087cb .sansAttachButton__5f863 .
     border-radius: 8px 8px 0 0;
     margin-right: 0px;
 }
+.hoverRoll__3ea9e .default__74311:has(.customStatus__928b7)::after{
+    content: none !important;
+}
 
