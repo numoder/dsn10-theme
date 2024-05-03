@@ -348,8 +348,8 @@
   backface-visibility: hidden;
   scrollbar-width: none;
   border: 1px solid var(--text-area-border);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
+  overflow-y: visible;
   background: var(--message-background-border), var(--message-background-border);
   background-repeat: repeat-x;
   background-size: 1px 23px;
