@@ -40,7 +40,6 @@
   --searchbarbg: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/searchbarbg.png);
   --dmbarsearchbarright: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/DMbarsearchright.png);
   --dmbarsearchleft: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/DMbarsearchleft.png);
-  --dmbarsearchright: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/DMbarsearchright.png);
   --dmmainbarright: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/DMmainbarright.png);
 
   --window-border: inset 0px 0px 0px 1px #6578b4,inset 0px 0px 0px 2px #d0d6eb,inset 0px 0px 0px 3px #dce2f4;
@@ -141,9 +140,6 @@
   --settings-divider-color-2:  1px solid #ffffff;
 }
 
-
-
-
 .theme-dark {
   --dmbarsearchmiddle: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/dark/DMmainbarmiddle.png);
   --dmmainbarmiddle: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/dark/DMbarsearchmiddle.png);
@@ -209,7 +205,7 @@
 
   --text-area-border: #aaa;
 
-  --message-background: rgba(0, 0, 0, 0.2);
+  --message-background: rgba(255, 255, 255, 0.1);
   --message-background-border: linear-gradient(0deg, rgb(31, 31, 31) 0%, rgb(70, 70, 70) 60%, rgb(31, 31, 31) 100%);
 
   --member-hover:  linear-gradient(135deg, rgba(255,255,255,0) 0%, rgb(82, 82, 82) 100%);
@@ -788,7 +784,6 @@ background-size: cover;
   content: url(https://numoder.github.io/dsn10-theme/assets/actions/phone.png);
   filter: hue-rotate(-47.5deg) brightness(0.8) saturate(1.5);
 }
-
 .ping__838d2 path {
   fill: transparent;
 }
@@ -1361,22 +1356,13 @@ div.buttons__7ecff > div:active {
   font-weight: bold !important;
 }
 
-.form_d8a4a1{
-  padding: 0 8px;
-}
-
-.form_d8a4a1:not(:has(.typing__6fd1d)){
-  padding-bottom: 24px;
-}
-
-
 .theme-light .form_d8a4a1:before, .theme-light .form_d8a4a1:after,
 .theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after {
   background: transparent;
 }
 
 .compact_eda3c8 .timestamp_c79dd2{
-text-indent: -5px;
+  text-indent: -5px;
 }
 
 .theme-dark .compact_eda3c8 .timestamp_c79dd2{
@@ -1387,11 +1373,15 @@ text-indent: -5px;
     margin-left: -45px;
 }
 
-html:has([id="vencord-css-core"]) .chatContent_f087cb .sansAttachButton__5f863 .buttons__7ecff {
+.sansAttachButton__5f863{
+  padding-left: 0px;
+}
+
+ .chatContent_f087cb .sansAttachButton__5f863 .buttons__7ecff {
     border-radius: 8px 8px 0 0;
     margin-right: 0px;
+    margin-left: 28px;
 }
 .hoverRoll__3ea9e .default__74311:has(.customStatus__928b7)::after{
     content: none !important;
 }
-
