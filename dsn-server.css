@@ -348,7 +348,7 @@
   backface-visibility: hidden;
   scrollbar-width: none;
   border: 1px solid var(--text-area-border);
-  padding: 24px 0;
+  padding: 23px 0;
   overflow-y: visible;
   background: var(--message-background-border), var(--message-background-border);
   background-repeat: repeat-x;
@@ -356,6 +356,15 @@
   background-position: top, bottom;
   background-color: inherit;
   margin: 10px 0px -18px;
+}
+
+.groupStart__7b93c {
+  margin-top: 1.0625rem;
+  min-height: 40.5px;
+}
+
+.groupStart__7b93c .header__6a14d, .groupStart__7b93c .messageContent_abea64{
+  top: 12px;
 }
 
 /* window header stuffz */
