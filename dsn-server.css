@@ -570,3 +570,6 @@ div.bd-select {
 }
 
 /* checkbox */
+[id="oneko"] {
+  z-index: 9999 !important;
+}
