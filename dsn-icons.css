@@ -203,7 +203,7 @@ button:has(.spriteContainer__732c7):hover {
 }
 
 div:has(.membersWrap__5ca6b) .children_cde9af {
-  overflow: hidden !important;
+  overflow: visible !important;
   margin-right: 255px !important;
 }
 
