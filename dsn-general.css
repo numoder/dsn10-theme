@@ -32,6 +32,8 @@
 }
 
 .theme-light {
+  --scrollbar: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/luna.png);
+
   --message-hover: rgba(0, 0, 255, 0.603);
 
   --dmmainbarmiddle: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/DMbarsearchmiddle.png);
@@ -42,19 +44,24 @@
   --dmbarsearchleft: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/DMbarsearchleft.png);
   --dmmainbarright: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/DMmainbarright.png);
 
-  --window-border: inset 0px 0px 0px 1px #6578b4,inset 0px 0px 0px 2px #d0d6eb,inset 0px 0px 0px 3px #dce2f4;
+  --window-border: inset 0px 0px 0px 1px #6578b4, inset 0px 0px 0px 2px #d0d6eb,
+    inset 0px 0px 0px 3px #dce2f4;
 
   --background: white;
   --text-primary: #222;
   --text-inverted-primary: #eee;
   --text-blue: #153290;
 
-  --picture-border:#485e85;
+  --picture-border: #485e85;
   --border-color: #98a7d2;
   --profile-box-shadow: inset 0px 0px 1.5px 2px #fff;
 
-  --general-box-shadow: inset 0px 0px 0px 1px #a9c6ff,inset 0px 0px 0px 2px #c2cce0,inset 0px 0px 0px 3px #dce2ef,inset 0px 0px 0px 4px #f4f8ff;
-  --friend-box-shadow: inset 0px 0px 0px 1px #bfd4ff,inset 0px 0px 0px 2px #a8c2f5,inset 0px 0px 0px 3px #cedbf8,inset 0px 0px 0px 4px #f4f8ff;
+  --general-box-shadow: inset 0px 0px 0px 1px #a9c6ff,
+    inset 0px 0px 0px 2px #c2cce0, inset 0px 0px 0px 3px #dce2ef,
+    inset 0px 0px 0px 4px #f4f8ff;
+  --friend-box-shadow: inset 0px 0px 0px 1px #bfd4ff,
+    inset 0px 0px 0px 2px #a8c2f5, inset 0px 0px 0px 3px #cedbf8,
+    inset 0px 0px 0px 4px #f4f8ff;
 
   --profile-color-1: rgba(235, 240, 247, 1);
   --profile-color-2: rgb(247, 249, 255);
@@ -63,39 +70,89 @@
   --profile-color-4: #eef2f9;
   --profile-color-5: #d2ddef;
 
-
-  --reaction-background: linear-gradient(0deg, rgba(46, 155, 55, 0.6) 0%, rgba(166, 252, 95, 0.5));
+  --reaction-background: linear-gradient(
+    0deg,
+    rgba(46, 155, 55, 0.6) 0%,
+    rgba(166, 252, 95, 0.5)
+  );
   --reaction-border: green;
 
-  --add-friend-background: linear-gradient(180deg, rgba(205,217,238,1) 0%, rgba(223,231,243,1) 50%, rgba(250,251,253,1) 100%);
-  --add-friend-border: var( --border-light);
+  --add-friend-background: linear-gradient(
+    180deg,
+    rgba(205, 217, 238, 1) 0%,
+    rgba(223, 231, 243, 1) 50%,
+    rgba(250, 251, 253, 1) 100%
+  );
+  --add-friend-border: var(--border-light);
 
   --server-list-background: linear-gradient(90deg, #fff 0%, #ccd5e6 100%);
 
-  --server-background: linear-gradient(0deg, rgba(251,252,253,1) 0%, #e2e7f1 60%, rgba(204,213,230,1) 100%);
+  --server-background: linear-gradient(
+    0deg,
+    rgba(251, 252, 253, 1) 0%,
+    #e2e7f1 60%,
+    rgba(204, 213, 230, 1) 100%
+  );
   --server-background-hover: #f0f6ff;
   --server-background-selected: white;
   --server-background-active: #dadada;
-  --server-background-active-2: linear-gradient(0deg, rgb(247, 252, 255) 0%, rgb(197, 218, 255) 100%);
+  --server-background-active-2: linear-gradient(
+    0deg,
+    rgb(247, 252, 255) 0%,
+    rgb(197, 218, 255) 100%
+  );
 
   --member-list-background: linear-gradient(90deg, #e8edf6 0%, #c6d4f1 100%);
   --member-list-border: 1px solid #bbc5d2;
-  --member-list-before-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(198,209,240,1) 100%);
+  --member-list-before-background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(198, 209, 240, 1) 100%
+  );
 
-  --server-notification: linear-gradient(180deg, rgba(150,205,158,1) 0%, rgba(65,170,73,1) 49%, rgba(31,155,40,1) 50%, rgba(15,147,25,1) 51%, rgba(13,201,19,1) 100%);
+  --server-notification: linear-gradient(
+    180deg,
+    rgba(150, 205, 158, 1) 0%,
+    rgba(65, 170, 73, 1) 49%,
+    rgba(31, 155, 40, 1) 50%,
+    rgba(15, 147, 25, 1) 51%,
+    rgba(13, 201, 19, 1) 100%
+  );
 
-  --server-notification-hover: linear-gradient(180deg, #c6e3cc 0%, #50bc5a 49%, #1eb128 50%, #18cb26 51%, #14df1d 100%);
+  --server-notification-hover: linear-gradient(
+    180deg,
+    #c6e3cc 0%,
+    #50bc5a 49%,
+    #1eb128 50%,
+    #18cb26 51%,
+    #14df1d 100%
+  );
 
-  --server-notification-active: linear-gradient(180deg, #46994f 0%, #107014 49.75%, #0a4f0a 50.25%, #017b01 100%);
+  --server-notification-active: linear-gradient(
+    180deg,
+    #46994f 0%,
+    #107014 49.75%,
+    #0a4f0a 50.25%,
+    #017b01 100%
+  );
 
   --msn-logo: url(https://numoder.github.io/dsn10-theme/assets/msn/msn-blue.png);
 
   --text-area-border: #647eae;
 
   --message-background: rgba(255, 255, 255, 0.75);
-  --message-background-border: linear-gradient(0deg, rgba(203,216,239,1) 0%, rgb(229, 238, 255) 60%, rgba(203,216,239,1) 100%);
+  --message-background-border: linear-gradient(
+    0deg,
+    rgba(203, 216, 239, 1) 0%,
+    rgb(229, 238, 255) 60%,
+    rgba(203, 216, 239, 1) 100%
+  );
 
-  --member-hover:  linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(229,238,249,1) 100%);
+  --member-hover: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(229, 238, 249, 1) 100%
+  );
 
   --people-column-background: rgba(255, 255, 255, 0.75);
   --people-column-border: #ebf1fa;
@@ -103,44 +160,80 @@
   --tooltip-background: #ffffe1;
   --tooltip-border: #000;
 
-  --settings-background: linear-gradient(180deg, rgba(121,159,230,1) 0%, rgba(99,116,213,1) 100%);
+  --settings-background: linear-gradient(
+    180deg,
+    rgba(121, 159, 230, 1) 0%,
+    rgba(99, 116, 213, 1) 100%
+  );
   --settings-background-2: #ece9d8;
   --settings-button-background: #d6dff7;
   --settings-button-border: #f7f9fd;
-  --settings-header: linear-gradient(90deg, rgba(1,72,178,1) 0%, rgba(40,91,197,1) 100%);
-  
+  --settings-header: linear-gradient(
+    90deg,
+    rgba(1, 72, 178, 1) 0%,
+    rgba(40, 91, 197, 1) 100%
+  );
+
   --settings-page-header-text-color: #222;
-  --settings-selected-color: #6487DC;
-    
-  --settings-sub-container: linear-gradient(180deg,#fcfcfe,#f4f3ee);
-  --settings-sub-container-shadow:  inset 1px 1px #fcfcfe,inset -1px -1px #fcfcfe,1px 2px 2px 0 rgba(208,206,191,.75);
+  --settings-selected-color: #6487dc;
+
+  --settings-sub-container: linear-gradient(180deg, #fcfcfe, #f4f3ee);
+  --settings-sub-container-shadow: inset 1px 1px #fcfcfe,
+    inset -1px -1px #fcfcfe, 1px 2px 2px 0 rgba(208, 206, 191, 0.75);
   --settings-sub-container-border: 1px solid #919b9c;
 
   --settings-sub-container-2: #fff;
   --settings-sub-container-2-border: 1px solid #d0d0bf;
 
-  --direct-messages-background: linear-gradient(90deg, rgba(220,228,248,1) 0%, rgba(246,249,255,1) 15%, rgba(255,255,255,1) 51%, rgba(246,249,255,1) 85%, rgba(220,228,248,1) 100%);
-  
-  --dm-hover: linear-gradient(0deg, rgba(193, 204, 236, 0.8) 0%, rgba(255, 255, 255, 0.8) 60%);
-  --dm-hover-border: inset 0px 0px 0px 1px white,inset 0px 0px 0px 2px rgb(193, 204, 236),inset 0px 0px 0px 3px white;
+  --direct-messages-background: linear-gradient(
+    90deg,
+    rgba(220, 228, 248, 1) 0%,
+    rgba(246, 249, 255, 1) 15%,
+    rgba(255, 255, 255, 1) 51%,
+    rgba(246, 249, 255, 1) 85%,
+    rgba(220, 228, 248, 1) 100%
+  );
 
-  --dm-selected: linear-gradient(0deg, rgba(193, 204, 236, 0.8) 2%, rgba(255, 255, 255, 0.8) 100%);
-  --dm-selected-border: inset 0px 0px 0px 1px white,inset 0px 0px 0px 2px rgb(193, 204, 236),inset 0px 0px 0px 3px white;
+  --dm-hover: linear-gradient(
+    0deg,
+    rgba(193, 204, 236, 0.8) 0%,
+    rgba(255, 255, 255, 0.8) 60%
+  );
+  --dm-hover-border: inset 0px 0px 0px 1px white,
+    inset 0px 0px 0px 2px rgb(193, 204, 236), inset 0px 0px 0px 3px white;
 
-  --dm-selected-hover: linear-gradient(0deg, rgba(198, 213, 255, 0.8) 2%, rgba(251, 252, 255, 0.8) 100%);
+  --dm-selected: linear-gradient(
+    0deg,
+    rgba(193, 204, 236, 0.8) 2%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  --dm-selected-border: inset 0px 0px 0px 1px white,
+    inset 0px 0px 0px 2px rgb(193, 204, 236), inset 0px 0px 0px 3px white;
 
-  --dm-active: linear-gradient(0deg, rgba(172, 194, 255, 0.8) 2%, rgba(255, 255, 255, 0.8) 100%);
+  --dm-selected-hover: linear-gradient(
+    0deg,
+    rgba(198, 213, 255, 0.8) 2%,
+    rgba(251, 252, 255, 0.8) 100%
+  );
 
+  --dm-active: linear-gradient(
+    0deg,
+    rgba(172, 194, 255, 0.8) 2%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
 
-  --sidebar-header-hover: inset 0px 0px 5px 1px #5184c2, inset 0px 0px 5px 5px #eeeeee;
+  --sidebar-header-hover: inset 0px 0px 5px 1px #5184c2,
+    inset 0px 0px 5px 5px #eeeeee;
 
   --textbox-border: 1px solid #7f9db9;
 
   --settings-divider-color: 1px solid #9b9b9b;
-  --settings-divider-color-2:  1px solid #ffffff;
+  --settings-divider-color-2: 1px solid #ffffff;
 }
 
 .theme-dark {
+  --scrollbar: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/zune.png);
+
   --dmbarsearchmiddle: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/dark/DMmainbarmiddle.png);
   --dmmainbarmiddle: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/dark/DMbarsearchmiddle.png);
   --dmsearchbar-repeat: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/dark/searchbarbgrepeat.png);
@@ -149,7 +242,8 @@
   --dmbarsearchbarright: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/dark/DMbarsearchright.png);
   --dmmainbarright: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/dark/DMmainbarright.png);
 
-  --window-border: inset 0px 0px 0px 1px #707070,inset 0px 0px 0px 2px #484848,inset 0px 0px 0px 3px #202020;
+  --window-border: inset 0px 0px 0px 1px #707070, inset 0px 0px 0px 2px #484848,
+    inset 0px 0px 0px 3px #202020;
 
   --background: #202025;
 
@@ -157,13 +251,17 @@
   --text-inverted-primary: #222;
   --text-blue: #2054ff;
 
-  --reaction-background: linear-gradient(0deg, rgba(196,127,71,0.4) 0%, rgba(46,29,0,1) 100%);
+  --reaction-background: linear-gradient(
+    0deg,
+    rgba(196, 127, 71, 0.4) 0%,
+    rgba(46, 29, 0, 1) 100%
+  );
   --reaction-border: #c47f47;
-  
-  --mention-background: var( --reaction-background);
+
+  --mention-background: var(--reaction-background);
   --mention-foreground: orange;
 
-  --picture-border:  black;
+  --picture-border: black;
   --border-color: #7b7b7c;
   --profile-box-shadow: inset 0px 0px 1px 1px #4c4c4c;
 
@@ -171,7 +269,7 @@
     inset 0px 1px 0px 2px #4f4f4f, inset 0px 1px 0px 3px #3d3d3d;
   --friend-box-shadow: inset 0px 0px 0px 1px #ff9900,
     inset 0px 1px 0px 2px #994a00, inset 0px 1px 0px 3px #693300;
-    
+
   --profile-color-1: #000000;
   --profile-color-2: #222222;
   --profile-color-3: #808080;
@@ -179,7 +277,11 @@
   --profile-color-4: #211d1e;
   --profile-color-5: #666666;
 
-  --add-friend-background: linear-gradient(180deg, rgb(61, 61, 61) 0%, rgba(5, 5, 5, 0) 100%);
+  --add-friend-background: linear-gradient(
+    180deg,
+    rgb(61, 61, 61) 0%,
+    rgba(5, 5, 5, 0) 100%
+  );
   --add-friend-border: silver;
 
   --server-list-background: linear-gradient(90deg, #1b1b1b 0%, #2b2b2b 100%);
@@ -188,64 +290,146 @@
   --server-background-hover: linear-gradient(0deg, #222 0%, #2b2b2b 100%);
   --server-background-selected: #333;
   --server-background-active: #444;
-  --server-background-active-2: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(206, 110, 0) 100%);
+  --server-background-active-2: linear-gradient(
+    0deg,
+    rgb(0, 0, 0) 0%,
+    rgb(206, 110, 0) 100%
+  );
 
-  --member-list-background : linear-gradient(-90deg, #181818 0%, #303030 100%);
+  --member-list-background: linear-gradient(-90deg, #181818 0%, #303030 100%);
   --member-list-border: 1px solid #525252;
-  --member-list-before-background: linear-gradient(0deg, rgba(0, 0, 0, 0.678) 0%, rgb(107, 107, 107) 100%);
+  --member-list-before-background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.678) 0%,
+    rgb(107, 107, 107) 100%
+  );
 
-  --server-notification: linear-gradient(180deg, #ffab77 0%, #ee6721 49%, rgba(190,81,14,1) 50%, rgba(176,68,1,1) 51%, #a31d1d 100%);
+  --server-notification: linear-gradient(
+    180deg,
+    #ffab77 0%,
+    #ee6721 49%,
+    rgba(190, 81, 14, 1) 50%,
+    rgba(176, 68, 1, 1) 51%,
+    #a31d1d 100%
+  );
 
-  --server-notification-hover: linear-gradient(180deg, #fed5bb 0%, #fa8d4a 49%, #db6e2b 50%, rgba(176,68,1,1) 51%, #fc8f4c 100%);
+  --server-notification-hover: linear-gradient(
+    180deg,
+    #fed5bb 0%,
+    #fa8d4a 49%,
+    #db6e2b 50%,
+    rgba(176, 68, 1, 1) 51%,
+    #fc8f4c 100%
+  );
 
-  --server-notification-active: linear-gradient(180deg, #c56124 0%, #ae4301 49%, #8a3501 50%, #7a2f01 51%, #b14401 100%);
+  --server-notification-active: linear-gradient(
+    180deg,
+    #c56124 0%,
+    #ae4301 49%,
+    #8a3501 50%,
+    #7a2f01 51%,
+    #b14401 100%
+  );
 
-  
   --msn-logo: url(https://numoder.github.io/dsn10-theme/assets/msn/msn-white.png);
 
   --text-area-border: #aaa;
 
   --message-background: rgba(255, 255, 255, 0.1);
-  --message-background-border: linear-gradient(0deg, rgb(31, 31, 31) 0%, rgb(70, 70, 70) 60%, rgb(31, 31, 31) 100%);
+  --message-background-border: linear-gradient(
+    0deg,
+    rgb(31, 31, 31) 0%,
+    rgb(70, 70, 70) 60%,
+    rgb(31, 31, 31) 100%
+  );
 
-  --member-hover:  linear-gradient(135deg, rgba(255,255,255,0) 0%, rgb(82, 82, 82) 100%);
+  --member-hover: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(82, 82, 82) 100%
+  );
 
   --people-column-background: rgba(0, 0, 0, 0.75);
-  --people-column-border: linear-gradient(0deg, #535353 60%,  #444444 100%);
+  --people-column-border: linear-gradient(0deg, #535353 60%, #444444 100%);
 
   --tooltip-background: #272727;
   --tooltip-border: #8d8d8d;
 
-  --settings-background: linear-gradient(180deg, rgba(126,126,126,1) 0%, rgba(69,69,69,1) 100%);
+  --settings-background: linear-gradient(
+    180deg,
+    rgba(126, 126, 126, 1) 0%,
+    rgba(69, 69, 69, 1) 100%
+  );
   --settings-background-2: #454545;
   --settings-button-background: #f1eee9;
   --settings-button-border: #fbfaf9;
   --settings-selected-color: #545;
 
-  --settings-sub-container: linear-gradient(180deg,#504c4a,#161515);
-  --settings-sub-container-shadow:  inset 1px 1px #000000,inset -1px -1px #e9720322,1px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  --settings-sub-container: linear-gradient(180deg, #504c4a, #161515);
+  --settings-sub-container-shadow: inset 1px 1px #000000,
+    inset -1px -1px #e9720322, 1px 2px 2px 0 rgba(0, 0, 0, 0.5);
   --settings-sub-container-border: 1px solid #757575;
 
   --settings-sub-container-2: #32343a;
   --settings-sub-container-2-border: 1px solid rgb(117, 121, 128);
 
-  --direct-messages-background: linear-gradient(90deg, rgba(29,29,29,0.8) 5%, rgba(59,59,59,0.35) 40%, rgba(58,58,58,0.35) 52%, rgba(29,29,29,0.8) 100%);
-  
-  --dm-hover: linear-gradient(0deg, rgb(26, 26, 26) 0%, rgba(41,41,41,1) 49.9%, rgba(27,16,3,1) 50%, rgb(71, 69, 65) 50.1%, rgb(161, 161, 161) 100%);
-  --dm-hover-border: inset 0px 0px 0px 1px rgb(24, 24, 24),inset 0px 0px 0px 2px rgb(235, 235, 235),inset 0px 0px 0px 3px rgb(100, 100, 100);
+  --direct-messages-background: linear-gradient(
+    90deg,
+    rgba(29, 29, 29, 0.8) 5%,
+    rgba(59, 59, 59, 0.35) 40%,
+    rgba(58, 58, 58, 0.35) 52%,
+    rgba(29, 29, 29, 0.8) 100%
+  );
 
-  --dm-selected: linear-gradient(0deg, rgba(24,16,10,1) 0%, rgba(41,41,41,1) 49.9%, rgba(27,16,3,1) 50%, rgb(71, 69, 65) 50.1%, rgb(167, 105, 0) 100%);
-  --dm-selected-border: inset 0px 0px 0px 1px rgb(0, 0, 0),inset 0px 0px 0px 2px rgb(231, 137, 13),inset 0px 0px 0px 3px rgb(95, 59, 38);
-  --dm-selected-hover:  linear-gradient(0deg, rgb(39, 26, 17) 0%, rgb(56, 56, 56)49.9%, rgb(58, 35, 7) 50%, rgb(87, 84, 79) 50.1%, rgb(180, 114, 0) 100%);
+  --dm-hover: linear-gradient(
+    0deg,
+    rgb(26, 26, 26) 0%,
+    rgba(41, 41, 41, 1) 49.9%,
+    rgba(27, 16, 3, 1) 50%,
+    rgb(71, 69, 65) 50.1%,
+    rgb(161, 161, 161) 100%
+  );
+  --dm-hover-border: inset 0px 0px 0px 1px rgb(24, 24, 24),
+    inset 0px 0px 0px 2px rgb(235, 235, 235),
+    inset 0px 0px 0px 3px rgb(100, 100, 100);
 
-  --dm-active: linear-gradient(0deg, rgb(53, 38, 28) 0%, rgb(65, 54, 32) 49.9%, rgb(95, 63, 23) 50%, rgb(150, 91, 3) 50.1%, rgb(204, 124, 18) 70%, rgb(255, 226, 188) 100%);
+  --dm-selected: linear-gradient(
+    0deg,
+    rgba(24, 16, 10, 1) 0%,
+    rgba(41, 41, 41, 1) 49.9%,
+    rgba(27, 16, 3, 1) 50%,
+    rgb(71, 69, 65) 50.1%,
+    rgb(167, 105, 0) 100%
+  );
+  --dm-selected-border: inset 0px 0px 0px 1px rgb(0, 0, 0),
+    inset 0px 0px 0px 2px rgb(231, 137, 13),
+    inset 0px 0px 0px 3px rgb(95, 59, 38);
+  --dm-selected-hover: linear-gradient(
+    0deg,
+    rgb(39, 26, 17) 0%,
+    rgb(56, 56, 56) 49.9%,
+    rgb(58, 35, 7) 50%,
+    rgb(87, 84, 79) 50.1%,
+    rgb(180, 114, 0) 100%
+  );
 
-  --sidebar-header-hover: inset 0px 0px 5px 1px gray, inset 0px 0px 5px 5px black;
+  --dm-active: linear-gradient(
+    0deg,
+    rgb(53, 38, 28) 0%,
+    rgb(65, 54, 32) 49.9%,
+    rgb(95, 63, 23) 50%,
+    rgb(150, 91, 3) 50.1%,
+    rgb(204, 124, 18) 70%,
+    rgb(255, 226, 188) 100%
+  );
+
+  --sidebar-header-hover: inset 0px 0px 5px 1px gray,
+    inset 0px 0px 5px 5px black;
 
   --textbox-border: 1px solid #c0c0c0;
-  
+
   --settings-divider-color: #1f1f1fd7;
-  --settings-divider-color-2:  1px solid #aaaaaa98;
+  --settings-divider-color-2: 1px solid #aaaaaa98;
 }
 
 foreignObject,
@@ -339,13 +523,19 @@ textarea::selection {
   color: #fff;
 }
 
-
-
-.theme-light .children_cde9af:after, .theme-light .container__7e23c, .panels__58331 .button_b82d53, .chatContent_f087cb, .container_bd15da, .tabBody_a90ea8, .replyBar_ed6afc, .threadSuggestionBar__717a3, .attachedBars_c1606a, .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
+.theme-light .children_cde9af:after,
+.theme-light .container__7e23c,
+.chatContent_f087cb,
+.container_bd15da,
+.tabBody_a90ea8,
+.replyBar_ed6afc,
+.threadSuggestionBar__717a3,
+.attachedBars_c1606a,
+.addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
   background: transparent !important;
 }
 
-h3.header__6a14d{
+h3.header__6a14d {
   word-spacing: normal;
 }
 
@@ -358,12 +548,12 @@ h3.header__6a14d{
   text-decoration: underline;
 }
 
-.interactive__3e804{
-  box-sizing:initial;
+.interactive__3e804 {
+  box-sizing: initial;
 }
 
-
-.channelName__96470 div, .channelName__96470 input,
+.channelName__96470 div,
+.channelName__96470 input,
 .interactiveSelected__689f0 .overflow__993fa,
 .channel__0aef5 .highlighted_e2e5df,
 .text-sm-normal__95a78,
@@ -375,58 +565,58 @@ h3.header__6a14d{
   font-weight: bold !important;
 }
 
-.container__3792d{
+.container__3792d {
   padding: 0px;
 }
 
-.channel__0aef5{
+.channel__0aef5 {
   padding: 0 3px;
   border-radius: 0px;
 }
 
-a.link__3a950{
+a.link__3a950 {
   height: 42px;
 }
 
-.link__3a950 .numberBadge__40d6f{
+.link__3a950 .numberBadge__40d6f {
   position: relative;
-top: -39px;
-left: 201px;
+  top: -39px;
+  left: 201px;
 }
 
-.channel__0aef5 .layout__59abc{
+.channel__0aef5 .layout__59abc {
   flex-direction: row-reverse;
   justify-content: flex-end;
   margin-left: -2px;
 }
 
-.layout__59abc .avatar__7bd22{
+.layout__59abc .avatar__7bd22 {
   margin-right: -4px;
 }
 
-.link__3a950{
-  display:initial;
+.link__3a950 {
+  display: initial;
 }
 
-.closeButton__116c3{
+.closeButton__116c3 {
   display: none !important;
 }
 
-.channel__0aef5.container__3792d:hover{
+.channel__0aef5.container__3792d:hover {
   background: var(--dm-hover);
   box-shadow: var(--dm-hover-border);
 }
 
-.channel__0aef5.container__3792d:active{
+.channel__0aef5.container__3792d:active {
   background: var(--dm-active);
 }
 
-.channel__0aef5:has(.interactiveSelected__689f0){
+.channel__0aef5:has(.interactiveSelected__689f0) {
   background: var(--dm-selected);
   box-shadow: var(--dm-selected-border);
 }
 
-.channel__0aef5:has(.interactiveSelected__689f0):hover{
+.channel__0aef5:has(.interactiveSelected__689f0):hover {
   background: var(--dm-selected-hover);
   box-shadow: var(--dm-selected-border);
 }
@@ -454,30 +644,56 @@ left: 201px;
   position: relative;
 }
 
-.theme-light .container_6sXIoE.withTimeline_824fT_  {
-  background: linear-gradient(0deg, rgba(184,198,229,1) 0%, rgba(208,229,254,1) 25%, rgba(154,176,214,1) 47.5%, rgba(154,176,214,1) 52.5%, rgba(255,254,246,1) 100%) !important;
+.theme-light .container_6sXIoE.withTimeline_824fT_ {
+  background: linear-gradient(
+    0deg,
+    rgba(184, 198, 229, 1) 0%,
+    rgba(208, 229, 254, 1) 25%,
+    rgba(154, 176, 214, 1) 47.5%,
+    rgba(154, 176, 214, 1) 52.5%,
+    rgba(255, 254, 246, 1) 100%
+  ) !important;
 }
 
-.theme-light .container_6sXIoE.withTimeline_824fT_ > .inner_WRV6k5 > .flex_f18b02 > button {
-  background: linear-gradient(-45deg, rgb(129, 215, 255) 0%, rgba(223,227,242,1) 50%, rgb(255, 255, 255) 100%); 
+.theme-light
+  .container_6sXIoE.withTimeline_824fT_
+  > .inner_WRV6k5
+  > .flex_f18b02
+  > button {
+  background: linear-gradient(
+    -45deg,
+    rgb(129, 215, 255) 0%,
+    rgba(223, 227, 242, 1) 50%,
+    rgb(255, 255, 255) 100%
+  );
   box-shadow: inset 0px 0px 1px 1px #5e7179;
   margin: 2px;
-  
+
   border-radius: 50%;
 }
 
-.theme-light .container_6sXIoE.maximized_vv2Wr0.withTimeline_824fT_ > .inner_WRV6k5 > .flex_f18b02 > button {
+.theme-light
+  .container_6sXIoE.maximized_vv2Wr0.withTimeline_824fT_
+  > .inner_WRV6k5
+  > .flex_f18b02
+  > button {
   background: transparent;
   border-radius: 0px;
   margin: -1px;
   box-shadow: none;
 }
 
-.theme-light .container_6sXIoE.withTimeline_824fT_ > .inner_WRV6k5 > .flex_f18b02 > button:hover > .contents__322f4{
+.theme-light
+  .container_6sXIoE.withTimeline_824fT_
+  > .inner_WRV6k5
+  > .flex_f18b02
+  > button:hover
+  > .contents__322f4 {
   -webkit-text-fill-color: black;
 }
 
-.panels__58331 .button_b82d53, .panels__58331 .avatarSpeaking__747a1 {
+.panels__58331 .button_b82d53,
+.panels__58331 .avatarSpeaking__747a1 {
   border-radius: 0px;
 }
 
@@ -491,7 +707,7 @@ left: 201px;
 }
 
 .panels__58331 .panel_bd8c76,
-.container_6sXIoE.withTimeline_824fT_{
+.container_6sXIoE.withTimeline_824fT_ {
   background: linear-gradient(
     0deg,
     var(--profile-color-1) 0%,
@@ -513,7 +729,14 @@ left: 201px;
 }
 
 .theme-light .container_6sXIoE.maximized_vv2Wr0.withTimeline_824fT_ {
-  background: linear-gradient(0deg, rgba(184,198,229,1) 0%, rgba(208,229,254,1) 17.5%, rgba(154,176,214,1) 24.5%, rgba(154,176,214,1) 25.5%, rgba(255,254,246,1) 35%) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(184, 198, 229, 1) 0%,
+    rgba(208, 229, 254, 1) 17.5%,
+    rgba(154, 176, 214, 1) 24.5%,
+    rgba(154, 176, 214, 1) 25.5%,
+    rgba(255, 254, 246, 1) 35%
+  ) !important;
 }
 
 .gameActivityToggleAdded_Yd-YxC .avatarWrapper__500a6 .wrapper__3ed10 {
@@ -565,16 +788,26 @@ left: 201px;
 }
 
 .theme-light {
-  --music-controls-background: linear-gradient(0deg, rgba(188,204,235,1) 0%, rgba(159,179,217,1) 50%, rgba(232,237,251,1) 75%, rgba(255,255,255,1) 100%);
+  --music-controls-background: linear-gradient(
+    0deg,
+    rgba(188, 204, 235, 1) 0%,
+    rgba(159, 179, 217, 1) 50%,
+    rgba(232, 237, 251, 1) 75%,
+    rgba(255, 255, 255, 1) 100%
+  );
   --music-controls-border: 1px solid #4b68aa;
-
 }
 
 .theme-dark {
-  --music-controls-background: linear-gradient(0deg, rgba(51,58,126,1) 0%, rgba(75,105,191,1) 50%, rgba(100,138,213,1) 100%);
+  --music-controls-background: linear-gradient(
+    0deg,
+    rgba(51, 58, 126, 1) 0%,
+    rgba(75, 105, 191, 1) 50%,
+    rgba(100, 138, 213, 1) 100%
+  );
 }
 
-[id="vc-spotify-song-title"]{
+[id="vc-spotify-song-title"] {
   font-weight: bold !important;
 }
 
@@ -586,7 +819,7 @@ left: 201px;
   background: var(--music-controls-background) !important;
   border: var(--music-controls-border) !important;
   border-radius: 4px;
-  margin: 6px 0px 2px 0px !important;
+  margin: 0px 0px 3px 0px !important;
   padding-top: 10px !important;
 }
 
@@ -595,136 +828,224 @@ left: 201px;
   gap: 15px !important;
 }
 
-.vc-spotify-button{
+.vc-spotify-button {
   width: 32px !important;
   height: 32px !important;
   border-radius: 50% !important;
 }
 
-.vc-spotify-button-icon{
+.vc-spotify-button-icon {
   width: 22px !important;
   height: 22px !important;
   border-radius: 50% !important;
   padding: 3px;
 }
 
-.theme-light .vc-spotify-button{
-  background: linear-gradient(180deg, rgba(73, 73, 73, 0.2) 0%, rgba(255, 255, 255, 0.6) 100%);
+.theme-light .vc-spotify-button {
+  background: var(--action-button-background);
 }
 
-
-.theme-light .vc-spotify-button-icon{
-  background: radial-gradient(circle, rgba(255,255,255,1) 35%, #bbddec 100%); 
-  box-shadow: inset 0px 0px 4px -1px black,0px 0px 4px -1px black;
+.theme-light .vc-spotify-button-icon {
+  background: var(--action-button);
+  box-shadow: inset 0px 0px 4px -1px black, 0px 0px 4px -1px black;
   background-position: -5px -4px;
   transition: 0.2s;
 }
 
-.theme-light .vc-spotify-button-icon:hover{
-  background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(186,234,254,1) 100%); 
+.theme-light .vc-spotify-button-icon:hover {
+  background: var(--action-button-hover);
   background-position: -5px -4px;
   transition: 0.2s;
 }
 
-.theme-light .vc-spotify-button-icon:active{
-  background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(50, 205, 50, 0.836) 100%); 
+.theme-light .vc-spotify-button-icon:active {
+  background: var(--action-button-active);
   background-position: -3px -3px;
   transition: 0.2s;
 }
 
-[id="vc-spotify-progress-bar"] .bar_e58961{
+[id="vc-spotify-progress-bar"] .bar_e58961 {
   height: 10px !important;
   border-radius: 6px;
 }
 
-  [id="vc-spotify-progress-bar"] .bar_e58961{
-  background: linear-gradient(0deg, rgba(255,254,252,1) 0%, rgba(153,164,193,1) 100%) !important;
+[id="vc-spotify-progress-bar"] .bar_e58961 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 254, 252, 1) 0%,
+    rgba(153, 164, 193, 1) 100%
+  ) !important;
   border: 1px solid #8393af;
 }
 
-[id="vc-spotify-progress-bar"] .barFill__1f56b{
+[id="vc-spotify-progress-bar"] .barFill__1f56b {
   box-shadow: inset -1px 1px 0px 0px #ffffff80;
   background: #3dd842;
 }
 
-.vc-spotify-progress-time{
+.vc-spotify-progress-time {
   margin-top: 6px;
 }
 
 /* dark spotify controls */
 .theme-dark [id="vc-spotify-player"] {
   box-shadow: inset 0px -3px 1px 0px rgba(0, 0, 0, 0.5),
-  inset 0px 3px 1px 0px rgba(255, 255, 255, 0.4);
+    inset 0px 3px 1px 0px rgba(255, 255, 255, 0.4);
 }
 
-.theme-dark .vc-spotify-button{
+.theme-dark .vc-spotify-button {
   background: linear-gradient(0deg, #7993e1 0%, #4a57a7 100%);
 }
 
-.theme-dark svg.vc-spotify-button-icon{
-  background: radial-gradient(circle, white 35%, #cddaf9 45%, #718caa 55%, #0b1a79 70%); 
+.theme-dark svg.vc-spotify-button-icon {
+  background: radial-gradient(
+    circle,
+    white 35%,
+    #cddaf9 45%,
+    #718caa 55%,
+    #0b1a79 70%
+  );
   background-position: 0px -14px;
   background-size: 30px 50px;
   color: #021590;
   transition: 0.2s;
 }
 
-.theme-dark svg.vc-spotify-button-icon:hover{
-  background: radial-gradient(circle, white 35%, #b1c5f5 45%, #719fd4 100%); 
+.theme-dark svg.vc-spotify-button-icon:hover {
+  background: radial-gradient(
+    circle,
+    white 35%,
+    #a0bcff 45%,
+    #718caa 55%,
+    #0b1a79 70%
+  );
   background-position: 0px -17px;
   background-size: 30px 50px;
   transition: 0.2s;
 }
 
-.theme-dark svg.vc-spotify-button-icon:active{
-  background: radial-gradient(circle, white 35%, #b1f5c0 45%, #71d481 100%); 
+.theme-dark svg.vc-spotify-button-icon:active {
+  background: radial-gradient(circle, white 35%, #b1f5c0 45%, #3a994a 100%);
   background-position: 0px -17px;
   background-size: 30px 50px;
+  color: blue;
 }
 
-#vc-spotify-progress-bar>[class^=slider] [class^=grabber]{
+#vc-spotify-progress-bar > [class^="slider"] [class^="grabber"] {
   opacity: 1 !important;
 }
 
-:root{
-  --action-button:
-  --action-button-hover: 
-  --action-button-active:
+.theme-light {
+  --action-button-background: linear-gradient(
+    180deg,
+    rgba(73, 73, 73, 0.2) 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  --action-button: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 35%,
+    #bbddec 100%
+  );
+  --action-button-hover: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 35%,
+    rgb(157, 223, 252) 100%
+  );
+  --action-button-active: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(50, 205, 50, 0.836) 100%
+  );
 }
 
-.actionButtons__85e3c > button{
-  background: var(--action-button);
+.theme-dark {
+  --action-button-background: linear-gradient(
+    0deg,
+    #3d3d3d69 0%,
+    #00000069 100%
+  ) !important;
+  --action-button: radial-gradient(
+    circle,
+    rgba(90, 90, 90, 0.8) 35%,
+    #444444 45%,
+    #292929c4 55%,
+    #141414b2 70%
+  );
+  --action-button-hover: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.5) 35%,
+    #757575a8 45%,
+    #262727 55%,
+    #1d1d1d 70%
+  );
+  --action-button-active: radial-gradient(
+    circle,
+    rgb(68, 68, 68) 35%,
+    rgb(56, 56, 56) 45%,
+    #252525 55%,
+    #000000 70%
+  );
 }
 
-.actionButtons__85e3c > button:hover{
-  background: var(--action-button-hover);
+.actionButtons__85e3c > button,
+.actionButtons__85e3c > div {
+  background: var(--action-button-background);
+  border-radius: 50px !important;
+  padding: 0px;
+  margin: 0 10px;
+  width: 32px !important;
+  height: 32px !important;
 }
 
-.actionButtons__85e3c > button:active{
-  background: var(--action-button-active);
+.actionButtons__85e3c > button > div {
+  background: var(--action-button) !important;
+  background-size: 30px 40px !important;
+  background-position: 0px -14px !important;
+  border-radius: 50px;
+  padding: 4px;
 }
 
-.actionButtons__85e3c .button_b82d53,
-.actionButtons__85e3c > div > .button_b82d53 {
-  min-width: 20px;
-  min-height: 20px;
+.actionButtons__85e3c > div {
+  padding: 2px;
+}
+
+.actionButtons__85e3c > button:hover > div {
+  background: var(--action-button-hover) !important;
+  background-size: 30px 40px !important;
+  background-position: 0px -14px !important;
+  transition: 0.2s;
+}
+
+.actionButtons__85e3c > button:active > div {
+  background: var(--action-button-active) !important;
+  background-size: 30px 50px !important;
+  background-position: -3px -10px !important;
 }
 
 .actionButtons__85e3c > .button_b82d53:first-child > div {
-    background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam.png);
-      background-size: contain;
-  }
-    
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam.png);
+}
+
 .panels__58331
-.actionButtons__85e3c
-> .button_b82d53.fauxDisabled_daee54:first-child
-> .contents__322f4 {
-background: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam2.png);
-background-size: cover;
+  .actionButtons__85e3c
+  > .button_b82d53.fauxDisabled_daee54:first-child
+  > .contents__322f4 {
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/webcam2.png);
 }
 
 .button_b82d53.buttonColor__7bad9.fauxDisabled_daee54 {
   opacity: 1;
+}
+
+.panels__58331 .actionButtons__85e3c > .button_b82d53 > .contents__322f4 {
+  width: 20px;
+  height: 20px;
+}
+
+.actionButtons__85e3c > div > button {
+  min-width: 29px;
+  min-height: 10px;
+  height: 30px !important;
 }
 
 .panels__58331
@@ -745,16 +1066,40 @@ background-size: cover;
   > .button_b82d53:nth-child(3)
   > .contents__322f4 {
   content: url(https://numoder.github.io/dsn10-theme/assets/voicecall/games.png);
-  size: 24px;
 }
 
 .actionButtons__85e3c > div > button,
 .actionButtons__85e3c > div > span > button:disabled {
-  content: url(https://numoder.github.io/dsn10-theme/assets/voicecall/sounds.png);
-  padding-top: 12px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  bottom: 5px;
+  background: url(https://numoder.github.io/dsn10-theme/assets/voicecall/sounds.png),
+    var(--action-button);
+  background-size: 20px 20px, 30px 40px;
+  background-position: center, 0px -8px;
+  background-repeat: no-repeat, repeat;
+  border-radius: 50px !important;
+}
+
+.actionButtons__85e3c > div:hover > button,
+.actionButtons__85e3c > div:hover > span > button:disabled {
+  background: url(https://numoder.github.io/dsn10-theme/assets/voicecall/sounds.png),
+    var(--action-button-hover);
+  background-size: 20px 20px, 30px 40px;
+  background-position: center, 0px -8px;
+  background-repeat: no-repeat, repeat;
+  border-radius: 50px !important;
+}
+
+.actionButtons__85e3c > div:active > button,
+.actionButtons__85e3c > div:active > span > button:disabled {
+  background: url(https://numoder.github.io/dsn10-theme/assets/voicecall/sounds.png),
+    var(--action-button-active);
+  background-size: 20px 20px, 30px 40px;
+  background-position: center, 0px -8px;
+  background-repeat: no-repeat, repeat;
+  border-radius: 50px !important;
+}
+
+.actionButtons__85e3c > div > button .lottieIcon_c7076c {
+  --__lottieIconColor: transparent !important;
 }
 
 .actionButtons__85e3c {
@@ -767,8 +1112,8 @@ background-size: cover;
 }
 
 .rtcConnectionStatus_e749c4 .ping__838d2 {
-  background: url(https://numoder.github.io/dsn10-theme/assets/general/connection.png);
-  background-size: contain;
+  background: url(https://numoder.github.io/dsn10-theme/assets/misc/connection.png);
+  background-size: cover;
 }
 
 .connection__38593 .flex_f18b02 > .button_ae40a4 {
@@ -784,6 +1129,7 @@ background-size: cover;
   content: url(https://numoder.github.io/dsn10-theme/assets/actions/phone.png);
   filter: hue-rotate(-47.5deg) brightness(0.8) saturate(1.5);
 }
+
 .ping__838d2 path {
   fill: transparent;
 }
@@ -806,36 +1152,40 @@ background-size: cover;
 .container_debb33
   > .flex_f18b02
   > button:nth-last-child(2)[aria-checked="false"] {
-    content: url(https://numoder.github.io/dsn10-theme/assets/actions/audio.png);
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/audio.png);
 }
 
 .container_debb33
   > .flex_f18b02
   > button:nth-last-child(2)[aria-checked="true"] {
-    content: url(https://numoder.github.io/dsn10-theme/assets/actions/audio2.png);
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/audio2.png);
 }
 
 .container_debb33
   > .flex_f18b02
   > button:nth-last-child(3)[aria-checked="false"] {
-    content: url(https://numoder.github.io/dsn10-theme/assets/actions/mic.png);
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/mic.png);
 }
 
 .container_debb33
   > .flex_f18b02
   > button:nth-last-child(3)[aria-checked="true"] {
-    content: url(https://numoder.github.io/dsn10-theme/assets/actions/mic2.png);
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/mic2.png);
 }
 
 .gameActivityToggleAdded_Yd-YxC > .flex_f18b02 > button:has([name="Gamepad"]),
-button:has([fill="currentColor"][d="M3.06 20.4q-1.53 0-2.37-1.065T.06 16.74l1.26-9q.27-1.8 1.605-2.97T6.06 3.6h11.88q1.8 0 3.135 1.17t1.605 2.97l1.26 9q.21 1.53-.63 2.595T20.94 20.4q-.63 0-1.17-.225T18.78 19.5l-2.7-2.7H7.92l-2.7 2.7q-.45.45-.99.675t-1.17.225Zm14.94-7.2q.51 0 .855-.345T19.2 12q0-.51-.345-.855T18 10.8q-.51 0-.855.345T16.8 12q0 .51.345 .855T18 13.2Zm-2.4-3.6q.51 0 .855-.345T16.8 8.4q0-.51-.345-.855T15.6 7.2q-.51 0-.855.345T14.4 8.4q0 .51.345 .855T15.6 9.6ZM6.9 13.2h1.8v-2.1h2.1v-1.8h-2.1v-2.1h-1.8v2.1h-2.1v1.8h2.1v2.1Z"]) {
+button:has(
+    [fill="currentColor"][d="M3.06 20.4q-1.53 0-2.37-1.065T.06 16.74l1.26-9q.27-1.8 1.605-2.97T6.06 3.6h11.88q1.8 0 3.135 1.17t1.605 2.97l1.26 9q.21 1.53-.63 2.595T20.94 20.4q-.63 0-1.17-.225T18.78 19.5l-2.7-2.7H7.92l-2.7 2.7q-.45.45-.99.675t-1.17.225Zm14.94-7.2q.51 0 .855-.345T19.2 12q0-.51-.345-.855T18 10.8q-.51 0-.855.345T16.8 12q0 .51.345 .855T18 13.2Zm-2.4-3.6q.51 0 .855-.345T16.8 8.4q0-.51-.345-.855T15.6 7.2q-.51 0-.855.345T14.4 8.4q0 .51.345 .855T15.6 9.6ZM6.9 13.2h1.8v-2.1h2.1v-1.8h-2.1v-2.1h-1.8v2.1h-2.1v1.8h2.1v2.1Z"]
+  ) {
   content: url(https://numoder.github.io/dsn10-theme/assets/actions/game.png);
 }
 .gameActivityToggleAdded_Yd-YxC
   > .flex_f18b02
   > button:has([name="GamepadDisabled"]),
-  button:has([d="M3.06 20.4q-1.53 0-2.37-1.065T.06 16.74l1.26-9q.27-1.8 1.605-2.97T6.06 3.6h11.88q1.8 0 3.135 1.17t1.605 2.97l1.26 9q.21 1.53-.63 2.595T20.94 20.4q-.63 0-1.17-.225T18.78 19.5l-2.7-2.7H7.92l-2.7 2.7q-.45.45-.99.675t-1.17.225Zm14.94-7.2q.51 0 .855-.345T19.2 12q0-.51-.345-.855T18 10.8q-.51 0-.855.345T16.8 12q0 .51.345 .855T18 13.2Zm-2.4-3.6q.51 0 .855-.345T16.8 8.4q0-.51-.345-.855T15.6 7.2q-.51 0-.855.345T14.4 8.4q0 .51.345 .855T15.6 9.6ZM6.9 13.2h1.8v-2.1h2.1v-1.8h-2.1v-2.1h-1.8v2.1h-2.1v1.8h2.1v2.1Z"]) {
-    content: url(https://numoder.github.io/dsn10-theme/assets/actions/game2.png);
+button:has(
+    [d="M3.06 20.4q-1.53 0-2.37-1.065T.06 16.74l1.26-9q.27-1.8 1.605-2.97T6.06 3.6h11.88q1.8 0 3.135 1.17t1.605 2.97l1.26 9q.21 1.53-.63 2.595T20.94 20.4q-.63 0-1.17-.225T18.78 19.5l-2.7-2.7H7.92l-2.7 2.7q-.45.45-.99.675t-1.17.225Zm14.94-7.2q.51 0 .855-.345T19.2 12q0-.51-.345-.855T18 10.8q-.51 0-.855.345T16.8 12q0 .51.345 .855T18 13.2Zm-2.4-3.6q.51 0 .855-.345T16.8 8.4q0-.51-.345-.855T15.6 7.2q-.51 0-.855.345T14.4 8.4q0 .51.345 .855T15.6 9.6ZM6.9 13.2h1.8v-2.1h2.1v-1.8h-2.1v-2.1h-1.8v2.1h-2.1v1.8h2.1v2.1Z"]
+  ) {
+  content: url(https://numoder.github.io/dsn10-theme/assets/actions/game2.png);
 }
 
 .wrapper__3ed10.avatar_f8541f {
@@ -882,28 +1232,27 @@ button:has([fill="currentColor"][d="M3.06 20.4q-1.53 0-2.37-1.065T.06 16.74l1.26
   border-radius: 8px 8px 1px 1px;
 }
 
-.gameActivityToggleAdded_Yd-YxC .flex_f18b02{
+.gameActivityToggleAdded_Yd-YxC .flex_f18b02 {
   top: 0px;
 }
 
 .nameTag__77ab2 div {
-font-size: 11px !important;
+  font-size: 11px !important;
 }
 
 .panels__58331 .nameTag__77ab2 {
-position: relative;
-flex-direction: row;
-width: 175px;
-left: 15px;
-top: 19px;
-gap: 20px;
-contain: paint;
+  position: relative;
+  flex-direction: row;
+  width: 175px;
+  left: 15px;
+  top: 19px;
+  gap: 20px;
+  contain: paint;
 }
 
-.customStatus__928b7{
-width: 160px;
+.customStatus__928b7 {
+  width: 160px;
 }
-
 
 .hoverRoll__3ea9e .default__74311 {
   font-family: var(--font-body);
@@ -921,21 +1270,22 @@ width: 160px;
 
 /* people column */
 
-.peopleColumn__0c784, .messagesWrapper_add28b {
+.peopleColumn__0c784,
+.messagesWrapper_add28b {
   background: var(--people-column-background);
   box-shadow: var(--general-box-shadow);
   z-index: 2;
 }
 
-.peopleColumn__0c784{
+.peopleColumn__0c784 {
   margin: 3px 6px 6px 6px;
 }
 
-.messagesWrapper_add28b{
+.messagesWrapper_add28b {
   margin: 0px 6px 6px 6px;
 }
 
-.chatContent_f087cb:before{
+.chatContent_f087cb:before {
   background: var(--people-column-border);
   border: 1px solid var(--text-area-border);
   content: "";
@@ -944,7 +1294,7 @@ width: 160px;
   border-radius: 8px 8px 0 0;
 }
 
-.attachedBars_c1606a{
+.attachedBars_c1606a {
   background: var(--people-column-border) !important;
   margin-left: -2px;
   margin-right: -2px;
@@ -955,11 +1305,10 @@ width: 160px;
 }
 
 /* reply */
-.replyBar_ed6afc > div{
-
+.replyBar_ed6afc > div {
 }
 
-.messagesWrapper_add28b{
+.messagesWrapper_add28b {
   box-shadow: none;
   border: 1px solid var(--text-area-border);
 }
@@ -983,7 +1332,7 @@ width: 160px;
   overflow-y: auto;
 }
 
-.auto__020ac{
+.auto__020ac {
   scrollbar-color: inherit !important;
 }
 
@@ -1018,14 +1367,14 @@ width: 160px;
 
 .peopleColumn__0c784
   .peopleList_d2f527::-webkit-scrollbar-button:single-button:vertical:decrement {
-    background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/up.png);
+  background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/up.png);
   background-repeat: no-repeat;
   height: 15px;
 }
 
 .peopleColumn__0c784
   .peopleList_d2f527::-webkit-scrollbar-button:single-button:vertical:increment {
-    background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/down.png);
+  background: url(https://numoder.github.io/dsn10-theme/assets/scrollbar/down.png);
   background-repeat: no-repeat;
   height: 15px;
 }
@@ -1070,7 +1419,7 @@ width: 160px;
 
 .tabBody_a90ea8:before {
   background: var(--add-friend-background);
-  border: var( --add-friend-border) solid 1px;
+  border: var(--add-friend-border) solid 1px;
 }
 
 /* sort friends list by status */
@@ -1088,7 +1437,7 @@ width: 160px;
   color: var(--text-blue);
 }
 
-.children_cde9af:after{
+.children_cde9af:after {
   visibility: hidden;
 }
 
@@ -1100,7 +1449,8 @@ width: 160px;
 }
 
 /* add a contact */
-.item__48dda, .children_cde9af {
+.item__48dda,
+.children_cde9af {
   position: relative;
   overflow: visible;
 }
@@ -1136,16 +1486,18 @@ width: 160px;
   z-index: 4;
 }
 
-[href="/message-requests"] .avatar__7bd22{
+[href="/message-requests"] .avatar__7bd22 {
   content: url(https://numoder.github.io/dsn10-theme/assets/actions/newpawn.png);
 }
 
-.iconWrapper_de6cd1:has([d="M3 5v-.75C3 3.56 3.56 3 4.25 3s1.24.56 1.33 1.25C6.12 8.65 9.46 12 13 12h1a8 8 0 0 1 8 8 2 2 0 0 1-2 2 .21.21 0 0 1-.2-.15 7.65 7.65 0 0 0-1.32-2.3c-.15-.2-.42-.06-.39.17l.25 2c.02.15-.1.28-.25.28H9a2 2 0 0 1-2-2v-2.22c0-1.57-.67-3.05-1.53-4.37A15.85 15.85 0 0 1 3 5Z"]),
-.link__3a950[href="/channels/@me"] .avatar__7bd22{
+.iconWrapper_de6cd1:has(
+    [d="M3 5v-.75C3 3.56 3.56 3 4.25 3s1.24.56 1.33 1.25C6.12 8.65 9.46 12 13 12h1a8 8 0 0 1 8 8 2 2 0 0 1-2 2 .21.21 0 0 1-.2-.15 7.65 7.65 0 0 0-1.32-2.3c-.15-.2-.42-.06-.39.17l.25 2c.02.15-.1.28-.25.28H9a2 2 0 0 1-2-2v-2.22c0-1.57-.67-3.05-1.53-4.37A15.85 15.85 0 0 1 3 5Z"]
+  ),
+.link__3a950[href="/channels/@me"] .avatar__7bd22 {
   content: url(https://numoder.github.io/dsn10-theme/assets/actions/memberlist.png);
 }
 
-[href="/shop"] .avatar__7bd22{
+[href="/shop"] .avatar__7bd22 {
   content: url(https://numoder.github.io/dsn10-theme/assets/actions/cart.png);
   height: 32px;
   width: 29px;
@@ -1261,7 +1613,6 @@ div.buttons__7ecff > div:active {
   top: 0px;
 }
 
-
 /* now playing column */
 .nowPlayingColumn_b025fe h2 {
   font-family: var(--font-primary);
@@ -1269,11 +1620,14 @@ div.buttons__7ecff > div:active {
   color: var(--text-blue);
 }
 
-.nowPlayingColumn_b025fe .container__3673d, .nowPlayingColumn_b025fe{
+.nowPlayingColumn_b025fe .container__3673d,
+.nowPlayingColumn_b025fe {
   background: transparent;
 }
 
-.theme-light .content__76dcf, .theme-light .nowPlayingColumn_b025fe, .container__694a1{
+.theme-light .content__76dcf,
+.theme-light .nowPlayingColumn_b025fe,
+.container__694a1 {
   background: url(https://numoder.github.io/dsn10-theme/assets/toolbar-bg/light/background.png),
     linear-gradient(
       0deg,
@@ -1337,7 +1691,6 @@ div.buttons__7ecff > div:active {
   border-radius: 0px;
 }
 
-
 .privateChannels__9b518 > .scroller__89969 {
   background: var(--direct-messages-background);
   box-shadow: var(--general-box-shadow);
@@ -1348,41 +1701,44 @@ div.buttons__7ecff > div:active {
   width: 0px;
 }
 
-.theme-light .privateChannels__9b518, .theme-light .sidebar_e031be {
+.theme-light .privateChannels__9b518,
+.theme-light .sidebar_e031be {
   background: transparent;
 }
 
-.privateChannelsHeaderContainer_b22dc9 .headerText__88997{
+.privateChannelsHeaderContainer_b22dc9 .headerText__88997 {
   font-family: "Tahoma";
   font-weight: bold !important;
 }
 
-.theme-light .form_d8a4a1:before, .theme-light .form_d8a4a1:after,
-.theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after {
+.theme-light .form_d8a4a1:before,
+.theme-light .form_d8a4a1:after,
+.theme-dark .form_d8a4a1:before,
+.theme-dark .form_d8a4a1:after {
   background: transparent;
 }
 
-.compact_eda3c8 .timestamp_c79dd2{
+.compact_eda3c8 .timestamp_c79dd2 {
   text-indent: -5px;
 }
 
-.theme-dark .compact_eda3c8 .timestamp_c79dd2{
-    color: orange;
+.theme-dark .compact_eda3c8 .timestamp_c79dd2 {
+  color: orange;
 }
 
-.compact_eda3c8 .contents_d3ae0d{
-    margin-left: -45px;
+.compact_eda3c8 .contents_d3ae0d {
+  margin-left: -45px;
 }
 
-.sansAttachButton__5f863{
+.sansAttachButton__5f863 {
   padding-left: 0px;
 }
 
- .chatContent_f087cb .sansAttachButton__5f863 .buttons__7ecff {
-    border-radius: 8px 8px 0 0;
-    margin-right: 0px;
-    margin-left: 28px;
+.chatContent_f087cb .sansAttachButton__5f863 .buttons__7ecff {
+  border-radius: 8px 8px 0 0;
+  margin-right: 0px;
+  margin-left: 28px;
 }
-.hoverRoll__3ea9e .default__74311:has(.customStatus__928b7)::after{
-    content: none !important;
+.hoverRoll__3ea9e .default__74311:has(.customStatus__928b7)::after {
+  content: none !important;
 }

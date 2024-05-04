@@ -1,3 +1,4 @@
+
 /* icons.css */
 
 .toolbar__62fb5 .clickable_ce0925 .icon_ae0b42,
@@ -152,6 +153,13 @@ button:has([clip-path="url(#__lottie_element_2431)"]) {
   transition: 0.2s;
 }
 
+.gifTag__9db5a {
+  background-image: url(https://numoder.github.io/dsn10-theme/assets/textarea/gif.png);
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
 button:has(
     [d=" M-7,-10 C-8.656999588012695,-10 -10,-8.656999588012695 -10,-7 C-10,-7 -10,7 -10,7 C-10,8.656999588012695 -8.656999588012695,10 -7,10 C-7,10 7,10 7,10 C8.656999588012695,10 10,8.656999588012695 10,7 C10,7 10,-7 10,-7 C10,-8.656999588012695 8.656999588012695,-10 7,-10 C7,-10 -7,-10 -7,-10z"]
   ):hover {
@@ -194,9 +202,14 @@ button:has(.spriteContainer__732c7):hover {
   min-height: 57px;
 }
 
-.children_cde9af {
+div:has(.membersWrap__5ca6b) .children_cde9af {
   overflow: hidden !important;
   margin-right: 255px !important;
+}
+
+div:not(:has(.membersWrap__5ca6b)) .children_cde9af {
+  overflow: hidden !important;
+  margin-right: 16px !important;
 }
 
 .children_cde9af:has(.item_e4ca95) {
@@ -208,7 +221,9 @@ button:has(.spriteContainer__732c7):hover {
   margin-right: 20px !important;
 }
 
-.upperContainer__57565 .children_cde9af:not(:has(.tabBar__73938)) {
+.chat__52833:not(:has(.callContainer__1477d))
+  .upperContainer__57565
+  .children_cde9af {
   top: 38px;
   left: 6px;
 }
@@ -230,18 +245,11 @@ button:has(.spriteContainer__732c7):hover {
 .videoControls_af6621 .children_cde9af:not(:has(.tabBar__73938)):before,
 .videoControls_af6621 .children_cde9af:has(.avatar__7c789):before {
   content: "Calling:" !important;
-  padding-left: 6px;
 }
 
 .callContainer__1477d,
 .wrapper__6bf2d.minimum__7f356 {
   background: transparent;
-}
-
-.theme-light .videoControls_af6621 .children_cde9af {
-  background: transparent;
-  border: 1px solid transparent;
-  color: black !important;
 }
 
 .theme-dark .videoControls_af6621 .children_cde9af .titleWrapper_d6133e h1 {
@@ -250,10 +258,7 @@ button:has(.spriteContainer__732c7):hover {
 
 .theme-light .videoControls_af6621 .children_cde9af {
   font-family: var(--font-primary) !important;
-  background: var(--tooltip-background);
-  border: 1px solid var(--tooltip-border);
   color: var(--text-primary);
-  margin: 0 500px 0 -6px;
 }
 
 .tooltipContent_adb6d5 {
@@ -270,10 +275,8 @@ button:has(.spriteContainer__732c7):hover {
   padding: 2px;
 }
 
-.tooltipRight__2c7a5,
 .tooltipPointer_f7411c {
   visibility: hidden;
-  border-color: transparent;
 }
 
 .input__723c9 {
@@ -358,14 +361,20 @@ div.children_cde9af > .divider_bdb894 {
   background-position: 5px, right 3px;
 }
 
-.chat__52833,
-.videoControls_af6621 .headerWrapper_ea51a0 {
+.chat__52833 {
   background: var(--dmmainbarright), var(--dmbarsearchmiddle);
   background-repeat: no-repeat, repeat-x;
   background-color: transparent;
   background-size: auto, auto;
   background-position: top 3px right 0px, left 3px;
-  z-index: 3 !important;
+}
+
+.videoControls_af6621 .headerWrapper_ea51a0 {
+  background: var(--dmmainbarright), var(--dmbarsearchmiddle);
+  background-repeat: no-repeat, repeat-x;
+  background-color: transparent;
+  background-size: auto, auto;
+  background-position: top 2px right 0px, left 2px;
 }
 
 .chat__52833 {
@@ -382,6 +391,18 @@ div.children_cde9af > .divider_bdb894 {
 } */
 
 /* toolbar  */
+.content__76dcf:has(.sidebar_e031be) .topControls_e834ab .children_cde9af {
+  top: -1px;
+}
+
+.content__76dcf:has(.privateChannels__9b518)
+  .topControls_e834ab
+  .children_cde9af {
+  left: 535px;
+}
+
+.topControls_e834ab .children_cde9af > .iconWrapper_de6cd1,
+.topControls_e834ab .children_cde9af > .iconWrapper_de6cd1,
 .toolbar__62fb5 > [role="button"],
 .chat__52833 .toolbar__62fb5 > .recentsIcon_a585d7,
 .chat__52833 .toolbar__62fb5 > .anchor_c8ddc0 {
@@ -390,6 +411,27 @@ div.children_cde9af > .divider_bdb894 {
   min-width: max-content;
   min-height: 58px;
   padding: 20px 10px;
+}
+
+.noChat_ce920d
+  .videoControls_af6621
+  .children_cde9af:not(:has(.tabBar__73938)):before {
+  background: var(--dmmainbarmiddle) !important;
+  background-size: 300px 58px !important;
+  padding: 19px 0;
+}
+
+html:not(.keyboard-mode) .root__3eef0.idle_d696d0 .topControls_e834ab {
+  opacity: 1;
+  transform: translate3d(0, 0px, 0);
+}
+
+html .root__3eef0 .topControls_e834ab {
+  transform: translateY(0px) !important;
+}
+
+.topControls_e834ab {
+  top: 1px;
 }
 
 .upperContainer__57565:has(.addFriend__4c0a2)
@@ -402,6 +444,32 @@ div.children_cde9af > .divider_bdb894 {
 .recentsIcon_a585d7,
 .anchor_c8ddc0 {
   max-height: 58px;
+}
+
+.topControls_e834ab
+  .children_cde9af
+  > .iconWrapper_de6cd1:has(
+    [d="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.1 20.75c-.58.14-1.1-.33-1.1-.92v-.03c0-.5.37-.92.85-1.05a7 7 0 0 0 0-13.5A1.11 1.11 0 0 1 14 4.2v-.03c0-.6.52-1.06 1.1-.92a9 9 0 0 1 0 17.5Z"]
+  ) {
+  background: var(--dmbarsearchbarright) !important;
+  background-position: left;
+  background-size: 57px 58px;
+  background-repeat: no-repeat !important;
+  min-width: 46 px;
+}
+.topControls_e834ab
+  .children_cde9af
+  > .iconWrapper_de6cd1:has(
+    [d="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.1 20.75c-.58.14-1.1-.33-1.1-.92v-.03c0-.5.37-.92.85-1.05a7 7 0 0 0 0-13.5A1.11 1.11 0 0 1 14 4.2v-.03c0-.6.52-1.06 1.1-.92a9 9 0 0 1 0 17.5Z"]
+  )
+  svg {
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/volume.png);
+  background-size: cover;
+  color: transparent;
+}
+
+.chatButtonSpacer__69fb8 {
+  visibility: visible !important;
 }
 
 .search__07df0 {
