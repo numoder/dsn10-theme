@@ -1,9 +1,12 @@
-
 /* icons.css */
 
 .toolbar__62fb5 .clickable_ce0925 .icon_ae0b42,
 .sendIcon_f67abd {
   color: transparent;
+}
+
+.icon_ae0b42 path[fill="var(--interactive-normal)"] {
+  fill: none !important;
 }
 
 /* pin */
@@ -212,6 +215,14 @@ div:not(:has(.membersWrap__5ca6b)) .children_cde9af {
   margin-right: 16px !important;
 }
 
+.children_cde9af .tabBar__73938 {
+  background-color: var(--friends-button-background);
+  border: var(--friends-button-background-border) 1px solid;
+  border-radius: 6px;
+  margin: 6px;
+  padding: 0px 6px;
+}
+
 .children_cde9af:has(.item_e4ca95) {
   overflow: visible !important;
   margin-right: none !important;
@@ -347,6 +358,16 @@ div.children_cde9af > .divider_bdb894 {
   background-size: auto, 350px 58px;
   background-position: left 3px, left 3px;
   border-radius: 0 0 0 10px;
+}
+
+.animatedContainer__0e828{
+  z-index: 2;
+  margin-top: 69px;
+  margin-left: 2px;
+}
+
+.bannerImg_fe5c1b {
+  margin: -6px;
 }
 
 .container_f41675:hover {

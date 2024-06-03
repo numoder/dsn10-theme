@@ -52,6 +52,9 @@
   --text-inverted-primary: #eee;
   --text-blue: #153290;
 
+  --context-menu-background: white;
+  --context-menu-border: #a9a9a9;
+
   --picture-border: #485e85;
   --border-color: #98a7d2;
   --profile-box-shadow: inset 0px 0px 1.5px 2px #fff;
@@ -157,6 +160,9 @@
   --people-column-background: rgba(255, 255, 255, 0.75);
   --people-column-border: #ebf1fa;
 
+  --friends-button-background: white;
+  --friends-button-background-border: rgb(221, 221, 221);
+
   --tooltip-background: #ffffe1;
   --tooltip-border: #000;
 
@@ -246,6 +252,9 @@
     inset 0px 0px 0px 3px #202020;
 
   --background: #202025;
+
+  --context-menu-background: rgb(22, 22, 22);
+  --context-menu-border: #5f5f5f;
 
   --text-primary: #eee;
   --text-inverted-primary: #222;
@@ -350,7 +359,11 @@
   );
 
   --people-column-background: rgba(0, 0, 0, 0.75);
-  --people-column-border: linear-gradient(0deg, #535353 60%, #444444 100%);
+  --people-column-border: linear-gradient(0deg, #3d3d3d 60%, #2c2c2c 100%);
+
+  --friends-button-background: rgb(46, 46, 46);
+  --friends-button-background-border: rgb(131, 131, 131);
+  
 
   --tooltip-background: #272727;
   --tooltip-border: #8d8d8d;
@@ -534,6 +547,7 @@ textarea::selection {
 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
   background: transparent !important;
 }
+
 
 h3.header__6a14d {
   word-spacing: normal;
@@ -1195,6 +1209,10 @@ button:has(
   padding-bottom: 16px;
 }
 
+.wrapper__3ed10.avatar_f8541f svg .avatarDecoration_cf681a{
+
+}
+
 .avatarSpeaking__747a1 {
   box-shadow: inset 0 0 0 2px var(--status-speaking),
     inset 0 0 0 3px var(--background-secondary);
@@ -1208,12 +1226,18 @@ button:has(
   z-index: 4;
 }
 
-.panels__58331 foreignObject {
+.panels__58331 foreignObject:not([mask="url(#svg-mask-avatar-decoration-status-round-32)"]) {
   border: 1px solid var(--picture-border);
   border-radius: 4px;
   -webkit-box-reflect: below 0px
     linear-gradient(to bottom, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0.4) 100%);
 }
+
+.panels__58331 foreignObject[mask="url(#svg-mask-avatar-decoration-status-round-32)"] .avatarStack__789b4 {
+  position: relative !important;
+  left: 3px;
+}
+
 
 /* profile buttons */
 .container_debb33 .flex_f18b02 {
@@ -1296,8 +1320,6 @@ button:has(
 
 .attachedBars_c1606a {
   background: var(--people-column-border) !important;
-  margin-left: -2px;
-  margin-right: -2px;
   height: 24px;
   border: 1px solid var(--text-area-border);
   height: 24px;
@@ -1305,8 +1327,10 @@ button:has(
 }
 
 /* reply */
-.replyBar_ed6afc > div {
+.replyBar_ed6afc div{
+  max-height: 24px;
 }
+
 
 .messagesWrapper_add28b {
   box-shadow: none;
@@ -1379,10 +1403,6 @@ button:has(
   height: 15px;
 }
 
-.peopleColumn__0c784 .sectionTitle_b622ce {
-  margin: 12px 6px 6px 6px;
-}
-
 .sectionTitle_b622ce .title_c42cad:before {
   content: url(https://numoder.github.io/dsn10-theme/assets/misc/minus.png);
   padding-right: 4px;
@@ -1406,27 +1426,10 @@ button:has(
   z-index: 3;
 }
 
-.tabBody_a90ea8:before {
-  height: 7px;
-  width: 125px;
-  box-shadow: none;
-  padding: 10px 10px 10px 40px;
-  margin: 0px;
-  z-index: 3;
-  left: 10px;
-  top: 7px;
-}
-
-.tabBody_a90ea8:before {
-  background: var(--add-friend-background);
-  border: var(--add-friend-border) solid 1px;
-}
-
 /* sort friends list by status */
 .topPill__63ad4 .themed_b957e8.item_e4ca95 {
-  margin: 0px 0px;
-  left: 0.25px;
-  min-height: 20px;
+  max-height: 24px;
+  margin: 4px 0;
 }
 
 .tabBar__73938.topPill__63ad4 .themed_b957e8.selected_a523ff.item_e4ca95,
@@ -1455,13 +1458,11 @@ button:has(
   overflow: visible;
 }
 
+.addFriend__4c0a2 span{
+  font-size: 0px !important;
+}
+
 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
-  overflow: visible;
-  position: relative;
-  top: 47px;
-  left: -291.75px !important;
-  width: 200px;
-  z-index: 4;
   border-radius: 0px !important;
   color: transparent !important;
 }
@@ -1472,16 +1473,15 @@ button:has(
 }
 
 .tabBar__73938 .addFriend__4c0a2:before {
-  background-image: url(https://numoder.github.io/dsn10-theme/assets/actions/addacontact.png);
-  background-size: 24px;
+  background: url(https://numoder.github.io/dsn10-theme/assets/actions/addacontact.png), var(--add-friend-background);
+  background-size: 24px, cover;
+  border: var(--add-friend-border) solid 1px;
   content: "Add a Contact";
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, repeat;
+  background-position: 2px 2px, center;
   color: var(--text-primary);
-  top: 7px;
-  left: 31px;
   height: 24px;
-  line-height: 24px;
-  padding-left: 28px;
+  padding: 2px 8px 0px 28px;
   position: relative;
   z-index: 4;
 }
