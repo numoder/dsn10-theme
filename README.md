@@ -3,7 +3,7 @@
 
 # Discord Network theme
 
-Theme is not abandoned! Currently being rewritten: [Discord Network 2 alpha](https://github.com/numoder/DSN)
+Theme is not abandoned! Currently being rewritten: [Discord Network 2 alpha](https://github.com/numoder/DSN7)
 Inspired by Windows MSN Messenger 7 and MSN Explorer 7 / 10, originally from kamuisuki's [**Discord MSN EXPLORER 10**](https://www.deviantart.com/kamuisuki/art/Discord-MSN-Explorer-10-theme-873282935) theme.
 
 While you are here check out Leafinguh's <b>[MSN7 discord theme!](https://github.com/Leafinguh/msn7-disc)</b>
