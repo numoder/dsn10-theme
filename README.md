@@ -3,9 +3,8 @@
 
 # Discord Network theme
 
-Theme is not abandoned! Currently being rewritten: [Discord Network 2 alpha](https://github.com/numoder/DSN7)
+I've given up on this theme because of how Discord's class names always changing which made constant updates on this project tedious and tiring.
 Inspired by Windows MSN Messenger 7 and MSN Explorer 7 / 10, originally from kamuisuki's [**Discord MSN EXPLORER 10**](https://www.deviantart.com/kamuisuki/art/Discord-MSN-Explorer-10-theme-873282935) theme.
-
 While you are here check out Leafinguh's <b>[MSN7 discord theme!](https://github.com/Leafinguh/msn7-disc)</b>
 
 ![Escargot](https://img.shields.io/badge/malkavian@escargot.chat-e1512c?color=%23e1512c&style=plastic) ![Downloads](https://img.shields.io/github/downloads/numoder/dsn10-theme/total?style=plastic&color=%238ec64b) ![Issues](https://img.shields.io/github/issues/numoder/dsn10-theme?style=plastic&color=%23609bd7) <a href="https://wakatime.com/badge/user/d2591a35-0e84-4f15-9761-74e696bef8f4/project/018cac41-ef7c-497e-b067-2232a943da53"><img src="https://wakatime.com/badge/user/d2591a35-0e84-4f15-9761-74e696bef8f4/project/018cac41-ef7c-497e-b067-2232a943da53.svg" alt="wakatime"></a>
